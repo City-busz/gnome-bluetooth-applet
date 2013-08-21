@@ -1,0 +1,6 @@
+Bluetooth panel applet
+======================
+
+bluetooth-panel-applet is a fork of the Bluetooth applet code that was removed
+from gnome-bluetooth during the GNOME 3.8 release cycle along with the fallback
+mode.
