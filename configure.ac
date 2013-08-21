@@ -1,17 +1,11 @@
 AC_PREREQ(2.52)
 
-m4_define(gnomebt_version_major, 3)
-m4_define(gnomebt_version_minor, 6)
-m4_define(gnomebt_version_micro, 0)
-
-AC_INIT([gnome-bluetooth],
-        [gnomebt_version_major.gnomebt_version_minor.gnomebt_version_micro],
-        [http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-bluetooth])
+AC_INIT([bluetooth-panel-applet], [3.6.0])
 
 AC_CONFIG_SRCDIR([applet/main.c])
 AC_CONFIG_HEADERS([config.h])
 
-AM_INIT_AUTOMAKE([1.8 dist-xz no-dist-gzip check-news tar-ustar])
+AM_INIT_AUTOMAKE([1.11 foreign dist-xz no-dist-gzip tar-ustar])
 
 # Before making a release, the GNOMEBT_LT_VERSION string should be modified.
 # The string is of the form C:R:A.
@@ -44,101 +38,43 @@ IT_PROG_INTLTOOL([0.40.0])
 AM_GNU_GETTEXT([external])
 AM_GNU_GETTEXT_VERSION([0.17])
 
-GETTEXT_PACKAGE=gnome-bluetooth2
+GETTEXT_PACKAGE=bluetooth-panel-applet
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE",
 					[The name of the gettext domain])
 
-GLIB_GSETTINGS
-
-AC_PATH_PROG([XMLLINT],[xmllint])
-
-dnl gtk-doc checks
-GTK_DOC_CHECK(1.9)
-
 AC_DEFINE_UNQUOTED(LOCALEDIR, "${prefix}/share/locale", [Directory for the localization files])
-
-AC_ARG_ENABLE(desktop-update, AC_HELP_STRING([--disable-desktop-update],
-					[Disable desktop database update]))
-if (test "$enable_desktop_update" != no); then
-	AC_PATH_PROG(UPDATE_DESKTOP_DATABASE, [update-desktop-database])
-fi
-AM_CONDITIONAL([DESKTOP_UPDATE], [test -n "$UPDATE_DESKTOP_DATABASE"])
-
-AC_ARG_ENABLE(icon-update, AC_HELP_STRING([--disable-icon-update],
-					[Disable icon cache update]))
-if (test "$enable_icon_update" != no); then
-	AC_PATH_PROG(UPDATE_ICON_CACHE, [gtk-update-icon-cache])
-fi
-AM_CONDITIONAL([ICON_UPDATE], [test -n "$UPDATE_ICON_CACHE"])
 
 GTK_REQUIRED=2.91.3
 GLIB_REQUIRED=2.29.90
+GNOME_BLUETOOTH_REQUIRED=3.6.0
 NOTIFY_REQUIRED=0.7.0
-NAUTILUS_SENDTO_REQUIRED=2.29.0
-NAUTILUS_SENDTO_MAX_REQUIRED=3.7.0
 
 dnl Requires for the applet
 PKG_CHECK_MODULES(APPLET,
 		  gmodule-export-2.0
 		  glib-2.0 >= $GLIB_REQUIRED
+		  gnome-bluetooth-1.0 >= $GNOME_BLUETOOTH_REQUIRED
 		  gtk+-3.0 >= $GTK_REQUIRED
 		  libnotify >= $NOTIFY_REQUIRED)
 
-dnl Requires for the sendto app
-PKG_CHECK_MODULES(SENDTO,
-		  gtk+-3.0
-		  gio-2.0)
+AC_MSG_CHECKING([for gnome-bluetooth-applet])
+PKG_CHECK_EXISTS([gnome-bluetooth-1.0 >= 3.9.0],
+        [GNOME_BLUETOOTH_APPLET_DIR=`$PKG_CONFIG --variable=applet_libdir gnome-bluetooth-1.0`
+	 GNOME_BLUETOOTH_APPLET_LIBS=`$PKG_CONFIG --variable=applet_libs gnome-bluetooth-1.0`
+	 AC_SUBST([GNOME_BLUETOOTH_APPLET_LIBS],["$GNOME_BLUETOOTH_APPLET_LIBS"])
+	 AC_SUBST([GNOME_BLUETOOTH_APPLET_DIR],["$GNOME_BLUETOOTH_APPLET_DIR"])
+	 AC_DEFINE_UNQUOTED([GNOME_BLUETOOTH_APPLET_DIR],["$GNOME_BLUETOOTH_APPLET_DIR"],[Path to installed GnomeBluetooth typelib and library])
+	 AC_DEFINE([HAVE_BLUETOOTH],[1],[Define if you have libgnome-bluetooth-applet])
+	 AC_SUBST([HAVE_BLUETOOTH],[1])
+	 AC_MSG_RESULT([yes])],
+	[AC_DEFINE([HAVE_BLUETOOTH],[0])
+	 AC_SUBST([HAVE_BLUETOOTH],[0])
+	 AC_MSG_RESULT([no])])
 
-dnl nautilus-sendto plugin
-AC_ARG_ENABLE(nautilus-sendto,
-              AS_HELP_STRING([--enable-nautilus-sendto=@<:@no/yes/auto@:>@],
-                             [build nautilus-sendto plugin]))
-
-if test "x$enable_nautilus_sendto" != "xno"; then
-   PKG_CHECK_MODULES(NST,
-   [
-      nautilus-sendto >= $NAUTILUS_SENDTO_REQUIRED
-      nautilus-sendto < $NAUTILUS_SENDTO_MAX_REQUIRED
-   ], have_nst="yes", have_nst="no")
-else
-   have_nst=no
-fi
-
-if test "x$enable_nautilus_sendto" = "xyes" -a "x$have_nst" != "xyes"; then
-   AC_MSG_ERROR([Could not find nautilus-sendto dependencies.])
-fi
-
-AM_CONDITIONAL(HAVE_NST, test "x$have_nst" = "xyes")
-
-dnl Requires for the wizard dialogue
-PKG_CHECK_MODULES(WIZARD,
-		  gmodule-export-2.0
-		  gtk+-3.0)
 
 AC_CHECK_LIBM
 AC_SUBST(LIBM)
-
-dnl Requires for the input helper
-PKG_CHECK_MODULES(INPUT,
-		  xi
-		  x11
-		  gtk+-3.0)
-
-dnl Requires for the public library
-PKG_CHECK_MODULES(LIBGNOMEBT, gmodule-2.0 gio-unix-2.0 gtk+-3.0)
-
-dnl Requires for the geoclue plugin
-PKG_CHECK_MODULES(GEOCLUE, gio-2.0 gtk+-3.0)
-
-dnl Requires for the plugins
-PKG_CHECK_MODULES(PLUGINS,
-		  gtk+-3.0)
-
-GDBUS_CODEGEN="gdbus-codegen"
-AC_SUBST(GDBUS_CODEGEN)
-
-GOBJECT_INTROSPECTION_CHECK([0.9.5])
 
 GNOME_COMMON_INIT
 GNOME_DEBUG_CHECK
@@ -154,20 +90,8 @@ AM_CONDITIONAL(ENABLE_DOCUMENTATION, test x$enable_documentation = xyes)
 YELP_HELP_INIT
 
 AC_OUTPUT(Makefile
-	  gnome-bluetooth-1.0.pc
-	  icons/Makefile
-	  lib/Makefile
-	  lib/plugins/Makefile
 	  applet/Makefile
 	  applet/bluetooth-applet.desktop.in
-	  wizard/Makefile
-	  wizard/bluetooth-wizard.desktop.in
-	  sendto/Makefile
-	  sendto/bluetooth-sendto.desktop.in
-	  docs/Makefile
-	  docs/reference/Makefile
-	  docs/reference/libgnome-bluetooth/Makefile
-	  docs/reference/libgnome-bluetooth/version.xml
 	  po/Makefile.in
 	  help/Makefile
 )
@@ -178,8 +102,5 @@ Configure summary:
 	Compiler....................:  ${CC}
 	Compiler Flags..............:  ${CFLAGS}
 	Prefix......................:  ${prefix}
-	nautilus-sendto plugin......:  ${have_nst}
-	Documentation...............:  ${enable_gtk_doc}
-	GObject-Introspection.......:  ${found_introspection}
 "
 
