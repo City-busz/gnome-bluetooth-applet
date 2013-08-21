@@ -59,7 +59,6 @@ static GtkActionGroup *devices_action_group = NULL;
 /* Signal callbacks */
 void settings_callback(GObject *widget, gpointer user_data);
 void quit_callback(GObject *widget, gpointer user_data);
-void browse_callback(GObject *widget, gpointer user_data);
 void bluetooth_status_callback (GObject *widget, gpointer user_data);
 void bluetooth_discoverable_callback (GtkToggleAction *toggleaction, gpointer user_data);
 void wizard_callback(GObject *widget, gpointer user_data);
@@ -79,32 +78,6 @@ void settings_callback(GObject *widget, gpointer user_data)
 
 	if (!g_spawn_command_line_async(command, NULL))
 		g_printerr("Couldn't execute command: %s\n", command);
-}
-
-static void
-mount_finish_cb (GObject *source_object,
-		 GAsyncResult *res,
-		 gpointer user_data)
-{
-	GError *error = NULL;
-
-	if (bluetooth_applet_browse_address_finish (applet, res, &error) == FALSE) {
-		g_printerr ("Failed to mount OBEX volume: %s", error->message);
-		g_error_free (error);
-		return;
-	}
-}
-
-void browse_callback(GObject *widget, gpointer user_data)
-{
-	const char *address;
-
-	address = g_object_get_data (widget, "address");
-	if (address == NULL)
-		return;
-
-	bluetooth_applet_browse_address (applet, address,
-					 GDK_CURRENT_TIME, mount_finish_cb, NULL);
 }
 
 void sendto_callback(GObject *widget, gpointer user_data)
@@ -710,14 +683,6 @@ update_device_list (BluetoothApplet *applet,
 					       G_CALLBACK (sendto_callback));
 				g_object_set_data_full (G_OBJECT (action),
 							"alias", g_strdup (device->alias), g_free);
-			}
-			if (device->capabilities & BLUETOOTH_CAPABILITIES_OBEX_FILE_TRANSFER) {
-				add_menu_item (device->bdaddr,
-					       "browse",
-					       _("Browse files..."),
-					       uimanager,
-					       menu_merge_id,
-					       G_CALLBACK (browse_callback));
 			}
 
 			add_separator_item (device->bdaddr, "files-sep", uimanager, menu_merge_id);
