@@ -104,6 +104,11 @@ cc_bluetooth_panel_finalize (GObject *object)
 		self->priv->client = NULL;
 	}
 
+	if (self->priv->selected_bdaddr) {
+		g_free (self->priv->selected_bdaddr);
+		self->priv->selected_bdaddr = NULL;
+	}
+
 	G_OBJECT_CLASS (cc_bluetooth_panel_parent_class)->finalize (object);
 }
 
