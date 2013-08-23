@@ -57,8 +57,9 @@ AC_SUBST(PANELS_DIR)
 dnl Missing libgnome-control-center
 dnl which will be resolved at run-time
 PKG_CHECK_MODULES(PROPS,
- glib-2.0 >= $GLIB_REQUIRED
- gtk+-3.0 >= $GTK_REQUIRED)
+		  glib-2.0 >= $GLIB_REQUIRED
+		  gnome-bluetooth-1.0 >= $GNOME_BLUETOOTH_REQUIRED
+		  gtk+-3.0 >= $GTK_REQUIRED)
 
 dnl Requires for the applet
 PKG_CHECK_MODULES(APPLET,
