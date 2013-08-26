@@ -34,6 +34,9 @@ AM_PROG_LIBTOOL
 
 # i18n stuff
 IT_PROG_INTLTOOL([0.40.0])
+GLIB_GSETTINGS
+
+AC_PATH_PROG([XMLLINT],[xmllint])
 
 AM_GNU_GETTEXT([external])
 AM_GNU_GETTEXT_VERSION([0.17])
@@ -47,8 +50,17 @@ AC_DEFINE_UNQUOTED(LOCALEDIR, "${prefix}/share/locale", [Directory for the local
 
 GTK_REQUIRED=2.91.3
 GLIB_REQUIRED=2.29.90
+DBUS_GLIB_REQUIRED=0.74
 GNOME_BLUETOOTH_REQUIRED=3.8.0
 NOTIFY_REQUIRED=0.7.0
+
+dnl Requires for the properties window
+PKG_CHECK_MODULES(PROPS,
+		  dbus-glib-1 >= $DBUS_GLIB_REQUIRED
+		  glib-2.0 >= $GLIB_REQUIRED
+		  gnome-bluetooth-1.0 >= $GNOME_BLUETOOTH_REQUIRED
+		  gtk+-2.0
+		  unique-1.0)
 
 dnl Requires for the applet
 PKG_CHECK_MODULES(APPLET,
@@ -92,6 +104,8 @@ YELP_HELP_INIT
 AC_OUTPUT(Makefile
 	  applet/Makefile
 	  applet/bluetooth-applet.desktop.in
+	  properties/Makefile
+	  properties/bluetooth-properties.desktop.in
 	  po/Makefile.in
 	  help/Makefile
 )

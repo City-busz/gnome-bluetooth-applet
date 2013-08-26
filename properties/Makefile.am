@@ -20,16 +20,14 @@ desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 ui_DATA = properties-no-adapter.ui properties-adapter-off.ui
 uidir = $(pkgdatadir)
 
-convertdir=$(datadir)/gsettings-data-convert/
-convert_DATA=gnome-bluetooth
-
-gsettingsschema_DATA = org.gnome.Bluetooth.gschema.xml
-install-data-hook:
-	$(gsettingsupdateschemacache) $(gsettingsschemadir) --targetdir=$(gsettingsschemadir)
+gsettingsschema_in_files = org.gnome.Bluetooth.gschema.xml.in
+gsettings_SCHEMAS = $(gsettingsschema_in_files:.xml.in=.xml)
+@INTLTOOL_XML_NOMERGE_RULE@
+@GSETTINGS_RULES@
 
 CLEANFILES = $(desktop_DATA) $(schema_DATA)
 
-EXTRA_DIST = $(man_MANS) $(desktop_in_in_files) $(schema_in_files) $(ui_DATA) $(convert_DATA) $(gsettingsschema_DATA)
+EXTRA_DIST = $(man_MANS) $(desktop_in_in_files) $(schema_in_files) $(ui_DATA) $(convert_DATA) $(gsettingsschema_in_files)
 
 MAINTAINERCLEANFILES = Makefile.in
 
