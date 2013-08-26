@@ -1,6 +1,6 @@
-DEF_SUBDIRS = applet po help
+DEF_SUBDIRS = applet po properties help
 
-SUBDIRS = applet po
+SUBDIRS = applet po properties
 
 if ENABLE_DOCUMENTATION
 SUBDIRS += help
