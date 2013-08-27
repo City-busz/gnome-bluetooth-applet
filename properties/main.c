@@ -38,9 +38,6 @@
 #include "general.h"
 #include "adapter.h"
 
-#define SCHEMA_NAME		"org.gnome.Bluetooth"
-#define PREF_SHOW_ICON		"show-icon"
-
 static gboolean delete_callback(GtkWidget *window, GdkEvent *event,
 							gpointer user_data)
 {
@@ -123,12 +120,6 @@ static GtkWidget *create_window(GtkWidget *notebook)
 	gtk_container_add(GTK_CONTAINER(window), vbox);
 
 	gtk_box_pack_start(GTK_BOX(vbox), notebook, TRUE, TRUE, 0);
-
-	button = gtk_check_button_new_with_mnemonic (_("_Show Bluetooth icon"));
-	gtk_box_pack_start(GTK_BOX(vbox), button, FALSE, FALSE, 0);
-	settings = g_settings_new (SCHEMA_NAME);
-	g_settings_bind (settings, PREF_SHOW_ICON, G_OBJECT (button), "active",
-			 G_SETTINGS_BIND_DEFAULT);
 
 	buttonbox = gtk_button_box_new (GTK_ORIENTATION_HORIZONTAL);
 	gtk_button_box_set_layout(GTK_BUTTON_BOX(buttonbox), GTK_BUTTONBOX_END);
