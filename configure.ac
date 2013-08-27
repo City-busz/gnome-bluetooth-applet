@@ -59,8 +59,8 @@ PKG_CHECK_MODULES(PROPS,
 		  dbus-glib-1 >= $DBUS_GLIB_REQUIRED
 		  glib-2.0 >= $GLIB_REQUIRED
 		  gnome-bluetooth-1.0 >= $GNOME_BLUETOOTH_REQUIRED
-		  gtk+-2.0
-		  unique-1.0)
+		  gtk+-3.0
+		  unique-3.0)
 
 dnl Requires for the applet
 PKG_CHECK_MODULES(APPLET,
