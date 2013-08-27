@@ -9,6 +9,7 @@ applet/bluetooth-applet.desktop.in.in
 properties/main.c
 properties/general.c
 properties/adapter.c
+[type: gettext/glade] properties/properties-adapter.ui
 [type: gettext/glade] properties/properties-no-adapter.ui
 [type: gettext/glade] properties/properties-adapter-off.ui
 [type: gettext/glade] properties/properties-killed-adapter.ui
