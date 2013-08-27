@@ -29,8 +29,6 @@
 #include <glib/gi18n-lib.h>
 #include <gtk/gtk.h>
 
-#include <dbus/dbus-glib.h>
-
 #include <bluetooth-client.h>
 #include <bluetooth-client-private.h>
 #include <bluetooth-killswitch.h>
@@ -52,7 +50,7 @@ static GtkNotebook *notebook;
 
 typedef struct adapter_data adapter_data;
 struct adapter_data {
-	DBusGProxy *proxy;
+	GDBusProxy *proxy;
 	GtkWidget *notebook;
 	GtkWidget *child;
 	GtkWidget *button_discoverable;
@@ -117,7 +115,7 @@ static gboolean focus_callback(GtkWidget *editable,
 
 	g_value_set_string(&value, text);
 
-	dbus_g_proxy_call(adapter->proxy, "SetProperty", NULL,
+	g_dbus_proxy_call(adapter->proxy, "SetProperty", NULL,
 			G_TYPE_STRING, "Name",
 			G_TYPE_VALUE, &value, G_TYPE_INVALID, G_TYPE_INVALID);
 
@@ -176,7 +174,7 @@ static void disconnect_callback(GtkWidget *button, gpointer user_data)
 {
 	adapter_data *adapter = user_data;
 	GValue value = { 0, };
-	DBusGProxy *device;
+	GDBusProxy *device;
 
 	if (bluetooth_chooser_get_selected_device_info (BLUETOOTH_CHOOSER (adapter->chooser),
 							"proxy", &value) == FALSE) {
@@ -188,7 +186,7 @@ static void disconnect_callback(GtkWidget *button, gpointer user_data)
 	if (device == NULL)
 		return;
 
-	dbus_g_proxy_call(device, "Disconnect", NULL,
+	g_dbus_proxy_call(device, "Disconnect", NULL,
 					G_TYPE_INVALID, G_TYPE_INVALID);
 
 	g_object_unref(device);
@@ -221,7 +219,7 @@ static void create_adapter(adapter_data *adapter)
 {
 	GHashTable *hash = NULL;
 	GValue *value;
-	DBusGProxy *default_proxy;
+	GDBusProxy *default_proxy;
 	const gchar *name;
 	gboolean powered, discoverable;
 	guint timeout;
@@ -238,8 +236,8 @@ static void create_adapter(adapter_data *adapter)
 	GtkStyleContext *context;
 	int page_num;
 
-	dbus_g_proxy_call(adapter->proxy, "GetProperties", NULL, G_TYPE_INVALID,
-				dbus_g_type_get_map("GHashTable",
+	g_dbus_proxy_call(adapter->proxy, "GetProperties", NULL, G_TYPE_INVALID,
+				g_dbus_type_get_map("GHashTable",
 						G_TYPE_STRING, G_TYPE_VALUE),
 				&hash, G_TYPE_INVALID);
 
@@ -268,8 +266,8 @@ static void create_adapter(adapter_data *adapter)
 
 	default_proxy = bluetooth_client_get_default_adapter (client);
 	if (default_proxy != NULL) {
-		adapter->is_default = g_str_equal (dbus_g_proxy_get_path (default_proxy),
-						   dbus_g_proxy_get_path (adapter->proxy));
+		adapter->is_default = g_str_equal (g_dbus_proxy_get_path (default_proxy),
+						   g_dbus_proxy_get_path (adapter->proxy));
 		g_object_unref (default_proxy);
 	}
 
@@ -417,7 +415,7 @@ static void update_visibility(adapter_data *adapter)
 	unblock_signals(adapter);
 }
 
-static void property_changed(DBusGProxy *proxy, const char *property,
+static void property_changed(GDBusProxy *proxy, const char *property,
 					GValue *value, gpointer user_data)
 {
 	adapter_data *adapter = user_data;
@@ -450,7 +448,7 @@ static void property_changed(DBusGProxy *proxy, const char *property,
 static adapter_data *adapter_alloc(GtkTreeModel *model,
 		GtkTreePath *path, GtkTreeIter *iter, gpointer user_data)
 {
-	DBusGProxy *proxy;
+	GDBusProxy *proxy;
 	adapter_data *adapter;
 
 	gtk_tree_model_get(model, iter,
@@ -472,7 +470,7 @@ static gboolean adapter_create(gpointer user_data)
 {
 	adapter_data *adapter = user_data;
 
-	dbus_g_proxy_connect_signal(adapter->proxy, "PropertyChanged",
+	g_dbus_proxy_connect_signal(adapter->proxy, "PropertyChanged",
 				G_CALLBACK(property_changed), adapter, NULL);
 
 	create_adapter(adapter);
@@ -503,7 +501,7 @@ static void adapter_added(GtkTreeModel *model, GtkTreePath *path,
 	if (adapter == NULL)
 		return;
 
-	/* XXX This is needed so that we can run dbus_g_proxy_add_signal()
+	/* XXX This is needed so that we can run g_dbus_proxy_add_signal()
 	 * for "PropertyChanged" on the adapter, remove when we have some
 	 * decent D-Bus bindings */
 	g_idle_add(adapter_create, adapter);
@@ -552,7 +550,7 @@ adapter_changed (GtkTreeModel *model,
 		 GtkTreeIter  *iter,
 		 GtkNotebook  *notebook)
 {
-	DBusGProxy *proxy;
+	GDBusProxy *proxy;
 	int i, count;
 	gboolean is_default, powered;
 	char *name;
@@ -583,7 +581,7 @@ adapter_changed (GtkTreeModel *model,
 		if (proxy == NULL || adapter->proxy == NULL)
 			continue;
 
-		if (g_str_equal (dbus_g_proxy_get_path (proxy), dbus_g_proxy_get_path (adapter->proxy)) != FALSE) {
+		if (g_str_equal (g_dbus_proxy_get_path (proxy), g_dbus_proxy_get_path (adapter->proxy)) != FALSE) {
 			if (is_default != FALSE && powered != FALSE)
 				gtk_notebook_set_current_page (notebook, i);
 			/* We usually get an adapter_added before the device

@@ -50,13 +50,11 @@ AC_DEFINE_UNQUOTED(LOCALEDIR, "${prefix}/share/locale", [Directory for the local
 
 GTK_REQUIRED=2.91.3
 GLIB_REQUIRED=2.29.90
-DBUS_GLIB_REQUIRED=0.74
 GNOME_BLUETOOTH_REQUIRED=3.8.0
 NOTIFY_REQUIRED=0.7.0
 
 dnl Requires for the properties window
 PKG_CHECK_MODULES(PROPS,
-		  dbus-glib-1 >= $DBUS_GLIB_REQUIRED
 		  glib-2.0 >= $GLIB_REQUIRED
 		  gnome-bluetooth-1.0 >= $GNOME_BLUETOOTH_REQUIRED
 		  gtk+-3.0 >= $GTK_REQUIRED
