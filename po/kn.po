@@ -6,264 +6,97 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-bluetooth.master.kn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"bluetooth&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-06-27 21:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-20 05:18+0100\n"
 "PO-Revision-Date: 2012-09-22 00:36+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
 "Language-Team: Kannada <en@li.org>\n"
+"Language: kn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 "X-Generator: Lokalize 1.2\n"
-"Language: kn\n"
 
-#: ../lib/bluetooth-chooser-button.c:75
-msgid "Click to select device..."
-msgstr "ಸಾಧನವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್‌ ಮಾಡಿ..."
-
-#: ../lib/bluetooth-chooser.c:135 ../lib/bluetooth-filter-widget.c:82
-#: ../lib/bluetooth-utils.c:90
-msgid "Unknown"
-msgstr "ಗೊತ್ತಿರದ"
-
-#: ../lib/bluetooth-chooser.c:176
-msgid "No adapters available"
-msgstr "ಯಾವುದೆ ಅಡಾಪ್ಟರುಗಳು ಲಭ್ಯವಿಲ್ಲ"
-
-#: ../lib/bluetooth-chooser.c:180 ../lib/bluetooth-chooser.c:804
-msgid "Searching for devices..."
-msgstr "ಸಾಧನಗಳಿಗಾಗಿ ಹುಡುಕಲಾಗುತ್ತಿದೆ..."
-
-#: ../lib/bluetooth-chooser.c:696 ../lib/bluetooth-chooser.c:985
-msgid "Device"
-msgstr "ಸಾಧನ"
-
-#: ../lib/bluetooth-chooser.c:732
-msgid "Type"
-msgstr "ಬಗೆ"
-
-#: ../lib/bluetooth-chooser.c:987 ../applet/popup-menu.ui.h:4
-msgid "Devices"
-msgstr "ಸಾಧನಗಳು"
-
-#: ../lib/bluetooth-filter-widget.c:72
-msgid "All categories"
-msgstr "ಎಲ್ಲಾ ವರ್ಗಗಳು"
-
-#: ../lib/bluetooth-filter-widget.c:74
-msgid "Paired"
-msgstr "ಜೋಡಿಯಾದ"
-
-#: ../lib/bluetooth-filter-widget.c:76
-msgid "Trusted"
-msgstr "ನಂಬಿಕಸ್ತ"
-
-#: ../lib/bluetooth-filter-widget.c:78
-msgid "Not paired or trusted"
-msgstr "ಜೋಡಿಯಾಗಿಲ್ಲದ ಅಥವ ನಂಬಿಕಸ್ತವಾಗಿಲ್ಲದ"
-
-#: ../lib/bluetooth-filter-widget.c:80
-msgid "Paired or trusted"
-msgstr "ಜೋಡಿಯಾದ ಅಥವ ನಂಬಿಕಸ್ತ"
-
-#. This is the title of the filter section of the Bluetooth device chooser.
-#. * It used to say Show Only Bluetooth Devices With...
-#: ../lib/bluetooth-filter-widget.c:231
-msgid "Show:"
-msgstr "ತೋರಿಸು:"
-
-#. The device category filter
-#: ../lib/bluetooth-filter-widget.c:247
-msgid "Device _category:"
-msgstr "ಸಾಧನದ ಪಂಗಡ (_c):"
-
-#: ../lib/bluetooth-filter-widget.c:258
-#| msgid "Select the device category to filter above list"
-msgid "Select the device category to filter"
-msgstr "ಫಿಲ್ಟರ್ ಮಾಡಲು ಸಾಧನ ವರ್ಗವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
-
-#. The device type filter
-#: ../lib/bluetooth-filter-widget.c:272
-msgid "Device _type:"
-msgstr "ಸಾಧನದ ಬಗೆ (_t):"
-
-#: ../lib/bluetooth-filter-widget.c:289
-#| msgid "Select the device type to filter above list"
-msgid "Select the device type to filter"
-msgstr "ಫಿಲ್ಟರ್ ಮಾಡಲು ಸಾಧನ ಬಗೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
-
-#: ../lib/bluetooth-filter-widget.c:295
-#| msgid "Input devices (mice, keyboards, ...)"
-msgid "Input devices (mice, keyboards, etc.)"
-msgstr "ಇನ್‌ಪುಟ್‌ ಸಾಧನಗಳು (ಮೌಸ್‌ಗಳು, ಕೀಲಿಮಣೆಗಳು, ಇತರೆ.)"
-
-#: ../lib/bluetooth-filter-widget.c:299
-msgid "Headphones, headsets and other audio devices"
-msgstr "ಹೆಡ್‌ಫೋನ್‌ಗಳು, ಹೆಡ್‌ಸೆಟ್‌ಗಳು ಹಾಗು ಇತರೆ ಆಡಿಯೊ ಸಾಧನಗಳು"
-
-#: ../lib/bluetooth-utils.c:59
-msgid "All types"
-msgstr "ಎಲ್ಲಾ ಬಗೆಗಳು"
-
-#: ../lib/bluetooth-utils.c:61
-msgid "Phone"
-msgstr "ದೂರವಾಣಿ"
-
-#: ../lib/bluetooth-utils.c:63
-msgid "Modem"
-msgstr "ಮಾಡೆಮ್"
-
-#: ../lib/bluetooth-utils.c:65
-msgid "Computer"
-msgstr "ಗಣಕ"
-
-#: ../lib/bluetooth-utils.c:67
-msgid "Network"
-msgstr "ಜಾಲಬಂಧ"
-
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
-#: ../lib/bluetooth-utils.c:70
-msgid "Headset"
-msgstr "ಹೆಡ್‌ಸೆಟ್‌"
-
-#: ../lib/bluetooth-utils.c:72
-msgid "Headphones"
-msgstr "ಹೆಡ್‌ಫೋನ್‌ಗಳು"
-
-#: ../lib/bluetooth-utils.c:74
-msgid "Audio device"
-msgstr "ಆಡಿಯೊ ಸಾಧನ"
-
-#: ../lib/bluetooth-utils.c:76
-msgid "Keyboard"
-msgstr "ಕೀಲಿಮಣೆ"
-
-#: ../lib/bluetooth-utils.c:78
-msgid "Mouse"
-msgstr "ಮೌಸ್"
-
-#: ../lib/bluetooth-utils.c:80
-msgid "Camera"
-msgstr "ಕ್ಯಾಮೆರಾ"
-
-#: ../lib/bluetooth-utils.c:82
-msgid "Printer"
-msgstr "ಮುದ್ರಕ"
-
-#: ../lib/bluetooth-utils.c:84
-msgid "Joypad"
-msgstr "ಜಾಯ್‌ಪ್ಯಾಡ್‌"
-
-#: ../lib/bluetooth-utils.c:86
-msgid "Tablet"
-msgstr "ಟ್ಯಾಬ್ಲೆಟ್‌"
-
-#: ../lib/bluetooth-utils.c:88
-#| msgid "Audio device"
-msgid "Video device"
-msgstr "ವೀಡಿಯೊ ಸಾಧನ"
-
-#: ../lib/plugins/geoclue.c:178
-msgid "Use this GPS device for Geolocation services"
-msgstr "ಜಿಯೋಲೊಕೇಶನ್ ಸೇವೆಗಳಿಗಾಗಿ ಈ GPS ಸಾಧನವನ್ನು ಬಳಸಿ"
-
-#. translators:
-#. * This is in a test plugin, please make sure you add the "(test)" part,
-#. * or leave untranslated
-#: ../lib/plugins/test.c:53
-msgid "Access the Internet using your cell phone (test)"
-msgstr ""
-"ನಿಮ್ಮ ಮೊಬೈಲ್ ದೂರವಾಣಿಯನ್ನು ಬಳಸಿಕೊಂಡು ಅಂತರ್ಜಾಲವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಿ (ಪ್ರಾಯೋಗಿಕ)"
-
-#: ../applet/main.c:230
-#| msgid "Turn On Bluetooth"
+#: ../applet/main.c:203
 msgid "Turn on Bluetooth"
 msgstr "ಬ್ಲೂಟೂತ್‌ ಅನ್ನು ಚಾಲನೆ ಮಾಡು"
 
-#: ../applet/main.c:231 ../applet/notify.c:159
+#: ../applet/main.c:204 ../applet/notify.c:159
 msgid "Bluetooth: Off"
 msgstr "ಬ್ಲೂಟೂತ್‌: ಸ್ಥಗಿತ"
 
-#: ../applet/main.c:234
-#| msgid "Turn Off Bluetooth"
+#: ../applet/main.c:207
 msgid "Turn off Bluetooth"
 msgstr "ಬ್ಲೂಟೂತ್‌ ಅನ್ನು ಸ್ಥಗಿತಗೊಳಿಸು"
 
-#: ../applet/main.c:235 ../applet/notify.c:159
+#: ../applet/main.c:208 ../applet/notify.c:159
 msgid "Bluetooth: On"
 msgstr "ಬ್ಲೂಟೂತ್‌: ಚಾಲನೆ"
 
-#: ../applet/main.c:240
+#: ../applet/main.c:213
 msgid "Bluetooth: Disabled"
 msgstr "ಬ್ಲೂಟೂತ್‌: ಅಶಕ್ತಗೊಳಿಸಲಾಗಿದೆ"
 
-#: ../applet/main.c:387
+#: ../applet/main.c:360
 msgid "Disconnecting..."
 msgstr "ಸಂಪರ್ಕವನ್ನು ತಪ್ಪಿಸಲಾಗುತ್ತಿದೆ..."
 
-#: ../applet/main.c:390 ../sendto/main.c:192 ../sendto/main.c:292
+#: ../applet/main.c:363
 msgid "Connecting..."
 msgstr "ಸಂಪರ್ಕ ಹೊಂದಲಾಗುತ್ತಿದೆ..."
 
-#: ../applet/main.c:393 ../applet/main.c:676
+#: ../applet/main.c:366 ../applet/main.c:649
 msgid "Connected"
 msgstr "ಸಂಪರ್ಕಿತಗೊಂಡಿದೆ"
 
-#: ../applet/main.c:396 ../applet/main.c:676
+#: ../applet/main.c:369 ../applet/main.c:649
 msgid "Disconnected"
 msgstr "ಸಂಪರ್ಕ ಕಡಿದು ಹಾಕಲಾಗಿದೆ"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Disconnect"
 msgstr "ಸಂಪರ್ಕ ಕಡಿದು ಹಾಕು"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Connect"
 msgstr "ಸಂಪರ್ಕ ಕಲ್ಪಿಸು"
 
-#: ../applet/main.c:707
+#: ../applet/main.c:680
 msgid "Send files..."
 msgstr "ಕಡತಗಳನ್ನು ಕಳುಹಿಸು..."
 
-#: ../applet/main.c:717
-msgid "Browse files..."
-msgstr "ಕಡತಗಳನ್ನು ವೀಕ್ಷಿಸು..."
-
-#: ../applet/main.c:728
-#| msgid "Keyboard"
+#: ../applet/main.c:693
 msgid "Keyboard Settings"
 msgstr "ಕೀಲಿಮಣೆ ಸಿದ್ಧತೆಗಳು"
 
-#: ../applet/main.c:736
+#: ../applet/main.c:701
 msgid "Mouse and Touchpad Settings"
 msgstr "ಮೌಸ್‌ ಹಾಗು ಟಚ್‌ಪ್ಯಾಡ್ ಸಿದ್ಧತೆಗಳು"
 
-#: ../applet/main.c:746
+#: ../applet/main.c:711
 msgid "Sound Settings"
 msgstr "ಧ್ವನಿ ಸಿದ್ಧತೆಗಳು"
 
-#: ../applet/main.c:799
+#: ../applet/main.c:764
 msgid "Debug"
 msgstr "ದೋಷನಿವಾರಣೆ"
 
 #. Parse command-line options
-#: ../applet/main.c:818
+#: ../applet/main.c:783
 msgid "- Bluetooth applet"
 msgstr "- ಬ್ಲೂಟೂತ್ ಆಪ್ಲೆಟ್‌"
 
-#: ../applet/main.c:823
+#: ../applet/main.c:788
 #, c-format
 msgid ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
 msgstr ""
 "%s\n"
-"ಲಭ್ಯವಿರುವ ಎಲ್ಲಾ ಆಜ್ಞಾ ಸಾಲಿನ ಆಯ್ಕೆಗಳ ಪಟ್ಟಿಯನ್ನು ನೋಡಲು '%s --help' ಅನ್ನು "
-"ಚಲಾಯಿಸಿ.\n"
+"ಲಭ್ಯವಿರುವ ಎಲ್ಲಾ ಆಜ್ಞಾ ಸಾಲಿನ ಆಯ್ಕೆಗಳ ಪಟ್ಟಿಯನ್ನು ನೋಡಲು '%s --help' ಅನ್ನು ಚಲಾಯಿಸಿ.\n"
 
-#: ../applet/main.c:849
+#: ../applet/main.c:814
 msgid "Bluetooth Applet"
 msgstr "ಬ್ಲೂಟೂತ್‌ ಆಪ್ಲೆಟ್‌"
 
@@ -285,8 +118,7 @@ msgstr "ಸಾಧನ %s ದಲ್ಲಿ ನಮೂದಿಸಲಾದ PIN ಅನ�
 #, c-format
 msgid "Please confirm whether the PIN '%s' matches the one on device %s."
 msgstr ""
-"'%s' ಎಂಬ PIN %s ಎಂಬ ಸಾಧನದಲ್ಲಿರುವುದಕ್ಕೆ ತಾಳೆಯಾಗುತ್ತದೆಯೆ ಎಂದು ದಯವಿಟ್ಟು "
-"ಖಚಿತಪಡಿಸಿ."
+"'%s' ಎಂಬ PIN %s ಎಂಬ ಸಾಧನದಲ್ಲಿರುವುದಕ್ಕೆ ತಾಳೆಯಾಗುತ್ತದೆಯೆ ಎಂದು ದಯವಿಟ್ಟು ಖಚಿತಪಡಿಸಿ."
 
 #. translators: Whether to grant access to a particular service
 #: ../applet/agent.c:314
@@ -354,12 +186,15 @@ msgstr "ಗೋಚರ"
 msgid "Send files to device..."
 msgstr "ಕಡತಗಳನ್ನು ಸಾಧನಕ್ಕೆ ಕಳುಹಿಸು..."
 
+#: ../applet/popup-menu.ui.h:4
+msgid "Devices"
+msgstr "ಸಾಧನಗಳು"
+
 #: ../applet/popup-menu.ui.h:5
 msgid "Set up new device..."
 msgstr "ಹೊಸ ಸಾಧನವನ್ನು ಸಿದ್ಧಗೊಳಿಸು..."
 
 #: ../applet/popup-menu.ui.h:6
-#| msgid "Bluetooth: Checking"
 msgid "Bluetooth Settings"
 msgstr "ಬ್ಲೂಟೂತ್ ಸಿದ್ಧತೆಗಳು"
 
@@ -391,321 +226,334 @@ msgstr "ತಾಳೆಯಾಗುವವು(_M)"
 msgid "_Show input"
 msgstr "ಇನ್‌ಪುಟ್ ಅನ್ನು ತೋರಿಸು(_S)"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
-#: ../wizard/main.c:241 ../wizard/main.c:364
-#, c-format
-msgid "Pairing with '%s' cancelled"
-msgstr "'%s' ನೊಂದಿಗೆ ಜೋಡಿಯಾಗಿಸುವುದನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ"
+#~ msgid "Click to select device..."
+#~ msgstr "ಸಾಧನವನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ಕ್ಲಿಕ್‌ ಮಾಡಿ..."
 
-#: ../wizard/main.c:282
-#, c-format
-msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr "'%s' ನಲ್ಲಿ ತೋರಿಸಲಾದ PIN ಇದಕ್ಕೆ ತಾಳೆಯಾಗುತ್ತದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸಿ."
+#~ msgid "Unknown"
+#~ msgstr "ಗೊತ್ತಿರದ"
 
-#: ../wizard/main.c:336
-msgid "Please enter the following PIN:"
-msgstr "ದಯವಿಟ್ಟು ಈ ಕೆಳಗಿನ PIN ಅನ್ನು ನಮೂದಿಸಿ:"
+#~ msgid "No adapters available"
+#~ msgstr "ಯಾವುದೆ ಅಡಾಪ್ಟರುಗಳು ಲಭ್ಯವಿಲ್ಲ"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Setting up 'Sony Bluetooth Headset' failed
-#.
-#: ../wizard/main.c:424
-#, c-format
-msgid "Setting up '%s' failed"
-msgstr "'%s' ಅನ್ನು ಸಿದ್ಧಪಡಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
+#~ msgid "Searching for devices..."
+#~ msgstr "ಸಾಧನಗಳಿಗಾಗಿ ಹುಡುಕಲಾಗುತ್ತಿದೆ..."
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Connecting to 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:478
-#, c-format
-msgid "Connecting to '%s'..."
-msgstr "'%s' ನೊಂದಿಗೆ ಸಂಪರ್ಕಸಾಧಿಸಲಾಗುತ್ತಿದೆ..."
+#~ msgid "Device"
+#~ msgstr "ಸಾಧನ"
 
-#: ../wizard/main.c:518
-#, c-format
-msgid "Please enter the following PIN on '%s':"
-msgstr "ದಯವಿಟ್ಟು ಈ ಕೆಳಗಿನ PIN ಅನ್ನು '%s' ನಲ್ಲಿ ನಮೂದಿಸಿ :"
+#~ msgid "Type"
+#~ msgstr "ಬಗೆ"
 
-#: ../wizard/main.c:521
-#, c-format
-msgid ""
-"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr ""
-"ದಯವಿಟ್ಟು ಈ ಕೆಳಗಿನ PINಅನ್ನು '%s' ನಲ್ಲಿ ನಮೂದಿಸಿ ನಂತರ ಕೀಲಿಮಣೆಯಲ್ಲಿರುವ “Enter” "
-"ಅನ್ನು "
-"ಒತ್ತಿ:"
+#~ msgid "All categories"
+#~ msgstr "ಎಲ್ಲಾ ವರ್ಗಗಳು"
 
-#: ../wizard/main.c:526
-msgid "Please move the joystick of your iCade in the following directions:"
-msgstr "ನಿಮ್ಮ iCade ನ ಜಾಯ್‌ಸ್ಟಿಕ್ ಅನ್ನು ಈ ಕೆಳಗಿನ ಮಾದರಿಯಲ್ಲಿ ತೆಗೆದುಹಾಕಿ:"
+#~ msgid "Paired"
+#~ msgstr "ಜೋಡಿಯಾದ"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:558
-#, c-format
-msgid "Please wait while finishing setup on device '%s'..."
-msgstr "'%s' ಸಾಧನನಲ್ಲಿ ಸಿದ್ಧಗೊಳಿಕೆಯು ಪೂರ್ಣಗೊಳಿಸುವವರೆಗೂ ದಯವಿಟ್ಟು ಕಾಯಿರಿ..."
+#~ msgid "Trusted"
+#~ msgstr "ನಂಬಿಕಸ್ತ"
 
-#: ../wizard/main.c:576
-#, c-format
-msgid "Successfully set up new device '%s'"
-msgstr "ಹೊಸ ಸಾಧನ '%s' ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಿದ್ಧಗೊಳಿಸಲಾಗಿದೆ"
+#~ msgid "Not paired or trusted"
+#~ msgstr "ಜೋಡಿಯಾಗಿಲ್ಲದ ಅಥವ ನಂಬಿಕಸ್ತವಾಗಿಲ್ಲದ"
 
-#: ../wizard/wizard.ui.h:1
-msgid "Bluetooth New Device Setup"
-msgstr "ಬ್ಲೂಟೂತ್‌ ಹೊಸ ಸಾಧನದ ಸಿದ್ಧತೆ"
+#~ msgid "Paired or trusted"
+#~ msgstr "ಜೋಡಿಯಾದ ಅಥವ ನಂಬಿಕಸ್ತ"
 
-#: ../wizard/wizard.ui.h:2
-msgid "PIN _options..."
-msgstr "PIN ಆಯ್ಕೆಗಳು(_o)..."
+#~ msgid "Show:"
+#~ msgstr "ತೋರಿಸು:"
 
-#: ../wizard/wizard.ui.h:3
-#| msgid "Device search"
-msgid "Device Search"
-msgstr "ಸಾಧನದ ಹುಡುಕಾಟ"
+#~ msgid "Device _category:"
+#~ msgstr "ಸಾಧನದ ಪಂಗಡ (_c):"
 
-#: ../wizard/wizard.ui.h:4
-msgid "Device Setup"
-msgstr "ಸಾಧನದ ಸಿದ್ಧತೆ"
+#~| msgid "Select the device category to filter above list"
+#~ msgid "Select the device category to filter"
+#~ msgstr "ಫಿಲ್ಟರ್ ಮಾಡಲು ಸಾಧನ ವರ್ಗವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
 
-#: ../wizard/wizard.ui.h:5
-#| msgid "Finishing New Device Setup"
-msgid "Finishing Setup"
-msgstr "ಸಿದ್ಧತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗುತ್ತಿದೆ"
+#~ msgid "Device _type:"
+#~ msgstr "ಸಾಧನದ ಬಗೆ (_t):"
 
-#: ../wizard/wizard.ui.h:6
-msgid "Select the additional services you want to use with your device:"
-msgstr "ನೀವು ನಿಮ್ಮ ಸಾಧನದೊಂದಿಗೆ ಬಳಸಬೇಕಿರುವ ಹೆಚ್ಚುವರಿ ಸೇವೆಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ:"
+#~| msgid "Select the device type to filter above list"
+#~ msgid "Select the device type to filter"
+#~ msgstr "ಫಿಲ್ಟರ್ ಮಾಡಲು ಸಾಧನ ಬಗೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
 
-#: ../wizard/wizard.ui.h:7
-msgid "Setup Summary"
-msgstr "ಸಿದ್ಧತೆಯ ಸಾರಾಂಶ"
+#~| msgid "Input devices (mice, keyboards, ...)"
+#~ msgid "Input devices (mice, keyboards, etc.)"
+#~ msgstr "ಇನ್‌ಪುಟ್‌ ಸಾಧನಗಳು (ಮೌಸ್‌ಗಳು, ಕೀಲಿಮಣೆಗಳು, ಇತರೆ.)"
 
-#: ../wizard/wizard.ui.h:8
-msgid "PIN Options"
-msgstr "PIN ಆಯ್ಕೆಗಳು"
+#~ msgid "Headphones, headsets and other audio devices"
+#~ msgstr "ಹೆಡ್‌ಫೋನ್‌ಗಳು, ಹೆಡ್‌ಸೆಟ್‌ಗಳು ಹಾಗು ಇತರೆ ಆಡಿಯೊ ಸಾಧನಗಳು"
 
-#: ../wizard/wizard.ui.h:9
-msgid "_Automatic PIN selection"
-msgstr "ಸ್ವಯಂಚಾಲಿತ PIN ಆಯ್ಕೆ(_A)"
+#~ msgid "All types"
+#~ msgstr "ಎಲ್ಲಾ ಬಗೆಗಳು"
 
-#. Translators: this is a PIN with a set value, such as 1111, or 0000
-#: ../wizard/wizard.ui.h:11
-msgid "Fixed PIN"
-msgstr "ನಿಶ್ಚಿತ PIN"
+#~ msgid "Phone"
+#~ msgstr "ದೂರವಾಣಿ"
 
-#: ../wizard/wizard.ui.h:12
-msgid "'0000' (most headsets, mice and GPS devices)"
-msgstr "'0000' (ಹೆಚ್ಚಿನ ಎಲ್ಲಾ ಹೆಡ್‌ಸೆಟ್‌ಗಳು, ಮೌಸ್‌ಗಳು ಹಾಗು GPS ಸಾಧನಗಳು)"
+#~ msgid "Modem"
+#~ msgstr "ಮಾಡೆಮ್"
 
-#: ../wizard/wizard.ui.h:13
-msgid "'1111'"
-msgstr "'1111'"
+#~ msgid "Computer"
+#~ msgstr "ಗಣಕ"
 
-#: ../wizard/wizard.ui.h:14
-msgid "'1234'"
-msgstr "'1234'"
+#~ msgid "Network"
+#~ msgstr "ಜಾಲಬಂಧ"
 
-#: ../wizard/wizard.ui.h:15
-#| msgid "Does not match"
-msgid "Do not pair"
-msgstr "ಜಂಟಿ ಮಾಡಬೇಡ"
+#~ msgid "Headset"
+#~ msgstr "ಹೆಡ್‌ಸೆಟ್‌"
 
-#: ../wizard/wizard.ui.h:16
-#| msgid "Custom PIN code:"
-msgid "Custom PIN:"
-msgstr "ಅಗತ್ಯಾನುಗುಣ PIN:"
+#~ msgid "Headphones"
+#~ msgstr "ಹೆಡ್‌ಫೋನ್‌ಗಳು"
 
-#: ../wizard/wizard.ui.h:17
-msgid "_Try Again"
-msgstr "ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸು (_T)"
+#~ msgid "Audio device"
+#~ msgstr "ಆಡಿಯೊ ಸಾಧನ"
 
-#: ../wizard/wizard.ui.h:18
-#| msgid "Quit"
-msgid "_Quit"
-msgstr "ನಿರ್ಗಮಿಸು (_Q)"
+#~ msgid "Keyboard"
+#~ msgstr "ಕೀಲಿಮಣೆ"
 
-#: ../wizard/wizard.ui.h:19
-msgid "_Cancel"
-msgstr "ರದ್ದುಮಾಡು (_C)"
+#~ msgid "Mouse"
+#~ msgstr "ಮೌಸ್"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:21
-msgid "Does not match"
-msgstr "ತಾಳೆಯಾಗುತ್ತಿಲ್ಲ"
+#~ msgid "Camera"
+#~ msgstr "ಕ್ಯಾಮೆರಾ"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:23
-msgid "Matches"
-msgstr "ತಾಳೆಗಳು"
+#~ msgid "Printer"
+#~ msgstr "ಮುದ್ರಕ"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:1
-#| msgid "Bluetooth New Device Setup"
-msgid "Bluetooth Device Setup"
-msgstr "ಬ್ಲೂಟೂತ್‌ ಸಾಧನದ ಸಿದ್ಧತೆ"
+#~ msgid "Joypad"
+#~ msgstr "ಜಾಯ್‌ಪ್ಯಾಡ್‌"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:2
-#| msgid "Bluetooth device"
-msgid "Setup Bluetooth devices"
-msgstr "ಬ್ಲೂಟೂತ್‌ ಸಾಧನಗಳ ಸಿದ್ಧತೆ"
+#~ msgid "Tablet"
+#~ msgstr "ಟ್ಯಾಬ್ಲೆಟ್‌"
 
-#: ../sendto/main.c:151
-#, c-format
-msgid "%'d second"
-msgid_plural "%'d seconds"
-msgstr[0] "%'d ಸೆಕೆಂಡು"
-msgstr[1] "%'d ಸೆಕೆಂಡು"
+#~| msgid "Audio device"
+#~ msgid "Video device"
+#~ msgstr "ವೀಡಿಯೊ ಸಾಧನ"
 
-#: ../sendto/main.c:156 ../sendto/main.c:169
-#, c-format
-msgid "%'d minute"
-msgid_plural "%'d minutes"
-msgstr[0] "%'d ನಿಮಿಷ"
-msgstr[1] "%'d ನಿಮಿಷ"
+#~ msgid "Use this GPS device for Geolocation services"
+#~ msgstr "ಜಿಯೋಲೊಕೇಶನ್ ಸೇವೆಗಳಿಗಾಗಿ ಈ GPS ಸಾಧನವನ್ನು ಬಳಸಿ"
 
-#: ../sendto/main.c:167
-#, c-format
-msgid "%'d hour"
-msgid_plural "%'d hours"
-msgstr[0] "%'d ಗಂಟೆ"
-msgstr[1] "%'d ಗಂಟೆ"
+#~ msgid "Access the Internet using your cell phone (test)"
+#~ msgstr ""
+#~ "ನಿಮ್ಮ ಮೊಬೈಲ್ ದೂರವಾಣಿಯನ್ನು ಬಳಸಿಕೊಂಡು ಅಂತರ್ಜಾಲವನ್ನು ನಿಲುಕಿಸಿಕೊಳ್ಳಿ (ಪ್ರಾಯೋಗಿಕ)"
 
-#: ../sendto/main.c:177
-#, c-format
-msgid "approximately %'d hour"
-msgid_plural "approximately %'d hours"
-msgstr[0] "ಅಂದಾಜು %'d ಗಂಟೆ"
-msgstr[1] "ಅಂದಾಜು %'d ಗಂಟೆ"
+#~ msgid "Browse files..."
+#~ msgstr "ಕಡತಗಳನ್ನು ವೀಕ್ಷಿಸು..."
 
-#: ../sendto/main.c:231
-msgid "File Transfer"
-msgstr "ಕಡತ ವರ್ಗಾವಣೆ"
+#~ msgid "Pairing with '%s' cancelled"
+#~ msgstr "'%s' ನೊಂದಿಗೆ ಜೋಡಿಯಾಗಿಸುವುದನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ"
 
-#: ../sendto/main.c:234
-#| msgid "_Reject"
-msgid "_Retry"
-msgstr "ಪುನಃ ಪ್ರಯತ್ನಿಸು (_R)"
+#~ msgid "Please confirm that the PIN displayed on '%s' matches this one."
+#~ msgstr "'%s' ನಲ್ಲಿ ತೋರಿಸಲಾದ PIN ಇದಕ್ಕೆ ತಾಳೆಯಾಗುತ್ತದೆಯೆ ಎಂದು ಖಚಿತಪಡಿಸಿ."
 
-#. translators: This is the heading for the progress dialogue
-#: ../sendto/main.c:253
-msgid "Sending files via Bluetooth"
-msgstr "ಬ್ಲೂಟೂತ್ ಮೂಲಕ ಕಳುಹಿಸುವಿಕೆ"
+#~ msgid "Please enter the following PIN:"
+#~ msgstr "ದಯವಿಟ್ಟು ಈ ಕೆಳಗಿನ PIN ಅನ್ನು ನಮೂದಿಸಿ:"
 
-#: ../sendto/main.c:265
-msgid "From:"
-msgstr "ಯಿಂದ:"
+#~ msgid "Setting up '%s' failed"
+#~ msgstr "'%s' ಅನ್ನು ಸಿದ್ಧಪಡಿಸುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ"
 
-#: ../sendto/main.c:277
-msgid "To:"
-msgstr "ಗೆ:"
+#~ msgid "Connecting to '%s'..."
+#~ msgstr "'%s' ನೊಂದಿಗೆ ಸಂಪರ್ಕಸಾಧಿಸಲಾಗುತ್ತಿದೆ..."
 
-#: ../sendto/main.c:321 ../sendto/main.c:339
-msgid "An unknown error occurred"
-msgstr "ಒಂದು ಗೊತ್ತಿಲ್ಲದ ದೋಷವು ಎದುರಾಗಿದೆ"
+#~ msgid "Please enter the following PIN on '%s':"
+#~ msgstr "ದಯವಿಟ್ಟು ಈ ಕೆಳಗಿನ PIN ಅನ್ನು '%s' ನಲ್ಲಿ ನಮೂದಿಸಿ :"
 
-#: ../sendto/main.c:332
-#| msgid ""
-#| "Make sure that remote device is switched on and that it accepts Bluetooth "
-#| "connections"
-msgid ""
-"Make sure that the remote device is switched on and that it accepts "
-"Bluetooth connections"
-msgstr ""
-"ದೂರಸ್ಥ ಸಾಧನವು ಚಾಲಿತಗೊಂಡಿದೆ ಮತ್ತು ಅದು ಬ್ಲೂಟೂತ್ ಸಂಪರ್ಕಗಳನ್ನು ಅಂಗೀಕರಿಸುತ್ತದೆ "
-"ಎಂದು "
-"ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ"
+#~ msgid ""
+#~ "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+#~ msgstr ""
+#~ "ದಯವಿಟ್ಟು ಈ ಕೆಳಗಿನ PINಅನ್ನು '%s' ನಲ್ಲಿ ನಮೂದಿಸಿ ನಂತರ ಕೀಲಿಮಣೆಯಲ್ಲಿರುವ “Enter” "
+#~ "ಅನ್ನು ಒತ್ತಿ:"
 
-#: ../sendto/main.c:430
-#, c-format
-msgid "Sending %s"
-msgstr "%s ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ"
+#~ msgid "Please move the joystick of your iCade in the following directions:"
+#~ msgstr "ನಿಮ್ಮ iCade ನ ಜಾಯ್‌ಸ್ಟಿಕ್ ಅನ್ನು ಈ ಕೆಳಗಿನ ಮಾದರಿಯಲ್ಲಿ ತೆಗೆದುಹಾಕಿ:"
 
-#: ../sendto/main.c:437 ../sendto/main.c:508
-#, c-format
-msgid "Sending file %d of %d"
-msgstr "ಕಡತ %d ಅನ್ನು (%d ನಲ್ಲಿ) ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ"
+#~ msgid "Please wait while finishing setup on device '%s'..."
+#~ msgstr "'%s' ಸಾಧನನಲ್ಲಿ ಸಿದ್ಧಗೊಳಿಕೆಯು ಪೂರ್ಣಗೊಳಿಸುವವರೆಗೂ ದಯವಿಟ್ಟು ಕಾಯಿರಿ..."
 
-#: ../sendto/main.c:504
-#, c-format
-#| msgid "%d B/s"
-msgid "%d kB/s"
-msgstr "%d kB/s"
+#~ msgid "Successfully set up new device '%s'"
+#~ msgstr "ಹೊಸ ಸಾಧನ '%s' ಅನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸಿದ್ಧಗೊಳಿಸಲಾಗಿದೆ"
 
-#: ../sendto/main.c:506
-#, c-format
-msgid "%d B/s"
-msgstr "%d B/s"
+#~ msgid "Bluetooth New Device Setup"
+#~ msgstr "ಬ್ಲೂಟೂತ್‌ ಹೊಸ ಸಾಧನದ ಸಿದ್ಧತೆ"
 
-#: ../sendto/main.c:639
-#| msgid "Select Device to Send To"
-msgid "Select device to send to"
-msgstr "ಕಳುಹಿಸಲು ಸಾಧನವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+#~ msgid "PIN _options..."
+#~ msgstr "PIN ಆಯ್ಕೆಗಳು(_o)..."
 
-#: ../sendto/main.c:644
-#| msgid "Send _To"
-msgid "_Send"
-msgstr "ಕಳುಹಿಸು (_S)"
+#~| msgid "Device search"
+#~ msgid "Device Search"
+#~ msgstr "ಸಾಧನದ ಹುಡುಕಾಟ"
 
-#: ../sendto/main.c:688
-msgid "Choose files to send"
-msgstr "ಕಳುಹಿಸಲು ಕಡತಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+#~ msgid "Device Setup"
+#~ msgstr "ಸಾಧನದ ಸಿದ್ಧತೆ"
 
-#: ../sendto/main.c:691
-#| msgid "_Reject"
-msgid "Select"
-msgstr "ಆರಿಸು"
+#~| msgid "Finishing New Device Setup"
+#~ msgid "Finishing Setup"
+#~ msgstr "ಸಿದ್ಧತೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲಾಗುತ್ತಿದೆ"
 
-#: ../sendto/main.c:717
-msgid "Remote device to use"
-msgstr "ಬಳಸಬೇಕಿರುವ ದೂರಸ್ಥ ಸಾಧನ"
+#~ msgid "Select the additional services you want to use with your device:"
+#~ msgstr "ನೀವು ನಿಮ್ಮ ಸಾಧನದೊಂದಿಗೆ ಬಳಸಬೇಕಿರುವ ಹೆಚ್ಚುವರಿ ಸೇವೆಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ:"
 
-#: ../sendto/main.c:717
-msgid "ADDRESS"
-msgstr "ADDRESS"
+#~ msgid "Setup Summary"
+#~ msgstr "ಸಿದ್ಧತೆಯ ಸಾರಾಂಶ"
 
-#: ../sendto/main.c:719
-msgid "Remote device's name"
-msgstr "ದೂರಸ್ಥ ಸಾಧನದ ಹೆಸರು"
+#~ msgid "PIN Options"
+#~ msgstr "PIN ಆಯ್ಕೆಗಳು"
 
-#: ../sendto/main.c:719
-msgid "NAME"
-msgstr "NAME"
+#~ msgid "_Automatic PIN selection"
+#~ msgstr "ಸ್ವಯಂಚಾಲಿತ PIN ಆಯ್ಕೆ(_A)"
 
-#: ../sendto/main.c:738
-msgid "[FILE...]"
-msgstr "[FILE...]"
+#~ msgid "Fixed PIN"
+#~ msgstr "ನಿಶ್ಚಿತ PIN"
 
-#: ../sendto/nautilus-sendto-plugin.c:168
-msgid "Programming error: could not find the device in the list"
-msgstr "ಪ್ರೊಗ್ರಾಮಿಂಗ್ ದೋಷ: ಪಟ್ಟಿಯಲ್ಲಿ ಸಾಧನವನ್ನು ಪತ್ತೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+#~ msgid "'0000' (most headsets, mice and GPS devices)"
+#~ msgstr "'0000' (ಹೆಚ್ಚಿನ ಎಲ್ಲಾ ಹೆಡ್‌ಸೆಟ್‌ಗಳು, ಮೌಸ್‌ಗಳು ಹಾಗು GPS ಸಾಧನಗಳು)"
 
-#: ../sendto/nautilus-sendto-plugin.c:243
-#, c-format
-msgid "OBEX Push file transfer unsupported"
-msgstr "OBEX ಪುಶ್ ಕಡತ ವರ್ಗಾವಣೆಗೆ ಬೆಂಬಲವಿಲ್ಲ"
+#~ msgid "'1111'"
+#~ msgstr "'1111'"
 
-#: ../sendto/nautilus-sendto-plugin.c:262
-#| msgid "Bluetooth: On"
-msgid "Bluetooth (OBEX Push)"
-msgstr "ಬ್ಲೂಟೂತ್‌ (OBEX ಪುಶ್)"
+#~ msgid "'1234'"
+#~ msgstr "'1234'"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:1
-#| msgid "Bluetooth Manager"
-msgid "Bluetooth Transfer"
-msgstr "ಬ್ಲೂಟೂತ್‌ ವರ್ಗಾವಣೆ"
+#~| msgid "Does not match"
+#~ msgid "Do not pair"
+#~ msgstr "ಜಂಟಿ ಮಾಡಬೇಡ"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:2
-#| msgid "Sending files via Bluetooth"
-msgid "Send files via Bluetooth"
-msgstr "ಬ್ಲೂಟೂತ್ ಮೂಲಕ ಕಡತವನ್ನು ಕಳುಹಿಸಿ"
+#~| msgid "Custom PIN code:"
+#~ msgid "Custom PIN:"
+#~ msgstr "ಅಗತ್ಯಾನುಗುಣ PIN:"
+
+#~ msgid "_Try Again"
+#~ msgstr "ಇನ್ನೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸು (_T)"
+
+#~| msgid "Quit"
+#~ msgid "_Quit"
+#~ msgstr "ನಿರ್ಗಮಿಸು (_Q)"
+
+#~ msgid "_Cancel"
+#~ msgstr "ರದ್ದುಮಾಡು (_C)"
+
+#~ msgid "Does not match"
+#~ msgstr "ತಾಳೆಯಾಗುತ್ತಿಲ್ಲ"
+
+#~ msgid "Matches"
+#~ msgstr "ತಾಳೆಗಳು"
+
+#~| msgid "Bluetooth New Device Setup"
+#~ msgid "Bluetooth Device Setup"
+#~ msgstr "ಬ್ಲೂಟೂತ್‌ ಸಾಧನದ ಸಿದ್ಧತೆ"
+
+#~| msgid "Bluetooth device"
+#~ msgid "Setup Bluetooth devices"
+#~ msgstr "ಬ್ಲೂಟೂತ್‌ ಸಾಧನಗಳ ಸಿದ್ಧತೆ"
+
+#~ msgid "%'d second"
+#~ msgid_plural "%'d seconds"
+#~ msgstr[0] "%'d ಸೆಕೆಂಡು"
+#~ msgstr[1] "%'d ಸೆಕೆಂಡು"
+
+#~ msgid "%'d minute"
+#~ msgid_plural "%'d minutes"
+#~ msgstr[0] "%'d ನಿಮಿಷ"
+#~ msgstr[1] "%'d ನಿಮಿಷ"
+
+#~ msgid "%'d hour"
+#~ msgid_plural "%'d hours"
+#~ msgstr[0] "%'d ಗಂಟೆ"
+#~ msgstr[1] "%'d ಗಂಟೆ"
+
+#~ msgid "approximately %'d hour"
+#~ msgid_plural "approximately %'d hours"
+#~ msgstr[0] "ಅಂದಾಜು %'d ಗಂಟೆ"
+#~ msgstr[1] "ಅಂದಾಜು %'d ಗಂಟೆ"
+
+#~ msgid "File Transfer"
+#~ msgstr "ಕಡತ ವರ್ಗಾವಣೆ"
+
+#~| msgid "_Reject"
+#~ msgid "_Retry"
+#~ msgstr "ಪುನಃ ಪ್ರಯತ್ನಿಸು (_R)"
+
+#~ msgid "Sending files via Bluetooth"
+#~ msgstr "ಬ್ಲೂಟೂತ್ ಮೂಲಕ ಕಳುಹಿಸುವಿಕೆ"
+
+#~ msgid "From:"
+#~ msgstr "ಯಿಂದ:"
+
+#~ msgid "To:"
+#~ msgstr "ಗೆ:"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "ಒಂದು ಗೊತ್ತಿಲ್ಲದ ದೋಷವು ಎದುರಾಗಿದೆ"
+
+#~| msgid ""
+#~| "Make sure that remote device is switched on and that it accepts "
+#~| "Bluetooth connections"
+#~ msgid ""
+#~ "Make sure that the remote device is switched on and that it accepts "
+#~ "Bluetooth connections"
+#~ msgstr ""
+#~ "ದೂರಸ್ಥ ಸಾಧನವು ಚಾಲಿತಗೊಂಡಿದೆ ಮತ್ತು ಅದು ಬ್ಲೂಟೂತ್ ಸಂಪರ್ಕಗಳನ್ನು ಅಂಗೀಕರಿಸುತ್ತದೆ ಎಂದು "
+#~ "ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ"
+
+#~ msgid "Sending %s"
+#~ msgstr "%s ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ"
+
+#~ msgid "Sending file %d of %d"
+#~ msgstr "ಕಡತ %d ಅನ್ನು (%d ನಲ್ಲಿ) ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ"
+
+#~| msgid "%d B/s"
+#~ msgid "%d kB/s"
+#~ msgstr "%d kB/s"
+
+#~ msgid "%d B/s"
+#~ msgstr "%d B/s"
+
+#~| msgid "Select Device to Send To"
+#~ msgid "Select device to send to"
+#~ msgstr "ಕಳುಹಿಸಲು ಸಾಧನವನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#~| msgid "Send _To"
+#~ msgid "_Send"
+#~ msgstr "ಕಳುಹಿಸು (_S)"
+
+#~ msgid "Choose files to send"
+#~ msgstr "ಕಳುಹಿಸಲು ಕಡತಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿ"
+
+#~| msgid "_Reject"
+#~ msgid "Select"
+#~ msgstr "ಆರಿಸು"
+
+#~ msgid "Remote device to use"
+#~ msgstr "ಬಳಸಬೇಕಿರುವ ದೂರಸ್ಥ ಸಾಧನ"
+
+#~ msgid "ADDRESS"
+#~ msgstr "ADDRESS"
+
+#~ msgid "Remote device's name"
+#~ msgstr "ದೂರಸ್ಥ ಸಾಧನದ ಹೆಸರು"
+
+#~ msgid "NAME"
+#~ msgstr "NAME"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[FILE...]"
+
+#~ msgid "Programming error: could not find the device in the list"
+#~ msgstr "ಪ್ರೊಗ್ರಾಮಿಂಗ್ ದೋಷ: ಪಟ್ಟಿಯಲ್ಲಿ ಸಾಧನವನ್ನು ಪತ್ತೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#~ msgid "OBEX Push file transfer unsupported"
+#~ msgstr "OBEX ಪುಶ್ ಕಡತ ವರ್ಗಾವಣೆಗೆ ಬೆಂಬಲವಿಲ್ಲ"
+
+#~| msgid "Bluetooth: On"
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "ಬ್ಲೂಟೂತ್‌ (OBEX ಪುಶ್)"
+
+#~| msgid "Bluetooth Manager"
+#~ msgid "Bluetooth Transfer"
+#~ msgstr "ಬ್ಲೂಟೂತ್‌ ವರ್ಗಾವಣೆ"
+
+#~| msgid "Sending files via Bluetooth"
+#~ msgid "Send files via Bluetooth"
+#~ msgstr "ಬ್ಲೂಟೂತ್ ಮೂಲಕ ಕಡತವನ್ನು ಕಳುಹಿಸಿ"
 
 #~ msgid "Show Only Bluetooth Devices With..."
 #~ msgstr "ಇದರೊಂದಿಗಿನ ಬ್ಲೂಟೂತ್ ಸಾಧನಗಳನ್ನು ಮಾತ್ರವೆ ತೋರಿಸು..."

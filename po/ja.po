@@ -9,8 +9,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-bluetooth master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-bluetooth&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-09-23 15:15+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-20 05:18+0100\n"
 "PO-Revision-Date: 2012-09-24 11:14+0000\n"
 "Last-Translator: Noriko Mizumoto <noriko@fedoraproject.org>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
@@ -20,233 +20,76 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-#: ../lib/bluetooth-chooser-button.c:75
-msgid "Click to select device..."
-msgstr "クリックしてデバイスの選択..."
-
-#: ../lib/bluetooth-chooser.c:135 ../lib/bluetooth-filter-widget.c:82
-#: ../lib/bluetooth-utils.c:90
-msgid "Unknown"
-msgstr "未知"
-
-#: ../lib/bluetooth-chooser.c:176
-msgid "No adapters available"
-msgstr "アダプターが利用できません"
-
-#: ../lib/bluetooth-chooser.c:180 ../lib/bluetooth-chooser.c:804
-msgid "Searching for devices..."
-msgstr "デバイスを検索しています..."
-
-#: ../lib/bluetooth-chooser.c:696 ../lib/bluetooth-chooser.c:985
-msgid "Device"
-msgstr "デバイス"
-
-#: ../lib/bluetooth-chooser.c:732
-msgid "Type"
-msgstr "種類"
-
-#: ../lib/bluetooth-chooser.c:987 ../applet/popup-menu.ui.h:4
-msgid "Devices"
-msgstr "デバイス"
-
-#: ../lib/bluetooth-filter-widget.c:72
-msgid "All categories"
-msgstr "すべてのカテゴリ"
-
-#: ../lib/bluetooth-filter-widget.c:74
-msgid "Paired"
-msgstr "ペアリング済"
-
-#: ../lib/bluetooth-filter-widget.c:76
-msgid "Trusted"
-msgstr "認証済み"
-
-#: ../lib/bluetooth-filter-widget.c:78
-msgid "Not paired or trusted"
-msgstr "未ペアリングあるいは未認証"
-
-#: ../lib/bluetooth-filter-widget.c:80
-msgid "Paired or trusted"
-msgstr "ペアリング済あるいは認証済"
-
-#. This is the title of the filter section of the Bluetooth device chooser.
-#. * It used to say Show Only Bluetooth Devices With...
-#: ../lib/bluetooth-filter-widget.c:231
-msgid "Show:"
-msgstr "表示:"
-
-#. The device category filter
-#: ../lib/bluetooth-filter-widget.c:247
-msgid "Device _category:"
-msgstr "デバイスのカテゴリ(_C)"
-
-#: ../lib/bluetooth-filter-widget.c:258
-msgid "Select the device category to filter"
-msgstr "リストを絞り込むためデバイスのカテゴリを選択してください"
-
-#. The device type filter
-#: ../lib/bluetooth-filter-widget.c:272
-msgid "Device _type:"
-msgstr "デバイスの種類(_T)"
-
-#: ../lib/bluetooth-filter-widget.c:289
-msgid "Select the device type to filter"
-msgstr "リストを絞り込むためデバイスの種類を選択してください"
-
-#: ../lib/bluetooth-filter-widget.c:295
-msgid "Input devices (mice, keyboards, etc.)"
-msgstr "入力デバイス (マウス、キーボード、など)"
-
-#: ../lib/bluetooth-filter-widget.c:299
-msgid "Headphones, headsets and other audio devices"
-msgstr "ヘッドフォン、ヘッドセット、その他のオーディオ・デバイス"
-
-#: ../lib/bluetooth-utils.c:59
-msgid "All types"
-msgstr "すべてのタイプ"
-
-#: ../lib/bluetooth-utils.c:61
-msgid "Phone"
-msgstr "電話"
-
-#: ../lib/bluetooth-utils.c:63
-msgid "Modem"
-msgstr "モデム"
-
-#: ../lib/bluetooth-utils.c:65
-msgid "Computer"
-msgstr "コンピューター"
-
-#: ../lib/bluetooth-utils.c:67
-msgid "Network"
-msgstr "ネットワーク"
-
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
-#: ../lib/bluetooth-utils.c:70
-msgid "Headset"
-msgstr "ヘッドセット"
-
-#: ../lib/bluetooth-utils.c:72
-msgid "Headphones"
-msgstr "ヘッドフォン"
-
-#: ../lib/bluetooth-utils.c:74
-msgid "Audio device"
-msgstr "オーディオデバイス"
-
-#: ../lib/bluetooth-utils.c:76
-msgid "Keyboard"
-msgstr "キーボード"
-
-#: ../lib/bluetooth-utils.c:78
-msgid "Mouse"
-msgstr "マウス"
-
-#: ../lib/bluetooth-utils.c:80
-msgid "Camera"
-msgstr "カメラ"
-
-#: ../lib/bluetooth-utils.c:82
-msgid "Printer"
-msgstr "プリンター"
-
-#: ../lib/bluetooth-utils.c:84
-msgid "Joypad"
-msgstr "ジョイパッド"
-
-#: ../lib/bluetooth-utils.c:86
-msgid "Tablet"
-msgstr "タブレット"
-
-#: ../lib/bluetooth-utils.c:88
-msgid "Video device"
-msgstr "ビデオデバイス"
-
-#: ../lib/plugins/geoclue.c:178
-msgid "Use this GPS device for Geolocation services"
-msgstr "このGPSデバイスをGeolocationサービスに使用する"
-
-#. translators:
-#. * This is in a test plugin, please make sure you add the "(test)" part,
-#. * or leave untranslated
-#: ../lib/plugins/test.c:53
-msgid "Access the Internet using your cell phone (test)"
-msgstr "携帯電話を使ってインターネットにアクセス(テスト)"
-
-#: ../applet/main.c:230
+#: ../applet/main.c:203
 msgid "Turn on Bluetooth"
 msgstr "Bluetooth をオンにする"
 
-#: ../applet/main.c:231 ../applet/notify.c:159
+#: ../applet/main.c:204 ../applet/notify.c:159
 msgid "Bluetooth: Off"
 msgstr "Bluetooth: 切"
 
-#: ../applet/main.c:234
+#: ../applet/main.c:207
 msgid "Turn off Bluetooth"
 msgstr "Bluetooth を切る"
 
-#: ../applet/main.c:235 ../applet/notify.c:159
+#: ../applet/main.c:208 ../applet/notify.c:159
 msgid "Bluetooth: On"
 msgstr "Bluetooth: 入"
 
-#: ../applet/main.c:240
+#: ../applet/main.c:213
 msgid "Bluetooth: Disabled"
 msgstr "Bluetooth: 無効"
 
-#: ../applet/main.c:387
+#: ../applet/main.c:360
 msgid "Disconnecting..."
 msgstr "切断中..."
 
-#: ../applet/main.c:390 ../sendto/main.c:192 ../sendto/main.c:292
+#: ../applet/main.c:363
 msgid "Connecting..."
 msgstr "接続中..."
 
-#: ../applet/main.c:393 ../applet/main.c:676
+#: ../applet/main.c:366 ../applet/main.c:649
 msgid "Connected"
 msgstr "接続しました"
 
-#: ../applet/main.c:396 ../applet/main.c:676
+#: ../applet/main.c:369 ../applet/main.c:649
 msgid "Disconnected"
 msgstr "切断しました"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Disconnect"
 msgstr "切断する"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Connect"
 msgstr "接続する"
 
-#: ../applet/main.c:707
+#: ../applet/main.c:680
 msgid "Send files..."
 msgstr "ファイルの送信..."
 
-#: ../applet/main.c:717
-msgid "Browse files..."
-msgstr "ファイルの閲覧..."
-
-#: ../applet/main.c:728
+#: ../applet/main.c:693
 msgid "Keyboard Settings"
 msgstr "キーボードの設定"
 
-#: ../applet/main.c:736
+#: ../applet/main.c:701
 msgid "Mouse and Touchpad Settings"
 msgstr "マウスやタッチパッドの設定"
 
-#: ../applet/main.c:746
+#: ../applet/main.c:711
 msgid "Sound Settings"
 msgstr "音の設定"
 
-#: ../applet/main.c:799
+#: ../applet/main.c:764
 msgid "Debug"
 msgstr "デバッグ"
 
 #. Parse command-line options
-#: ../applet/main.c:818
+#: ../applet/main.c:783
 msgid "- Bluetooth applet"
 msgstr "- Bluetooth アプレット"
 
-#: ../applet/main.c:823
+#: ../applet/main.c:788
 #, c-format
 msgid ""
 "%s\n"
@@ -255,7 +98,7 @@ msgstr ""
 "%s\n"
 "%s --help で利用可能なコマンドラインのオプションの全部を一覧できます。\n"
 
-#: ../applet/main.c:849
+#: ../applet/main.c:814
 msgid "Bluetooth Applet"
 msgstr "Bluetooth アプレット"
 
@@ -344,6 +187,10 @@ msgstr "可視状態"
 msgid "Send files to device..."
 msgstr "ファイルをデバイスへ送信..."
 
+#: ../applet/popup-menu.ui.h:4
+msgid "Devices"
+msgstr "デバイス"
+
 #: ../applet/popup-menu.ui.h:5
 msgid "Set up new device..."
 msgstr "新しいデバイスを設定..."
@@ -380,296 +227,314 @@ msgstr "一致(_M)"
 msgid "_Show input"
 msgstr "入力中の文字を表示(_S)"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
-#: ../wizard/main.c:241 ../wizard/main.c:364
-#, c-format
-msgid "Pairing with '%s' cancelled"
-msgstr "'%s' とのペアリングがキャンセルされました"
+#~ msgid "Click to select device..."
+#~ msgstr "クリックしてデバイスの選択..."
 
-#: ../wizard/main.c:282
-#, c-format
-msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr "'%s' に表示されているPINがこれと一致するかどうか確認してください。"
+#~ msgid "Unknown"
+#~ msgstr "未知"
 
-#: ../wizard/main.c:336
-msgid "Please enter the following PIN:"
-msgstr "以下のPINを入力してください:"
+#~ msgid "No adapters available"
+#~ msgstr "アダプターが利用できません"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Setting up 'Sony Bluetooth Headset' failed
-#.
-#: ../wizard/main.c:424
-#, c-format
-msgid "Setting up '%s' failed"
-msgstr "'%s' の設定に失敗しました"
+#~ msgid "Searching for devices..."
+#~ msgstr "デバイスを検索しています..."
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Connecting to 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:478
-#, c-format
-msgid "Connecting to '%s'..."
-msgstr "'%s' に接続しています..."
+#~ msgid "Device"
+#~ msgstr "デバイス"
 
-#: ../wizard/main.c:518
-#, c-format
-msgid "Please enter the following PIN on '%s':"
-msgstr "以下のPINを'%s'に入力してください:"
+#~ msgid "Type"
+#~ msgstr "種類"
 
-#: ../wizard/main.c:521
-#, c-format
-msgid "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr "以下のPINを'%s'に入力し、キーボードで \"Enter\" を押してください:"
+#~ msgid "All categories"
+#~ msgstr "すべてのカテゴリ"
 
-#: ../wizard/main.c:526
-msgid "Please move the joystick of your iCade in the following directions:"
-msgstr "以下の方向で iCade のジョイスティックを移動してください。"
+#~ msgid "Paired"
+#~ msgstr "ペアリング済"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:558
-#, c-format
-msgid "Please wait while finishing setup on device '%s'..."
-msgstr "デバイス '%s' のセットアップが完了するまでお待ちください..."
+#~ msgid "Trusted"
+#~ msgstr "認証済み"
 
-#: ../wizard/main.c:576
-#, c-format
-msgid "Successfully set up new device '%s'"
-msgstr "新しいデバイス '%s' の設定が成功"
+#~ msgid "Not paired or trusted"
+#~ msgstr "未ペアリングあるいは未認証"
 
-#: ../wizard/wizard.ui.h:1
-msgid "Bluetooth New Device Setup"
-msgstr "Bluetooth 新規デバイスのセットアップ"
+#~ msgid "Paired or trusted"
+#~ msgstr "ペアリング済あるいは認証済"
 
-#: ../wizard/wizard.ui.h:2
-msgid "PIN _options..."
-msgstr "PIN オプション(_O)..."
+#~ msgid "Show:"
+#~ msgstr "表示:"
 
-#: ../wizard/wizard.ui.h:3
-msgid "Device Search"
-msgstr "デバイスの検索"
+#~ msgid "Device _category:"
+#~ msgstr "デバイスのカテゴリ(_C)"
 
-#: ../wizard/wizard.ui.h:4
-msgid "Device Setup"
-msgstr "デバイスのセットアップ"
+#~ msgid "Select the device category to filter"
+#~ msgstr "リストを絞り込むためデバイスのカテゴリを選択してください"
 
-#: ../wizard/wizard.ui.h:5
-msgid "Finishing Setup"
-msgstr "セットアップの終了中"
+#~ msgid "Device _type:"
+#~ msgstr "デバイスの種類(_T)"
 
-#: ../wizard/wizard.ui.h:6
-msgid "Select the additional services you want to use with your device:"
-msgstr "デバイスで追加で使用したいサービスを選択してください:"
+#~ msgid "Select the device type to filter"
+#~ msgstr "リストを絞り込むためデバイスの種類を選択してください"
 
-#: ../wizard/wizard.ui.h:7
-msgid "Setup Summary"
-msgstr "セットアップの結果"
+#~ msgid "Input devices (mice, keyboards, etc.)"
+#~ msgstr "入力デバイス (マウス、キーボード、など)"
 
-#: ../wizard/wizard.ui.h:8
-msgid "PIN Options"
-msgstr "PIN オプション"
+#~ msgid "Headphones, headsets and other audio devices"
+#~ msgstr "ヘッドフォン、ヘッドセット、その他のオーディオ・デバイス"
 
-#: ../wizard/wizard.ui.h:9
-msgid "_Automatic PIN selection"
-msgstr "自動で PIN を選択(_A)"
+#~ msgid "All types"
+#~ msgstr "すべてのタイプ"
 
-#. Translators: this is a PIN with a set value, such as 1111, or 0000
-#: ../wizard/wizard.ui.h:11
-msgid "Fixed PIN"
-msgstr "固定 PIN"
+#~ msgid "Phone"
+#~ msgstr "電話"
 
-#: ../wizard/wizard.ui.h:12
-msgid "'0000' (most headsets, mice and GPS devices)"
-msgstr "'0000' (ほとんどのヘッドセット、マウス、GPS デバイス)"
+#~ msgid "Modem"
+#~ msgstr "モデム"
 
-#: ../wizard/wizard.ui.h:13
-msgid "'1111'"
-msgstr "'1111'"
+#~ msgid "Computer"
+#~ msgstr "コンピューター"
 
-#: ../wizard/wizard.ui.h:14
-msgid "'1234'"
-msgstr "'1234'"
+#~ msgid "Network"
+#~ msgstr "ネットワーク"
 
-#: ../wizard/wizard.ui.h:15
-msgid "Do not pair"
-msgstr "ペアリングしない"
+#~ msgid "Headset"
+#~ msgstr "ヘッドセット"
 
-#: ../wizard/wizard.ui.h:16
-msgid "Custom PIN:"
-msgstr "PIN の手動設定:"
+#~ msgid "Headphones"
+#~ msgstr "ヘッドフォン"
 
-#: ../wizard/wizard.ui.h:17
-msgid "_Try Again"
-msgstr "やり直す(_T)"
+#~ msgid "Audio device"
+#~ msgstr "オーディオデバイス"
 
-#: ../wizard/wizard.ui.h:18
-msgid "_Quit"
-msgstr "終了(_Q)"
+#~ msgid "Keyboard"
+#~ msgstr "キーボード"
 
-#: ../wizard/wizard.ui.h:19
-msgid "_Cancel"
-msgstr "中止(_C)"
+#~ msgid "Mouse"
+#~ msgstr "マウス"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:21
-msgid "Does not match"
-msgstr "一致しない"
+#~ msgid "Camera"
+#~ msgstr "カメラ"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:23
-msgid "Matches"
-msgstr "一致"
+#~ msgid "Printer"
+#~ msgstr "プリンター"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:1
-msgid "Bluetooth Device Setup"
-msgstr "Bluetooth デバイスのセットアップ"
+#~ msgid "Joypad"
+#~ msgstr "ジョイパッド"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:2
-msgid "Setup Bluetooth devices"
-msgstr "Bluetooth デバイスをセットアップ"
+#~ msgid "Tablet"
+#~ msgstr "タブレット"
 
-#: ../sendto/main.c:151
-#, c-format
-msgid "%'d second"
-msgid_plural "%'d seconds"
-msgstr[0] "%'d 秒"
+#~ msgid "Video device"
+#~ msgstr "ビデオデバイス"
 
-#: ../sendto/main.c:156 ../sendto/main.c:169
-#, c-format
-msgid "%'d minute"
-msgid_plural "%'d minutes"
-msgstr[0] "%'d 分"
+#~ msgid "Use this GPS device for Geolocation services"
+#~ msgstr "このGPSデバイスをGeolocationサービスに使用する"
 
-#: ../sendto/main.c:167
-#, c-format
-msgid "%'d hour"
-msgid_plural "%'d hours"
-msgstr[0] "%'d 時間"
+#~ msgid "Access the Internet using your cell phone (test)"
+#~ msgstr "携帯電話を使ってインターネットにアクセス(テスト)"
 
-#: ../sendto/main.c:177
-#, c-format
-msgid "approximately %'d hour"
-msgid_plural "approximately %'d hours"
-msgstr[0] "約 %'d 時間"
+#~ msgid "Browse files..."
+#~ msgstr "ファイルの閲覧..."
 
-#: ../sendto/main.c:231
-msgid "File Transfer"
-msgstr "ファイル転送"
+#~ msgid "Pairing with '%s' cancelled"
+#~ msgstr "'%s' とのペアリングがキャンセルされました"
 
-#: ../sendto/main.c:234
-msgid "_Retry"
-msgstr "再試行(_R)"
+#~ msgid "Please confirm that the PIN displayed on '%s' matches this one."
+#~ msgstr "'%s' に表示されているPINがこれと一致するかどうか確認してください。"
 
-#. translators: This is the heading for the progress dialogue
-#: ../sendto/main.c:253
-msgid "Sending files via Bluetooth"
-msgstr "ファイルをBluetoothで送信"
+#~ msgid "Please enter the following PIN:"
+#~ msgstr "以下のPINを入力してください:"
 
-#: ../sendto/main.c:265
-msgid "From:"
-msgstr "送信元:"
+#~ msgid "Setting up '%s' failed"
+#~ msgstr "'%s' の設定に失敗しました"
 
-#: ../sendto/main.c:277
-msgid "To:"
-msgstr "送信先:"
+#~ msgid "Connecting to '%s'..."
+#~ msgstr "'%s' に接続しています..."
 
-#: ../sendto/main.c:321 ../sendto/main.c:339
-msgid "An unknown error occurred"
-msgstr "不明なエラーが発生しました"
+#~ msgid "Please enter the following PIN on '%s':"
+#~ msgstr "以下のPINを'%s'に入力してください:"
 
-#: ../sendto/main.c:332
-msgid "Make sure that the remote device is switched on and that it accepts Bluetooth connections"
-msgstr "リモート・デバイスのスイッチが入っていて Bluetooth の接続を受け付ける状態にあることを確認してください"
+#~ msgid ""
+#~ "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+#~ msgstr "以下のPINを'%s'に入力し、キーボードで \"Enter\" を押してください:"
 
-#: ../sendto/main.c:430
-#, c-format
-msgid "Sending %s"
-msgstr "%s を送信中"
+#~ msgid "Please move the joystick of your iCade in the following directions:"
+#~ msgstr "以下の方向で iCade のジョイスティックを移動してください。"
 
-#: ../sendto/main.c:437 ../sendto/main.c:508
-#, c-format
-msgid "Sending file %d of %d"
-msgstr "ファイル送信 %2$d 中 %1$d"
+#~ msgid "Please wait while finishing setup on device '%s'..."
+#~ msgstr "デバイス '%s' のセットアップが完了するまでお待ちください..."
 
-#: ../sendto/main.c:504
-#, c-format
-msgid "%d kB/s"
-msgstr "%d kB/秒"
+#~ msgid "Successfully set up new device '%s'"
+#~ msgstr "新しいデバイス '%s' の設定が成功"
 
-#: ../sendto/main.c:506
-#, c-format
-msgid "%d B/s"
-msgstr "%d B/秒"
+#~ msgid "Bluetooth New Device Setup"
+#~ msgstr "Bluetooth 新規デバイスのセットアップ"
 
-#: ../sendto/main.c:639
-msgid "Select device to send to"
-msgstr "送信先のデバイスを選択してください"
+#~ msgid "PIN _options..."
+#~ msgstr "PIN オプション(_O)..."
 
-#: ../sendto/main.c:644
-msgid "_Send"
-msgstr "送信(_S)"
+#~ msgid "Device Search"
+#~ msgstr "デバイスの検索"
 
-#: ../sendto/main.c:688
-msgid "Choose files to send"
-msgstr "送信するファイルを選択"
+#~ msgid "Device Setup"
+#~ msgstr "デバイスのセットアップ"
 
-#: ../sendto/main.c:691
-msgid "Select"
-msgstr "選択"
+#~ msgid "Finishing Setup"
+#~ msgstr "セットアップの終了中"
 
-#: ../sendto/main.c:717
-msgid "Remote device to use"
-msgstr "使用するリモート・デバイス"
+#~ msgid "Select the additional services you want to use with your device:"
+#~ msgstr "デバイスで追加で使用したいサービスを選択してください:"
 
-#: ../sendto/main.c:717
-msgid "ADDRESS"
-msgstr "アドレス"
+#~ msgid "Setup Summary"
+#~ msgstr "セットアップの結果"
 
-#: ../sendto/main.c:719
-msgid "Remote device's name"
-msgstr "リモート・デバイスの名前"
+#~ msgid "PIN Options"
+#~ msgstr "PIN オプション"
 
-#: ../sendto/main.c:719
-msgid "NAME"
-msgstr "名前"
+#~ msgid "_Automatic PIN selection"
+#~ msgstr "自動で PIN を選択(_A)"
 
-#: ../sendto/main.c:738
-msgid "[FILE...]"
-msgstr "[ファイル...]"
+#~ msgid "Fixed PIN"
+#~ msgstr "固定 PIN"
 
-#: ../sendto/nautilus-sendto-plugin.c:168
-msgid "Programming error: could not find the device in the list"
-msgstr "プログラムのエラー。リスト中のデバイスを見つけられませんでした"
+#~ msgid "'0000' (most headsets, mice and GPS devices)"
+#~ msgstr "'0000' (ほとんどのヘッドセット、マウス、GPS デバイス)"
 
-#: ../sendto/nautilus-sendto-plugin.c:243
-#, c-format
-msgid "OBEX Push file transfer unsupported"
-msgstr "Obex Push ファイル転送はサポートされていません"
+#~ msgid "'1111'"
+#~ msgstr "'1111'"
 
-#: ../sendto/nautilus-sendto-plugin.c:262
-msgid "Bluetooth (OBEX Push)"
-msgstr "Bluetooth (OBEX Push)"
+#~ msgid "'1234'"
+#~ msgstr "'1234'"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:1
-msgid "Bluetooth Transfer"
-msgstr "Bluetooth 転送"
+#~ msgid "Do not pair"
+#~ msgstr "ペアリングしない"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:2
-msgid "Send files via Bluetooth"
-msgstr "ファイルを Bluetooth で送信"
+#~ msgid "Custom PIN:"
+#~ msgstr "PIN の手動設定:"
+
+#~ msgid "_Try Again"
+#~ msgstr "やり直す(_T)"
+
+#~ msgid "_Quit"
+#~ msgstr "終了(_Q)"
+
+#~ msgid "_Cancel"
+#~ msgstr "中止(_C)"
+
+#~ msgid "Does not match"
+#~ msgstr "一致しない"
+
+#~ msgid "Matches"
+#~ msgstr "一致"
+
+#~ msgid "Bluetooth Device Setup"
+#~ msgstr "Bluetooth デバイスのセットアップ"
+
+#~ msgid "Setup Bluetooth devices"
+#~ msgstr "Bluetooth デバイスをセットアップ"
+
+#~ msgid "%'d second"
+#~ msgid_plural "%'d seconds"
+#~ msgstr[0] "%'d 秒"
+
+#~ msgid "%'d minute"
+#~ msgid_plural "%'d minutes"
+#~ msgstr[0] "%'d 分"
+
+#~ msgid "%'d hour"
+#~ msgid_plural "%'d hours"
+#~ msgstr[0] "%'d 時間"
+
+#~ msgid "approximately %'d hour"
+#~ msgid_plural "approximately %'d hours"
+#~ msgstr[0] "約 %'d 時間"
+
+#~ msgid "File Transfer"
+#~ msgstr "ファイル転送"
+
+#~ msgid "_Retry"
+#~ msgstr "再試行(_R)"
+
+#~ msgid "Sending files via Bluetooth"
+#~ msgstr "ファイルをBluetoothで送信"
+
+#~ msgid "From:"
+#~ msgstr "送信元:"
+
+#~ msgid "To:"
+#~ msgstr "送信先:"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "不明なエラーが発生しました"
+
+#~ msgid ""
+#~ "Make sure that the remote device is switched on and that it accepts "
+#~ "Bluetooth connections"
+#~ msgstr ""
+#~ "リモート・デバイスのスイッチが入っていて Bluetooth の接続を受け付ける状態"
+#~ "にあることを確認してください"
+
+#~ msgid "Sending %s"
+#~ msgstr "%s を送信中"
+
+#~ msgid "Sending file %d of %d"
+#~ msgstr "ファイル送信 %2$d 中 %1$d"
+
+#~ msgid "%d kB/s"
+#~ msgstr "%d kB/秒"
+
+#~ msgid "%d B/s"
+#~ msgstr "%d B/秒"
+
+#~ msgid "Select device to send to"
+#~ msgstr "送信先のデバイスを選択してください"
+
+#~ msgid "_Send"
+#~ msgstr "送信(_S)"
+
+#~ msgid "Choose files to send"
+#~ msgstr "送信するファイルを選択"
+
+#~ msgid "Select"
+#~ msgstr "選択"
+
+#~ msgid "Remote device to use"
+#~ msgstr "使用するリモート・デバイス"
+
+#~ msgid "ADDRESS"
+#~ msgstr "アドレス"
+
+#~ msgid "Remote device's name"
+#~ msgstr "リモート・デバイスの名前"
+
+#~ msgid "NAME"
+#~ msgstr "名前"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[ファイル...]"
+
+#~ msgid "Programming error: could not find the device in the list"
+#~ msgstr "プログラムのエラー。リスト中のデバイスを見つけられませんでした"
+
+#~ msgid "OBEX Push file transfer unsupported"
+#~ msgstr "Obex Push ファイル転送はサポートされていません"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "Bluetooth (OBEX Push)"
+
+#~ msgid "Bluetooth Transfer"
+#~ msgstr "Bluetooth 転送"
+
+#~ msgid "Send files via Bluetooth"
+#~ msgstr "ファイルを Bluetooth で送信"
 
 #~ msgid "Remove '%s' from the list of devices?"
 #~ msgstr "'%s' をデバイスのリストから削除しますか?"
 
-#~ msgid "If you remove the device, you will have to set it up again before next use."
-#~ msgstr "デバイスを削除すると、次回使用時にデバイスを再設定しなければなりません。"
+#~ msgid ""
+#~ "If you remove the device, you will have to set it up again before next "
+#~ "use."
+#~ msgstr ""
+#~ "デバイスを削除すると、次回使用時にデバイスを再設定しなければなりません。"
 
 #~ msgid "Show Only Bluetooth Devices With..."
 #~ msgstr "以下のBluetoothデバイスのみを表示..."
@@ -747,11 +612,21 @@ msgstr "ファイルを Bluetooth で送信"
 #~ msgid "Setup Completed"
 #~ msgstr "設定完了"
 
-#~ msgid "The Bluetooth new device setup will walk you through the process of configuring Bluetooth enabled devices for use with this computer."
-#~ msgstr "「Bluetooth 新規デバイス設定」では、このコンピューターで Bluetooth 経由で使うことのできるデバイスの設定していきます。"
+#~ msgid ""
+#~ "The Bluetooth new device setup will walk you through the process of "
+#~ "configuring Bluetooth enabled devices for use with this computer."
+#~ msgstr ""
+#~ "「Bluetooth 新規デバイス設定」では、このコンピューターで Bluetooth 経由で"
+#~ "使うことのできるデバイスの設定していきます。"
 
-#~ msgid "The device will need to be within 10 meters of your computer, and be “visible” (sometimes called “discoverable”). Check the device's manual if in doubt."
-#~ msgstr "デバイスはコンピューターから10メートル以内に存在し、加えて “可視状態”  (“検出可能”、とも呼ばれます) になっていないといけません。不明な場合は、デバイスのマニュアルをチェックしてください。"
+#~ msgid ""
+#~ "The device will need to be within 10 meters of your computer, and be "
+#~ "“visible” (sometimes called “discoverable”). Check the device's manual if "
+#~ "in doubt."
+#~ msgstr ""
+#~ "デバイスはコンピューターから10メートル以内に存在し、加えて “可視状"
+#~ "態”  (“検出可能”、とも呼ばれます) になっていないといけません。不明な場合"
+#~ "は、デバイスのマニュアルをチェックしてください。"
 
 #~ msgid "Welcome to the Bluetooth new device setup"
 #~ msgstr "Bluetooth 新規デバイス設定へようこそ"

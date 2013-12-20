@@ -8,12 +8,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-bluetooth.master.ru\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"bluetooth&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-06-27 21:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-20 05:18+0100\n"
 "PO-Revision-Date: 2012-09-17 16:53+0400\n"
 "Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
 "Language-Team: русский <gnome-cyr@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,233 +22,76 @@ msgstr ""
 "X-Launchpad-Export-Date: 2009-04-14 23:23+0000\n"
 "X-Generator: KBabel 1.11.4\n"
 
-#: ../lib/bluetooth-chooser-button.c:75
-msgid "Click to select device..."
-msgstr "Нажмите, чтобы выбрать устройство…"
-
-#: ../lib/bluetooth-chooser.c:135 ../lib/bluetooth-filter-widget.c:82
-#: ../lib/bluetooth-utils.c:90
-msgid "Unknown"
-msgstr "Неизвестный"
-
-#: ../lib/bluetooth-chooser.c:176
-msgid "No adapters available"
-msgstr "Нет доступных адаптеров"
-
-#: ../lib/bluetooth-chooser.c:180 ../lib/bluetooth-chooser.c:804
-msgid "Searching for devices..."
-msgstr "Поиск устройств…"
-
-#: ../lib/bluetooth-chooser.c:696 ../lib/bluetooth-chooser.c:985
-msgid "Device"
-msgstr "Устройство"
-
-#: ../lib/bluetooth-chooser.c:732
-msgid "Type"
-msgstr "Тип"
-
-#: ../lib/bluetooth-chooser.c:987 ../applet/popup-menu.ui.h:4
-msgid "Devices"
-msgstr "Устройства"
-
-#: ../lib/bluetooth-filter-widget.c:72
-msgid "All categories"
-msgstr "Все категории"
-
-#: ../lib/bluetooth-filter-widget.c:74
-msgid "Paired"
-msgstr "Сопряжённые"
-
-#: ../lib/bluetooth-filter-widget.c:76
-msgid "Trusted"
-msgstr "Доверенные"
-
-#: ../lib/bluetooth-filter-widget.c:78
-msgid "Not paired or trusted"
-msgstr "Не сопряжённые или доверенные"
-
-#: ../lib/bluetooth-filter-widget.c:80
-msgid "Paired or trusted"
-msgstr "Сопряжённые или доверенные"
-
-#. This is the title of the filter section of the Bluetooth device chooser.
-#. * It used to say Show Only Bluetooth Devices With...
-#: ../lib/bluetooth-filter-widget.c:231
-msgid "Show:"
-msgstr "Показывать:"
-
-#. The device category filter
-#: ../lib/bluetooth-filter-widget.c:247
-msgid "Device _category:"
-msgstr "_Категория устройства:"
-
-#: ../lib/bluetooth-filter-widget.c:258
-msgid "Select the device category to filter"
-msgstr "Выберите категорию устройства для фильтрации"
-
-#. The device type filter
-#: ../lib/bluetooth-filter-widget.c:272
-msgid "Device _type:"
-msgstr "_Тип устройства:"
-
-#: ../lib/bluetooth-filter-widget.c:289
-msgid "Select the device type to filter"
-msgstr "Выберите тип устройства для фильтрации"
-
-#: ../lib/bluetooth-filter-widget.c:295
-msgid "Input devices (mice, keyboards, etc.)"
-msgstr "Устройства ввода (мыши, клавиатуры и т.д.)"
-
-#: ../lib/bluetooth-filter-widget.c:299
-msgid "Headphones, headsets and other audio devices"
-msgstr "Наушники, гарнитуры и другие звуковые устройства"
-
-#: ../lib/bluetooth-utils.c:59
-msgid "All types"
-msgstr "Все типы"
-
-#: ../lib/bluetooth-utils.c:61
-msgid "Phone"
-msgstr "Телефон"
-
-#: ../lib/bluetooth-utils.c:63
-msgid "Modem"
-msgstr "Модем"
-
-#: ../lib/bluetooth-utils.c:65
-msgid "Computer"
-msgstr "Компьютер"
-
-#: ../lib/bluetooth-utils.c:67
-msgid "Network"
-msgstr "Сеть"
-
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
-#: ../lib/bluetooth-utils.c:70
-msgid "Headset"
-msgstr "Гарнитура"
-
-#: ../lib/bluetooth-utils.c:72
-msgid "Headphones"
-msgstr "Наушники"
-
-#: ../lib/bluetooth-utils.c:74
-msgid "Audio device"
-msgstr "Звуковое устройство"
-
-#: ../lib/bluetooth-utils.c:76
-msgid "Keyboard"
-msgstr "Клавиатура"
-
-#: ../lib/bluetooth-utils.c:78
-msgid "Mouse"
-msgstr "Мышь"
-
-#: ../lib/bluetooth-utils.c:80
-msgid "Camera"
-msgstr "Камера"
-
-#: ../lib/bluetooth-utils.c:82
-msgid "Printer"
-msgstr "Принтер"
-
-#: ../lib/bluetooth-utils.c:84
-msgid "Joypad"
-msgstr "Геймпад"
-
-#: ../lib/bluetooth-utils.c:86
-msgid "Tablet"
-msgstr "Планшет"
-
-#: ../lib/bluetooth-utils.c:88
-msgid "Video device"
-msgstr "Видеоустройство"
-
-#: ../lib/plugins/geoclue.c:178
-msgid "Use this GPS device for Geolocation services"
-msgstr "Использовать это устройство GPS для службы Geolocation"
-
-#. translators:
-#. * This is in a test plugin, please make sure you add the "(test)" part,
-#. * or leave untranslated
-#: ../lib/plugins/test.c:53
-msgid "Access the Internet using your cell phone (test)"
-msgstr "Доступ к интернету при помощи вашего сотового телефона (тест)"
-
-#: ../applet/main.c:230
+#: ../applet/main.c:203
 msgid "Turn on Bluetooth"
 msgstr "Включить Bluetooth"
 
-#: ../applet/main.c:231 ../applet/notify.c:159
+#: ../applet/main.c:204 ../applet/notify.c:159
 msgid "Bluetooth: Off"
 msgstr "Bluetooth: выключен"
 
-#: ../applet/main.c:234
+#: ../applet/main.c:207
 msgid "Turn off Bluetooth"
 msgstr "Выключить Bluetooth"
 
-#: ../applet/main.c:235 ../applet/notify.c:159
+#: ../applet/main.c:208 ../applet/notify.c:159
 msgid "Bluetooth: On"
 msgstr "Bluetooth: включён"
 
-#: ../applet/main.c:240
+#: ../applet/main.c:213
 msgid "Bluetooth: Disabled"
 msgstr "Bluetooth: отключён"
 
-#: ../applet/main.c:387
+#: ../applet/main.c:360
 msgid "Disconnecting..."
 msgstr "Отключение…"
 
-#: ../applet/main.c:390 ../sendto/main.c:192 ../sendto/main.c:292
+#: ../applet/main.c:363
 msgid "Connecting..."
 msgstr "Подключение…"
 
-#: ../applet/main.c:393 ../applet/main.c:676
+#: ../applet/main.c:366 ../applet/main.c:649
 msgid "Connected"
 msgstr "Подключен"
 
-#: ../applet/main.c:396 ../applet/main.c:676
+#: ../applet/main.c:369 ../applet/main.c:649
 msgid "Disconnected"
 msgstr "Отключено"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Disconnect"
 msgstr "Отключить"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Connect"
 msgstr "Подключить"
 
-#: ../applet/main.c:707
+#: ../applet/main.c:680
 msgid "Send files..."
 msgstr "Отправить файлы…"
 
-#: ../applet/main.c:717
-msgid "Browse files..."
-msgstr "Просмотреть файлы…"
-
-#: ../applet/main.c:728
+#: ../applet/main.c:693
 msgid "Keyboard Settings"
 msgstr "Настройки клавиатуры"
 
-#: ../applet/main.c:736
+#: ../applet/main.c:701
 msgid "Mouse and Touchpad Settings"
 msgstr "Настройки мыши и сенсорной панели"
 
-#: ../applet/main.c:746
+#: ../applet/main.c:711
 msgid "Sound Settings"
 msgstr "Параметры звука"
 
-#: ../applet/main.c:799
+#: ../applet/main.c:764
 msgid "Debug"
 msgstr "Отладка"
 
 #. Parse command-line options
-#: ../applet/main.c:818
+#: ../applet/main.c:783
 msgid "- Bluetooth applet"
 msgstr "— апплет Bluetooth"
 
-#: ../applet/main.c:823
+#: ../applet/main.c:788
 #, c-format
 msgid ""
 "%s\n"
@@ -258,7 +101,7 @@ msgstr ""
 "Выполните '%s --help', чтобы увидеть все доступные параметры командной "
 "строки.\n"
 
-#: ../applet/main.c:849
+#: ../applet/main.c:814
 msgid "Bluetooth Applet"
 msgstr "Апплет Bluetooth"
 
@@ -347,6 +190,10 @@ msgstr "Видимое"
 msgid "Send files to device..."
 msgstr "Отправить файлы на устройство…"
 
+#: ../applet/popup-menu.ui.h:4
+msgid "Devices"
+msgstr "Устройства"
+
 #: ../applet/popup-menu.ui.h:5
 msgid "Set up new device..."
 msgstr "Настроить новое устройство…"
@@ -383,305 +230,318 @@ msgstr "_Соответствует"
 msgid "_Show input"
 msgstr "Показать _ввод"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
-#: ../wizard/main.c:241 ../wizard/main.c:364
-#, c-format
-msgid "Pairing with '%s' cancelled"
-msgstr "Сопряжение с «%s» отменено"
+#~ msgid "Click to select device..."
+#~ msgstr "Нажмите, чтобы выбрать устройство…"
 
-#: ../wizard/main.c:282
-#, c-format
-msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr "Подтвердите, что PIN-код, отображаемый на «%s», соответствует этому."
+#~ msgid "Unknown"
+#~ msgstr "Неизвестный"
 
-#: ../wizard/main.c:336
-msgid "Please enter the following PIN:"
-msgstr "Введите следующий PIN:"
+#~ msgid "No adapters available"
+#~ msgstr "Нет доступных адаптеров"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Setting up 'Sony Bluetooth Headset' failed
-#.
-#: ../wizard/main.c:424
-#, c-format
-msgid "Setting up '%s' failed"
-msgstr "Сбой сопряжения с «%s»"
+#~ msgid "Searching for devices..."
+#~ msgstr "Поиск устройств…"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Connecting to 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:478
-#, c-format
-msgid "Connecting to '%s'..."
-msgstr "Подключение к «%s»…"
+#~ msgid "Device"
+#~ msgstr "Устройство"
 
-#: ../wizard/main.c:518
-#, c-format
-msgid "Please enter the following PIN on '%s':"
-msgstr "Введите следующий код доступа для «%s»:"
+#~ msgid "Type"
+#~ msgstr "Тип"
 
-#: ../wizard/main.c:521
-#, c-format
-msgid ""
-"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr ""
-"Введите следующий код доступа для «%s» и нажмите «Enter» на клавиатуре:"
+#~ msgid "All categories"
+#~ msgstr "Все категории"
 
-#: ../wizard/main.c:526
-msgid "Please move the joystick of your iCade in the following directions:"
-msgstr "Переместите джойстик iCade в следующих направлениях:"
+#~ msgid "Paired"
+#~ msgstr "Сопряжённые"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:558
-#, c-format
-msgid "Please wait while finishing setup on device '%s'..."
-msgstr "Подождите, пока устанавливается новое устройство «%s»…"
+#~ msgid "Trusted"
+#~ msgstr "Доверенные"
 
-#: ../wizard/main.c:576
-#, c-format
-msgid "Successfully set up new device '%s'"
-msgstr "Успешно установлено новое устройство «%s»"
+#~ msgid "Not paired or trusted"
+#~ msgstr "Не сопряжённые или доверенные"
 
-#: ../wizard/wizard.ui.h:1
-msgid "Bluetooth New Device Setup"
-msgstr "Установка нового устройства Bluetooth"
+#~ msgid "Paired or trusted"
+#~ msgstr "Сопряжённые или доверенные"
 
-#: ../wizard/wizard.ui.h:2
-msgid "PIN _options..."
-msgstr "_Параметры PIN-кода…"
+#~ msgid "Show:"
+#~ msgstr "Показывать:"
 
-#: ../wizard/wizard.ui.h:3
-msgid "Device Search"
-msgstr "Поиск устройства"
+#~ msgid "Device _category:"
+#~ msgstr "_Категория устройства:"
 
-#: ../wizard/wizard.ui.h:4
-msgid "Device Setup"
-msgstr "Установка устройства"
+#~ msgid "Select the device category to filter"
+#~ msgstr "Выберите категорию устройства для фильтрации"
 
-#: ../wizard/wizard.ui.h:5
-#| msgid "Finishing New Device Setup"
-msgid "Finishing Setup"
-msgstr "Завершение установки"
+#~ msgid "Device _type:"
+#~ msgstr "_Тип устройства:"
 
-#: ../wizard/wizard.ui.h:6
-msgid "Select the additional services you want to use with your device:"
-msgstr ""
-"Выберите дополнительные службы, которые будут использоваться с устройством:"
+#~ msgid "Select the device type to filter"
+#~ msgstr "Выберите тип устройства для фильтрации"
 
-#: ../wizard/wizard.ui.h:7
-msgid "Setup Summary"
-msgstr "Сводка по установке"
+#~ msgid "Input devices (mice, keyboards, etc.)"
+#~ msgstr "Устройства ввода (мыши, клавиатуры и т.д.)"
 
-#: ../wizard/wizard.ui.h:8
-msgid "PIN Options"
-msgstr "Параметры PIN-кода"
+#~ msgid "Headphones, headsets and other audio devices"
+#~ msgstr "Наушники, гарнитуры и другие звуковые устройства"
 
-#: ../wizard/wizard.ui.h:9
-msgid "_Automatic PIN selection"
-msgstr "_Автоматический выбор PIN-кода"
+#~ msgid "All types"
+#~ msgstr "Все типы"
 
-#. Translators: this is a PIN with a set value, such as 1111, or 0000
-#: ../wizard/wizard.ui.h:11
-msgid "Fixed PIN"
-msgstr "Фиксированный PIN"
+#~ msgid "Phone"
+#~ msgstr "Телефон"
 
-#: ../wizard/wizard.ui.h:12
-msgid "'0000' (most headsets, mice and GPS devices)"
-msgstr "«0000» (большинство гарнитур, мышей и устройств GPS)"
+#~ msgid "Modem"
+#~ msgstr "Модем"
 
-#: ../wizard/wizard.ui.h:13
-msgid "'1111'"
-msgstr "«1111»"
+#~ msgid "Computer"
+#~ msgstr "Компьютер"
 
-#: ../wizard/wizard.ui.h:14
-msgid "'1234'"
-msgstr "«1234»"
+#~ msgid "Network"
+#~ msgstr "Сеть"
 
-#: ../wizard/wizard.ui.h:15
-msgid "Do not pair"
-msgstr "Не сопрягать"
+#~ msgid "Headset"
+#~ msgstr "Гарнитура"
 
-#: ../wizard/wizard.ui.h:16
-msgid "Custom PIN:"
-msgstr "Свой PIN:"
+#~ msgid "Headphones"
+#~ msgstr "Наушники"
 
-#: ../wizard/wizard.ui.h:17
-msgid "_Try Again"
-msgstr "_Попробовать снова"
+#~ msgid "Audio device"
+#~ msgstr "Звуковое устройство"
 
-#: ../wizard/wizard.ui.h:18
-msgid "_Quit"
-msgstr "_Закончить"
+#~ msgid "Keyboard"
+#~ msgstr "Клавиатура"
 
-#: ../wizard/wizard.ui.h:19
-msgid "_Cancel"
-msgstr "_Отмена"
+#~ msgid "Mouse"
+#~ msgstr "Мышь"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:21
-msgid "Does not match"
-msgstr "Не соответствует"
+#~ msgid "Camera"
+#~ msgstr "Камера"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:23
-msgid "Matches"
-msgstr "Соответствует"
+#~ msgid "Printer"
+#~ msgstr "Принтер"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:1
-msgid "Bluetooth Device Setup"
-msgstr "Настройка устройства Bluetooth"
+#~ msgid "Joypad"
+#~ msgstr "Геймпад"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:2
-msgid "Setup Bluetooth devices"
-msgstr "Настроить устройство Bluetooth"
+#~ msgid "Tablet"
+#~ msgstr "Планшет"
 
-#: ../sendto/main.c:151
-#, c-format
-msgid "%'d second"
-msgid_plural "%'d seconds"
-msgstr[0] "%'d секунда"
-msgstr[1] "%'d секунды"
-msgstr[2] "%'d секунд"
+#~ msgid "Video device"
+#~ msgstr "Видеоустройство"
 
-#: ../sendto/main.c:156 ../sendto/main.c:169
-#, c-format
-msgid "%'d minute"
-msgid_plural "%'d minutes"
-msgstr[0] "%'d минута"
-msgstr[1] "%'d минуты"
-msgstr[2] "%'d минут"
+#~ msgid "Use this GPS device for Geolocation services"
+#~ msgstr "Использовать это устройство GPS для службы Geolocation"
 
-#: ../sendto/main.c:167
-#, c-format
-msgid "%'d hour"
-msgid_plural "%'d hours"
-msgstr[0] "%'d час"
-msgstr[1] "%'d часа"
-msgstr[2] "%'d часов"
+#~ msgid "Access the Internet using your cell phone (test)"
+#~ msgstr "Доступ к интернету при помощи вашего сотового телефона (тест)"
 
-#: ../sendto/main.c:177
-#, c-format
-msgid "approximately %'d hour"
-msgid_plural "approximately %'d hours"
-msgstr[0] "примерно %'d час"
-msgstr[1] "примерно %'d часа"
-msgstr[2] "примерно %'d часов"
+#~ msgid "Browse files..."
+#~ msgstr "Просмотреть файлы…"
 
-#: ../sendto/main.c:231
-msgid "File Transfer"
-msgstr "Передача файлов"
+#~ msgid "Pairing with '%s' cancelled"
+#~ msgstr "Сопряжение с «%s» отменено"
 
-#: ../sendto/main.c:234
-msgid "_Retry"
-msgstr "П_овторить"
+#~ msgid "Please confirm that the PIN displayed on '%s' matches this one."
+#~ msgstr ""
+#~ "Подтвердите, что PIN-код, отображаемый на «%s», соответствует этому."
 
-#. translators: This is the heading for the progress dialogue
-#: ../sendto/main.c:253
-msgid "Sending files via Bluetooth"
-msgstr "Отправка файлов через Bluetooth"
+#~ msgid "Please enter the following PIN:"
+#~ msgstr "Введите следующий PIN:"
 
-#: ../sendto/main.c:265
-msgid "From:"
-msgstr "От:"
+#~ msgid "Setting up '%s' failed"
+#~ msgstr "Сбой сопряжения с «%s»"
 
-#: ../sendto/main.c:277
-msgid "To:"
-msgstr "До:"
+#~ msgid "Connecting to '%s'..."
+#~ msgstr "Подключение к «%s»…"
 
-#: ../sendto/main.c:321 ../sendto/main.c:339
-msgid "An unknown error occurred"
-msgstr "Произошла неизвестная ошибка"
+#~ msgid "Please enter the following PIN on '%s':"
+#~ msgstr "Введите следующий код доступа для «%s»:"
 
-#: ../sendto/main.c:332
-msgid ""
-"Make sure that the remote device is switched on and that it accepts "
-"Bluetooth connections"
-msgstr ""
-"Убедитесь, что удалённое устройство включено и принимает соединения Bluetooth"
+#~ msgid ""
+#~ "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+#~ msgstr ""
+#~ "Введите следующий код доступа для «%s» и нажмите «Enter» на клавиатуре:"
 
-#: ../sendto/main.c:430
-#, c-format
-msgid "Sending %s"
-msgstr "Передача %s"
+#~ msgid "Please move the joystick of your iCade in the following directions:"
+#~ msgstr "Переместите джойстик iCade в следующих направлениях:"
 
-#: ../sendto/main.c:437 ../sendto/main.c:508
-#, c-format
-msgid "Sending file %d of %d"
-msgstr "Передача файла %d из %d"
+#~ msgid "Please wait while finishing setup on device '%s'..."
+#~ msgstr "Подождите, пока устанавливается новое устройство «%s»…"
 
-#: ../sendto/main.c:504
-#, c-format
-msgid "%d kB/s"
-msgstr "%d КБ/с"
+#~ msgid "Successfully set up new device '%s'"
+#~ msgstr "Успешно установлено новое устройство «%s»"
 
-#: ../sendto/main.c:506
-#, c-format
-msgid "%d B/s"
-msgstr "%d Б/с"
+#~ msgid "Bluetooth New Device Setup"
+#~ msgstr "Установка нового устройства Bluetooth"
 
-#: ../sendto/main.c:639
-msgid "Select device to send to"
-msgstr "Выберите устройство назначения"
+#~ msgid "PIN _options..."
+#~ msgstr "_Параметры PIN-кода…"
 
-#: ../sendto/main.c:644
-msgid "_Send"
-msgstr "_Отправить"
+#~ msgid "Device Search"
+#~ msgstr "Поиск устройства"
 
-#: ../sendto/main.c:688
-msgid "Choose files to send"
-msgstr "Выберите файлы для отправки"
+#~ msgid "Device Setup"
+#~ msgstr "Установка устройства"
 
-#: ../sendto/main.c:691
-msgid "Select"
-msgstr "Выбрать"
+#~| msgid "Finishing New Device Setup"
+#~ msgid "Finishing Setup"
+#~ msgstr "Завершение установки"
 
-#: ../sendto/main.c:717
-msgid "Remote device to use"
-msgstr "Использовать удалённое устройство"
+#~ msgid "Select the additional services you want to use with your device:"
+#~ msgstr ""
+#~ "Выберите дополнительные службы, которые будут использоваться с "
+#~ "устройством:"
 
-#: ../sendto/main.c:717
-msgid "ADDRESS"
-msgstr "АДРЕС"
+#~ msgid "Setup Summary"
+#~ msgstr "Сводка по установке"
 
-#: ../sendto/main.c:719
-msgid "Remote device's name"
-msgstr "Имя удалённого устройства"
+#~ msgid "PIN Options"
+#~ msgstr "Параметры PIN-кода"
 
-#: ../sendto/main.c:719
-msgid "NAME"
-msgstr "ИМЯ"
+#~ msgid "_Automatic PIN selection"
+#~ msgstr "_Автоматический выбор PIN-кода"
 
-#: ../sendto/main.c:738
-msgid "[FILE...]"
-msgstr "[ФАЙЛ…]"
+#~ msgid "Fixed PIN"
+#~ msgstr "Фиксированный PIN"
 
-#: ../sendto/nautilus-sendto-plugin.c:168
-msgid "Programming error: could not find the device in the list"
-msgstr "Программная ошибка: не удалось найти устройство в списке"
+#~ msgid "'0000' (most headsets, mice and GPS devices)"
+#~ msgstr "«0000» (большинство гарнитур, мышей и устройств GPS)"
 
-#: ../sendto/nautilus-sendto-plugin.c:243
-#, c-format
-msgid "OBEX Push file transfer unsupported"
-msgstr "Передача файлов с помощью OBEX Push не поддерживается"
+#~ msgid "'1111'"
+#~ msgstr "«1111»"
 
-#: ../sendto/nautilus-sendto-plugin.c:262
-msgid "Bluetooth (OBEX Push)"
-msgstr "Bluetooth (OBEX Push)"
+#~ msgid "'1234'"
+#~ msgstr "«1234»"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:1
-msgid "Bluetooth Transfer"
-msgstr "Передача данных через Bluetooth"
+#~ msgid "Do not pair"
+#~ msgstr "Не сопрягать"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:2
-msgid "Send files via Bluetooth"
-msgstr "Отправка файлов через Bluetooth"
+#~ msgid "Custom PIN:"
+#~ msgstr "Свой PIN:"
+
+#~ msgid "_Try Again"
+#~ msgstr "_Попробовать снова"
+
+#~ msgid "_Quit"
+#~ msgstr "_Закончить"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Отмена"
+
+#~ msgid "Does not match"
+#~ msgstr "Не соответствует"
+
+#~ msgid "Matches"
+#~ msgstr "Соответствует"
+
+#~ msgid "Bluetooth Device Setup"
+#~ msgstr "Настройка устройства Bluetooth"
+
+#~ msgid "Setup Bluetooth devices"
+#~ msgstr "Настроить устройство Bluetooth"
+
+#~ msgid "%'d second"
+#~ msgid_plural "%'d seconds"
+#~ msgstr[0] "%'d секунда"
+#~ msgstr[1] "%'d секунды"
+#~ msgstr[2] "%'d секунд"
+
+#~ msgid "%'d minute"
+#~ msgid_plural "%'d minutes"
+#~ msgstr[0] "%'d минута"
+#~ msgstr[1] "%'d минуты"
+#~ msgstr[2] "%'d минут"
+
+#~ msgid "%'d hour"
+#~ msgid_plural "%'d hours"
+#~ msgstr[0] "%'d час"
+#~ msgstr[1] "%'d часа"
+#~ msgstr[2] "%'d часов"
+
+#~ msgid "approximately %'d hour"
+#~ msgid_plural "approximately %'d hours"
+#~ msgstr[0] "примерно %'d час"
+#~ msgstr[1] "примерно %'d часа"
+#~ msgstr[2] "примерно %'d часов"
+
+#~ msgid "File Transfer"
+#~ msgstr "Передача файлов"
+
+#~ msgid "_Retry"
+#~ msgstr "П_овторить"
+
+#~ msgid "Sending files via Bluetooth"
+#~ msgstr "Отправка файлов через Bluetooth"
+
+#~ msgid "From:"
+#~ msgstr "От:"
+
+#~ msgid "To:"
+#~ msgstr "До:"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Произошла неизвестная ошибка"
+
+#~ msgid ""
+#~ "Make sure that the remote device is switched on and that it accepts "
+#~ "Bluetooth connections"
+#~ msgstr ""
+#~ "Убедитесь, что удалённое устройство включено и принимает соединения "
+#~ "Bluetooth"
+
+#~ msgid "Sending %s"
+#~ msgstr "Передача %s"
+
+#~ msgid "Sending file %d of %d"
+#~ msgstr "Передача файла %d из %d"
+
+#~ msgid "%d kB/s"
+#~ msgstr "%d КБ/с"
+
+#~ msgid "%d B/s"
+#~ msgstr "%d Б/с"
+
+#~ msgid "Select device to send to"
+#~ msgstr "Выберите устройство назначения"
+
+#~ msgid "_Send"
+#~ msgstr "_Отправить"
+
+#~ msgid "Choose files to send"
+#~ msgstr "Выберите файлы для отправки"
+
+#~ msgid "Select"
+#~ msgstr "Выбрать"
+
+#~ msgid "Remote device to use"
+#~ msgstr "Использовать удалённое устройство"
+
+#~ msgid "ADDRESS"
+#~ msgstr "АДРЕС"
+
+#~ msgid "Remote device's name"
+#~ msgstr "Имя удалённого устройства"
+
+#~ msgid "NAME"
+#~ msgstr "ИМЯ"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[ФАЙЛ…]"
+
+#~ msgid "Programming error: could not find the device in the list"
+#~ msgstr "Программная ошибка: не удалось найти устройство в списке"
+
+#~ msgid "OBEX Push file transfer unsupported"
+#~ msgstr "Передача файлов с помощью OBEX Push не поддерживается"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "Bluetooth (OBEX Push)"
+
+#~ msgid "Bluetooth Transfer"
+#~ msgstr "Передача данных через Bluetooth"
+
+#~ msgid "Send files via Bluetooth"
+#~ msgstr "Отправка файлов через Bluetooth"
 
 #~ msgid "%d KB/s"
 #~ msgstr "%d KБ/с"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-bluetooth\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-05 19:24+0100\n"
+"POT-Creation-Date: 2013-12-20 05:18+0100\n"
 "PO-Revision-Date: 2012-09-05 19:25+0100\n"
 "Last-Translator: Bruce Cowan <bruce@bcowan.me.uk>\n"
 "Language-Team: British English <en@li.org>\n"
@@ -20,233 +20,76 @@ msgstr ""
 "X-Launchpad-Export-Date: 2008-10-05 13:36+0000\n"
 "X-Project-Style: gnome\n"
 
-#: ../lib/bluetooth-chooser-button.c:75
-msgid "Click to select device..."
-msgstr "Click to select device…"
-
-#: ../lib/bluetooth-chooser.c:135 ../lib/bluetooth-filter-widget.c:82
-#: ../lib/bluetooth-utils.c:90
-msgid "Unknown"
-msgstr "Unknown"
-
-#: ../lib/bluetooth-chooser.c:176
-msgid "No adapters available"
-msgstr "No adapters available"
-
-#: ../lib/bluetooth-chooser.c:180 ../lib/bluetooth-chooser.c:804
-msgid "Searching for devices..."
-msgstr "Searching for devices…"
-
-#: ../lib/bluetooth-chooser.c:696 ../lib/bluetooth-chooser.c:985
-msgid "Device"
-msgstr "Device"
-
-#: ../lib/bluetooth-chooser.c:732
-msgid "Type"
-msgstr "Type"
-
-#: ../lib/bluetooth-chooser.c:987 ../applet/popup-menu.ui.h:4
-msgid "Devices"
-msgstr "Devices"
-
-#: ../lib/bluetooth-filter-widget.c:72
-msgid "All categories"
-msgstr "All categories"
-
-#: ../lib/bluetooth-filter-widget.c:74
-msgid "Paired"
-msgstr "Paired"
-
-#: ../lib/bluetooth-filter-widget.c:76
-msgid "Trusted"
-msgstr "Trusted"
-
-#: ../lib/bluetooth-filter-widget.c:78
-msgid "Not paired or trusted"
-msgstr "Not paired or trusted"
-
-#: ../lib/bluetooth-filter-widget.c:80
-msgid "Paired or trusted"
-msgstr "Paired or trusted"
-
-#. This is the title of the filter section of the Bluetooth device chooser.
-#. * It used to say Show Only Bluetooth Devices With...
-#: ../lib/bluetooth-filter-widget.c:231
-msgid "Show:"
-msgstr "Show:"
-
-#. The device category filter
-#: ../lib/bluetooth-filter-widget.c:247
-msgid "Device _category:"
-msgstr "Device _category:"
-
-#: ../lib/bluetooth-filter-widget.c:258
-msgid "Select the device category to filter"
-msgstr "Select the device category to filter"
-
-#. The device type filter
-#: ../lib/bluetooth-filter-widget.c:272
-msgid "Device _type:"
-msgstr "Device _type:"
-
-#: ../lib/bluetooth-filter-widget.c:289
-msgid "Select the device type to filter"
-msgstr "Select the device type to filter"
-
-#: ../lib/bluetooth-filter-widget.c:295
-msgid "Input devices (mice, keyboards, etc.)"
-msgstr "Input devices (mice, keyboards, etc.)"
-
-#: ../lib/bluetooth-filter-widget.c:299
-msgid "Headphones, headsets and other audio devices"
-msgstr "Headphones, headsets and other audio devices"
-
-#: ../lib/bluetooth-utils.c:59
-msgid "All types"
-msgstr "All types"
-
-#: ../lib/bluetooth-utils.c:61
-msgid "Phone"
-msgstr "Phone"
-
-#: ../lib/bluetooth-utils.c:63
-msgid "Modem"
-msgstr "Modem"
-
-#: ../lib/bluetooth-utils.c:65
-msgid "Computer"
-msgstr "Computer"
-
-#: ../lib/bluetooth-utils.c:67
-msgid "Network"
-msgstr "Network"
-
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
-#: ../lib/bluetooth-utils.c:70
-msgid "Headset"
-msgstr "Headset"
-
-#: ../lib/bluetooth-utils.c:72
-msgid "Headphones"
-msgstr "Headphones"
-
-#: ../lib/bluetooth-utils.c:74
-msgid "Audio device"
-msgstr "Audio device"
-
-#: ../lib/bluetooth-utils.c:76
-msgid "Keyboard"
-msgstr "Keyboard"
-
-#: ../lib/bluetooth-utils.c:78
-msgid "Mouse"
-msgstr "Mouse"
-
-#: ../lib/bluetooth-utils.c:80
-msgid "Camera"
-msgstr "Camera"
-
-#: ../lib/bluetooth-utils.c:82
-msgid "Printer"
-msgstr "Printer"
-
-#: ../lib/bluetooth-utils.c:84
-msgid "Joypad"
-msgstr "Joypad"
-
-#: ../lib/bluetooth-utils.c:86
-msgid "Tablet"
-msgstr "Tablet"
-
-#: ../lib/bluetooth-utils.c:88
-msgid "Video device"
-msgstr "Video device"
-
-#: ../lib/plugins/geoclue.c:178
-msgid "Use this GPS device for Geolocation services"
-msgstr "Use this GPS device for Geolocation services"
-
-#. translators:
-#. * This is in a test plugin, please make sure you add the "(test)" part,
-#. * or leave untranslated
-#: ../lib/plugins/test.c:53
-msgid "Access the Internet using your cell phone (test)"
-msgstr "Access the Internet using your mobile phone (test)"
-
-#: ../applet/main.c:230
+#: ../applet/main.c:203
 msgid "Turn on Bluetooth"
 msgstr "Turn on Bluetooth"
 
-#: ../applet/main.c:231 ../applet/notify.c:159
+#: ../applet/main.c:204 ../applet/notify.c:159
 msgid "Bluetooth: Off"
 msgstr "Bluetooth: Off"
 
-#: ../applet/main.c:234
+#: ../applet/main.c:207
 msgid "Turn off Bluetooth"
 msgstr "Turn off Bluetooth"
 
-#: ../applet/main.c:235 ../applet/notify.c:159
+#: ../applet/main.c:208 ../applet/notify.c:159
 msgid "Bluetooth: On"
 msgstr "Bluetooth: On"
 
-#: ../applet/main.c:240
+#: ../applet/main.c:213
 msgid "Bluetooth: Disabled"
 msgstr "Bluetooth: Disabled"
 
-#: ../applet/main.c:387
+#: ../applet/main.c:360
 msgid "Disconnecting..."
 msgstr "Disconnecting…"
 
-#: ../applet/main.c:390 ../sendto/main.c:192 ../sendto/main.c:292
+#: ../applet/main.c:363
 msgid "Connecting..."
 msgstr "Connecting…"
 
-#: ../applet/main.c:393 ../applet/main.c:676
+#: ../applet/main.c:366 ../applet/main.c:649
 msgid "Connected"
 msgstr "Connected"
 
-#: ../applet/main.c:396 ../applet/main.c:676
+#: ../applet/main.c:369 ../applet/main.c:649
 msgid "Disconnected"
 msgstr "Disconnected"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Disconnect"
 msgstr "Disconnect"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Connect"
 msgstr "Connect"
 
-#: ../applet/main.c:707
+#: ../applet/main.c:680
 msgid "Send files..."
 msgstr "Send files…"
 
-#: ../applet/main.c:717
-msgid "Browse files..."
-msgstr "Browse files…"
-
-#: ../applet/main.c:728
+#: ../applet/main.c:693
 msgid "Keyboard Settings"
 msgstr "Keyboard Settings"
 
-#: ../applet/main.c:736
+#: ../applet/main.c:701
 msgid "Mouse and Touchpad Settings"
 msgstr "Mouse and Touchpad Settings"
 
-#: ../applet/main.c:746
+#: ../applet/main.c:711
 msgid "Sound Settings"
 msgstr "Sound Settings"
 
-#: ../applet/main.c:799
+#: ../applet/main.c:764
 msgid "Debug"
 msgstr "Debug"
 
 #. Parse command-line options
-#: ../applet/main.c:818
+#: ../applet/main.c:783
 msgid "- Bluetooth applet"
 msgstr "- Bluetooth applet"
 
-#: ../applet/main.c:823
+#: ../applet/main.c:788
 #, c-format
 msgid ""
 "%s\n"
@@ -255,7 +98,7 @@ msgstr ""
 "%s\n"
 "Run '%s --help' to see a full list of available command line options.\n"
 
-#: ../applet/main.c:849
+#: ../applet/main.c:814
 msgid "Bluetooth Applet"
 msgstr "Bluetooth Applet"
 
@@ -344,6 +187,10 @@ msgstr "Visible"
 msgid "Send files to device..."
 msgstr "Send files to device…"
 
+#: ../applet/popup-menu.ui.h:4
+msgid "Devices"
+msgstr "Devices"
+
 #: ../applet/popup-menu.ui.h:5
 msgid "Set up new device..."
 msgstr "Set up new device…"
@@ -380,300 +227,310 @@ msgstr "_Matches"
 msgid "_Show input"
 msgstr "_Show input"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
-#: ../wizard/main.c:241 ../wizard/main.c:364
-#, c-format
-msgid "Pairing with '%s' cancelled"
-msgstr "Pairing with '%s' cancelled"
+#~ msgid "Click to select device..."
+#~ msgstr "Click to select device…"
 
-#: ../wizard/main.c:282
-#, c-format
-msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr "Please confirm that the PIN displayed on '%s' matches this one."
+#~ msgid "Unknown"
+#~ msgstr "Unknown"
 
-#: ../wizard/main.c:336
-msgid "Please enter the following PIN:"
-msgstr "Please enter the following PIN:"
+#~ msgid "No adapters available"
+#~ msgstr "No adapters available"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Setting up 'Sony Bluetooth Headset' failed
-#.
-#: ../wizard/main.c:424
-#, c-format
-msgid "Setting up '%s' failed"
-msgstr "Setting up '%s' failed"
+#~ msgid "Searching for devices..."
+#~ msgstr "Searching for devices…"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Connecting to 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:478
-#, c-format
-msgid "Connecting to '%s'..."
-msgstr "Connecting to '%s'…"
+#~ msgid "Device"
+#~ msgstr "Device"
 
-#: ../wizard/main.c:518
-#, c-format
-msgid "Please enter the following PIN on '%s':"
-msgstr "Please enter the following PIN on '%s':"
+#~ msgid "Type"
+#~ msgstr "Type"
 
-#: ../wizard/main.c:521
-#, c-format
-msgid ""
-"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr ""
-"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+#~ msgid "All categories"
+#~ msgstr "All categories"
 
-#: ../wizard/main.c:526
-msgid "Please move the joystick of your iCade in the following directions:"
-msgstr "Please move the joystick of your iCade in the following directions:"
+#~ msgid "Paired"
+#~ msgstr "Paired"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:558
-#, c-format
-msgid "Please wait while finishing setup on device '%s'..."
-msgstr "Please wait while finishing setup on device '%s'…"
+#~ msgid "Trusted"
+#~ msgstr "Trusted"
 
-#: ../wizard/main.c:576
-#, c-format
-msgid "Successfully set up new device '%s'"
-msgstr "Successfully set up new device '%s'"
+#~ msgid "Not paired or trusted"
+#~ msgstr "Not paired or trusted"
 
-#: ../wizard/wizard.ui.h:1
-msgid "Bluetooth New Device Setup"
-msgstr "Bluetooth New Device Setup"
+#~ msgid "Paired or trusted"
+#~ msgstr "Paired or trusted"
 
-#: ../wizard/wizard.ui.h:2
-msgid "PIN _options..."
-msgstr "PIN _options…"
+#~ msgid "Show:"
+#~ msgstr "Show:"
 
-#: ../wizard/wizard.ui.h:3
-msgid "Device Search"
-msgstr "Device Search"
+#~ msgid "Device _category:"
+#~ msgstr "Device _category:"
 
-#: ../wizard/wizard.ui.h:4
-msgid "Device Setup"
-msgstr "Device Setup"
+#~ msgid "Select the device category to filter"
+#~ msgstr "Select the device category to filter"
 
-#: ../wizard/wizard.ui.h:5
-msgid "Finishing Setup"
-msgstr "Finishing Setup"
+#~ msgid "Device _type:"
+#~ msgstr "Device _type:"
 
-#: ../wizard/wizard.ui.h:6
-msgid "Select the additional services you want to use with your device:"
-msgstr "Select the additional services you want to use with your device:"
+#~ msgid "Select the device type to filter"
+#~ msgstr "Select the device type to filter"
 
-#: ../wizard/wizard.ui.h:7
-msgid "Setup Summary"
-msgstr "Setup Summary"
+#~ msgid "Input devices (mice, keyboards, etc.)"
+#~ msgstr "Input devices (mice, keyboards, etc.)"
 
-#: ../wizard/wizard.ui.h:8
-msgid "PIN Options"
-msgstr "PIN Options"
+#~ msgid "Headphones, headsets and other audio devices"
+#~ msgstr "Headphones, headsets and other audio devices"
 
-#: ../wizard/wizard.ui.h:9
-msgid "_Automatic PIN selection"
-msgstr "_Automatic PIN selection"
+#~ msgid "All types"
+#~ msgstr "All types"
 
-#. Translators: this is a PIN with a set value, such as 1111, or 0000
-#: ../wizard/wizard.ui.h:11
-msgid "Fixed PIN"
-msgstr "Fixed PIN"
+#~ msgid "Phone"
+#~ msgstr "Phone"
 
-#: ../wizard/wizard.ui.h:12
-msgid "'0000' (most headsets, mice and GPS devices)"
-msgstr "'0000' (most headsets, mice and GPS devices)"
+#~ msgid "Modem"
+#~ msgstr "Modem"
 
-#: ../wizard/wizard.ui.h:13
-msgid "'1111'"
-msgstr "'1111'"
+#~ msgid "Computer"
+#~ msgstr "Computer"
 
-#: ../wizard/wizard.ui.h:14
-msgid "'1234'"
-msgstr "'1234'"
+#~ msgid "Network"
+#~ msgstr "Network"
 
-#: ../wizard/wizard.ui.h:15
-msgid "Do not pair"
-msgstr "Do not pair"
+#~ msgid "Headset"
+#~ msgstr "Headset"
 
-#: ../wizard/wizard.ui.h:16
-msgid "Custom PIN:"
-msgstr "Custom PIN:"
+#~ msgid "Headphones"
+#~ msgstr "Headphones"
 
-#: ../wizard/wizard.ui.h:17
-msgid "_Try Again"
-msgstr "_Try Again"
+#~ msgid "Audio device"
+#~ msgstr "Audio device"
 
-#: ../wizard/wizard.ui.h:18
-msgid "_Quit"
-msgstr "_Quit"
+#~ msgid "Keyboard"
+#~ msgstr "Keyboard"
 
-#: ../wizard/wizard.ui.h:19
-msgid "_Cancel"
-msgstr "_Cancel"
+#~ msgid "Mouse"
+#~ msgstr "Mouse"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:21
-msgid "Does not match"
-msgstr "Does not match"
+#~ msgid "Camera"
+#~ msgstr "Camera"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:23
-msgid "Matches"
-msgstr "Matches"
+#~ msgid "Printer"
+#~ msgstr "Printer"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:1
-msgid "Bluetooth Device Setup"
-msgstr "Bluetooth Device Setup"
+#~ msgid "Joypad"
+#~ msgstr "Joypad"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:2
-msgid "Setup Bluetooth devices"
-msgstr "Setup Bluetooth devices"
+#~ msgid "Tablet"
+#~ msgstr "Tablet"
 
-#: ../sendto/main.c:151
-#, c-format
-msgid "%'d second"
-msgid_plural "%'d seconds"
-msgstr[0] "%'d second"
-msgstr[1] "%'d seconds"
+#~ msgid "Video device"
+#~ msgstr "Video device"
 
-#: ../sendto/main.c:156 ../sendto/main.c:169
-#, c-format
-msgid "%'d minute"
-msgid_plural "%'d minutes"
-msgstr[0] "%'d minute"
-msgstr[1] "%'d minutes"
+#~ msgid "Use this GPS device for Geolocation services"
+#~ msgstr "Use this GPS device for Geolocation services"
 
-#: ../sendto/main.c:167
-#, c-format
-msgid "%'d hour"
-msgid_plural "%'d hours"
-msgstr[0] "%'d hour"
-msgstr[1] "%'d hours"
+#~ msgid "Access the Internet using your cell phone (test)"
+#~ msgstr "Access the Internet using your mobile phone (test)"
 
-#: ../sendto/main.c:177
-#, c-format
-msgid "approximately %'d hour"
-msgid_plural "approximately %'d hours"
-msgstr[0] "approximately %'d hour"
-msgstr[1] "approximately %'d hours"
+#~ msgid "Browse files..."
+#~ msgstr "Browse files…"
 
-#: ../sendto/main.c:231
-msgid "File Transfer"
-msgstr "File Transfer"
+#~ msgid "Pairing with '%s' cancelled"
+#~ msgstr "Pairing with '%s' cancelled"
 
-#: ../sendto/main.c:234
-msgid "_Retry"
-msgstr "_Retry"
+#~ msgid "Please confirm that the PIN displayed on '%s' matches this one."
+#~ msgstr "Please confirm that the PIN displayed on '%s' matches this one."
 
-#. translators: This is the heading for the progress dialogue
-#: ../sendto/main.c:253
-msgid "Sending files via Bluetooth"
-msgstr "Sending files via Bluetooth"
+#~ msgid "Please enter the following PIN:"
+#~ msgstr "Please enter the following PIN:"
 
-#: ../sendto/main.c:265
-msgid "From:"
-msgstr "From:"
+#~ msgid "Setting up '%s' failed"
+#~ msgstr "Setting up '%s' failed"
 
-#: ../sendto/main.c:277
-msgid "To:"
-msgstr "To:"
+#~ msgid "Connecting to '%s'..."
+#~ msgstr "Connecting to '%s'…"
 
-#: ../sendto/main.c:321 ../sendto/main.c:339
-msgid "An unknown error occurred"
-msgstr "An unknown error occurred"
+#~ msgid "Please enter the following PIN on '%s':"
+#~ msgstr "Please enter the following PIN on '%s':"
 
-#: ../sendto/main.c:332
-msgid ""
-"Make sure that the remote device is switched on and that it accepts "
-"Bluetooth connections"
-msgstr ""
-"Make sure that the remote device is switched on and that it accepts "
-"Bluetooth connections"
+#~ msgid ""
+#~ "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+#~ msgstr ""
+#~ "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
 
-#: ../sendto/main.c:430
-#, c-format
-msgid "Sending %s"
-msgstr "Sending %s"
+#~ msgid "Please move the joystick of your iCade in the following directions:"
+#~ msgstr "Please move the joystick of your iCade in the following directions:"
 
-#: ../sendto/main.c:437 ../sendto/main.c:508
-#, c-format
-msgid "Sending file %d of %d"
-msgstr "Sending file %d of %d"
+#~ msgid "Please wait while finishing setup on device '%s'..."
+#~ msgstr "Please wait while finishing setup on device '%s'…"
 
-#: ../sendto/main.c:504
-#, c-format
-msgid "%d kB/s"
-msgstr "%d kB/s"
+#~ msgid "Successfully set up new device '%s'"
+#~ msgstr "Successfully set up new device '%s'"
 
-#: ../sendto/main.c:506
-#, c-format
-msgid "%d B/s"
-msgstr "%d B/s"
+#~ msgid "Bluetooth New Device Setup"
+#~ msgstr "Bluetooth New Device Setup"
 
-#: ../sendto/main.c:639
-msgid "Select device to send to"
-msgstr "Select device to send to"
+#~ msgid "PIN _options..."
+#~ msgstr "PIN _options…"
 
-#: ../sendto/main.c:644
-msgid "_Send"
-msgstr "_Send"
+#~ msgid "Device Search"
+#~ msgstr "Device Search"
 
-#: ../sendto/main.c:688
-msgid "Choose files to send"
-msgstr "Choose files to send"
+#~ msgid "Device Setup"
+#~ msgstr "Device Setup"
 
-#: ../sendto/main.c:691
-msgid "Select"
-msgstr "Select"
+#~ msgid "Finishing Setup"
+#~ msgstr "Finishing Setup"
 
-#: ../sendto/main.c:717
-msgid "Remote device to use"
-msgstr "Remote device to use"
+#~ msgid "Select the additional services you want to use with your device:"
+#~ msgstr "Select the additional services you want to use with your device:"
 
-#: ../sendto/main.c:717
-msgid "ADDRESS"
-msgstr "ADDRESS"
+#~ msgid "Setup Summary"
+#~ msgstr "Setup Summary"
 
-#: ../sendto/main.c:719
-msgid "Remote device's name"
-msgstr "Remote device's name"
+#~ msgid "PIN Options"
+#~ msgstr "PIN Options"
 
-#: ../sendto/main.c:719
-msgid "NAME"
-msgstr "NAME"
+#~ msgid "_Automatic PIN selection"
+#~ msgstr "_Automatic PIN selection"
 
-#: ../sendto/main.c:738
-msgid "[FILE...]"
-msgstr "[FILE…]"
+#~ msgid "Fixed PIN"
+#~ msgstr "Fixed PIN"
 
-#: ../sendto/nautilus-sendto-plugin.c:168
-msgid "Programming error: could not find the device in the list"
-msgstr "Programming error: could not find the device in the list"
+#~ msgid "'0000' (most headsets, mice and GPS devices)"
+#~ msgstr "'0000' (most headsets, mice and GPS devices)"
 
-#: ../sendto/nautilus-sendto-plugin.c:243
-#, c-format
-msgid "OBEX Push file transfer unsupported"
-msgstr "OBEX Push file transfer unsupported"
+#~ msgid "'1111'"
+#~ msgstr "'1111'"
 
-#: ../sendto/nautilus-sendto-plugin.c:262
-msgid "Bluetooth (OBEX Push)"
-msgstr "Bluetooth (OBEX Push)"
+#~ msgid "'1234'"
+#~ msgstr "'1234'"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:1
-msgid "Bluetooth Transfer"
-msgstr "Bluetooth Transfer"
+#~ msgid "Do not pair"
+#~ msgstr "Do not pair"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:2
-msgid "Send files via Bluetooth"
-msgstr "Send files via Bluetooth"
+#~ msgid "Custom PIN:"
+#~ msgstr "Custom PIN:"
+
+#~ msgid "_Try Again"
+#~ msgstr "_Try Again"
+
+#~ msgid "_Quit"
+#~ msgstr "_Quit"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Cancel"
+
+#~ msgid "Does not match"
+#~ msgstr "Does not match"
+
+#~ msgid "Matches"
+#~ msgstr "Matches"
+
+#~ msgid "Bluetooth Device Setup"
+#~ msgstr "Bluetooth Device Setup"
+
+#~ msgid "Setup Bluetooth devices"
+#~ msgstr "Setup Bluetooth devices"
+
+#~ msgid "%'d second"
+#~ msgid_plural "%'d seconds"
+#~ msgstr[0] "%'d second"
+#~ msgstr[1] "%'d seconds"
+
+#~ msgid "%'d minute"
+#~ msgid_plural "%'d minutes"
+#~ msgstr[0] "%'d minute"
+#~ msgstr[1] "%'d minutes"
+
+#~ msgid "%'d hour"
+#~ msgid_plural "%'d hours"
+#~ msgstr[0] "%'d hour"
+#~ msgstr[1] "%'d hours"
+
+#~ msgid "approximately %'d hour"
+#~ msgid_plural "approximately %'d hours"
+#~ msgstr[0] "approximately %'d hour"
+#~ msgstr[1] "approximately %'d hours"
+
+#~ msgid "File Transfer"
+#~ msgstr "File Transfer"
+
+#~ msgid "_Retry"
+#~ msgstr "_Retry"
+
+#~ msgid "Sending files via Bluetooth"
+#~ msgstr "Sending files via Bluetooth"
+
+#~ msgid "From:"
+#~ msgstr "From:"
+
+#~ msgid "To:"
+#~ msgstr "To:"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "An unknown error occurred"
+
+#~ msgid ""
+#~ "Make sure that the remote device is switched on and that it accepts "
+#~ "Bluetooth connections"
+#~ msgstr ""
+#~ "Make sure that the remote device is switched on and that it accepts "
+#~ "Bluetooth connections"
+
+#~ msgid "Sending %s"
+#~ msgstr "Sending %s"
+
+#~ msgid "Sending file %d of %d"
+#~ msgstr "Sending file %d of %d"
+
+#~ msgid "%d kB/s"
+#~ msgstr "%d kB/s"
+
+#~ msgid "%d B/s"
+#~ msgstr "%d B/s"
+
+#~ msgid "Select device to send to"
+#~ msgstr "Select device to send to"
+
+#~ msgid "_Send"
+#~ msgstr "_Send"
+
+#~ msgid "Choose files to send"
+#~ msgstr "Choose files to send"
+
+#~ msgid "Select"
+#~ msgstr "Select"
+
+#~ msgid "Remote device to use"
+#~ msgstr "Remote device to use"
+
+#~ msgid "ADDRESS"
+#~ msgstr "ADDRESS"
+
+#~ msgid "Remote device's name"
+#~ msgstr "Remote device's name"
+
+#~ msgid "NAME"
+#~ msgstr "NAME"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[FILE…]"
+
+#~ msgid "Programming error: could not find the device in the list"
+#~ msgstr "Programming error: could not find the device in the list"
+
+#~ msgid "OBEX Push file transfer unsupported"
+#~ msgstr "OBEX Push file transfer unsupported"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "Bluetooth (OBEX Push)"
+
+#~ msgid "Bluetooth Transfer"
+#~ msgstr "Bluetooth Transfer"
+
+#~ msgid "Send files via Bluetooth"
+#~ msgstr "Send files via Bluetooth"
 
 #~ msgid "%d KB/s"
 #~ msgstr "%d KB/s"

@@ -7,242 +7,90 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-bluetooth.master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-08-12 01:30-0600\n"
+"POT-Creation-Date: 2013-12-20 05:18+0100\n"
 "PO-Revision-Date: 2009-08-12 01:48-0600\n"
 "Last-Translator: Seán de Búrca <leftmostcat@gmail.com>\n"
 "Language-Team: Irish <gaeilge-gnulinux@lists.sourceforge.net>\n"
+"Language: ga\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=5; plural=n==1 ? 0 : (n%10==1 || n%10==2) ? 1 : (n%"
-"10>=3 && n%10<= 6) ? 2 : ((n%10>=7 && n%10<=9) || n==10) ? 3 : 4;\n"
+"Plural-Forms: nplurals=5; plural=n==1 ? 0 : (n%10==1 || n%10==2) ? 1 : (n"
+"%10>=3 && n%10<= 6) ? 2 : ((n%10>=7 && n%10<=9) || n==10) ? 3 : 4;\n"
 
-#: ../lib/bluetooth-client.c:109
-msgid "All types"
-msgstr "Gach cineál"
-
-#: ../lib/bluetooth-client.c:111
-msgid "Phone"
-msgstr "Fón"
-
-#: ../lib/bluetooth-client.c:113
-msgid "Modem"
-msgstr "Móideim"
-
-#: ../lib/bluetooth-client.c:115
-msgid "Computer"
-msgstr "Ríomhaire"
-
-#: ../lib/bluetooth-client.c:117
-msgid "Network"
-msgstr "Líonra"
-
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
-#: ../lib/bluetooth-client.c:120
-msgid "Headset"
-msgstr "Gléas cinn"
-
-#: ../lib/bluetooth-client.c:122
-msgid "Headphones"
-msgstr "Cluasáin"
-
-#: ../lib/bluetooth-client.c:124
-msgid "Audio device"
-msgstr "Gléas fuaime"
-
-#: ../lib/bluetooth-client.c:126
-msgid "Keyboard"
-msgstr "Méarchlár"
-
-#: ../lib/bluetooth-client.c:128
-msgid "Mouse"
-msgstr "Luch"
-
-#: ../lib/bluetooth-client.c:130
-msgid "Camera"
-msgstr "Ceamara"
-
-#: ../lib/bluetooth-client.c:132
-msgid "Printer"
-msgstr "Printéir"
-
-#: ../lib/bluetooth-client.c:134
-msgid "Joypad"
-msgstr "Ceap stiúrtha"
-
-#: ../lib/bluetooth-client.c:136
-msgid "Tablet"
-msgstr "Táibléad"
-
-#: ../lib/bluetooth-client.c:138 ../lib/bluetooth-chooser.c:105
-#: ../lib/bluetooth-chooser.c:139
-msgid "Unknown"
-msgstr "Anaithnid"
-
-#: ../lib/bluetooth-chooser-button.c:65 ../lib/bluetooth-chooser-button.c:360
-msgid "Click to select device..."
-msgstr "Cliceáil chun gléas a roghnú..."
-
-#: ../lib/bluetooth-chooser.c:95
-msgid "All categories"
-msgstr "Gach catagóir"
-
-#: ../lib/bluetooth-chooser.c:97
-msgid "Paired"
-msgstr ""
-
-#: ../lib/bluetooth-chooser.c:99
-msgid "Trusted"
-msgstr ""
-
-#: ../lib/bluetooth-chooser.c:101
-msgid "Not paired or trusted"
-msgstr ""
-
-#: ../lib/bluetooth-chooser.c:103
-msgid "Paired or trusted"
-msgstr ""
-
-#: ../lib/bluetooth-chooser.c:180
-msgid "No adapters available"
-msgstr ""
-
-#: ../lib/bluetooth-chooser.c:184 ../lib/bluetooth-chooser.c:813
-msgid "Searching for devices..."
-msgstr ""
-
-#: ../lib/bluetooth-chooser.c:683
-msgid "Device"
-msgstr "Gléas"
-
-#: ../lib/bluetooth-chooser.c:720
-msgid "Type"
-msgstr "Cineál"
-
-#. The filters
-#: ../lib/bluetooth-chooser.c:836
-msgid "Show Only Bluetooth Devices With..."
-msgstr ""
-
-#. The device category filter
-#: ../lib/bluetooth-chooser.c:856
-msgid "Device _category:"
-msgstr ""
-
-#: ../lib/bluetooth-chooser.c:871
-msgid "Select the device category to filter above list"
-msgstr ""
-
-#. The device type filter
-#: ../lib/bluetooth-chooser.c:885
-msgid "Device _type:"
-msgstr ""
-
-#: ../lib/bluetooth-chooser.c:906
-msgid "Select the device type to filter above list"
-msgstr ""
-
-#: ../lib/bluetooth-chooser.c:912
-msgid "Input devices (mice, keyboards, ...)"
-msgstr ""
-
-#: ../lib/bluetooth-chooser.c:916
-msgid "Headphones, headsets and other audio devices"
-msgstr ""
-
-#: ../lib/plugins/geoclue.c:162
-msgid "Use this GPS device for Geolocation services"
-msgstr ""
-
-#. translators:
-#. * This is in a test plugin, please make sure you add the "(test)" part,
-#. * or leave untranslated
-#: ../lib/plugins/test.c:53
-msgid "Access the Internet using your cell phone (test)"
-msgstr ""
-
-#: ../applet/main.c:112
-msgid "Select Device to Browse"
-msgstr ""
-
-#: ../applet/main.c:116
-msgid "_Browse"
-msgstr "_Brabhsáil"
-
-#: ../applet/main.c:124
-msgid "Select device to browse"
-msgstr ""
-
-#: ../applet/main.c:278 ../properties/properties-adapter-off.ui.h:1
-msgid "Turn On Bluetooth"
+#: ../applet/main.c:203
+#, fuzzy
+msgid "Turn on Bluetooth"
 msgstr "Cuir Bluetooth ar Siúl"
 
-#: ../applet/main.c:279
+#: ../applet/main.c:204 ../applet/notify.c:159
 msgid "Bluetooth: Off"
 msgstr "Bluetooth: Múchta"
 
-#: ../applet/main.c:282
-msgid "Turn Off Bluetooth"
+#: ../applet/main.c:207
+#, fuzzy
+msgid "Turn off Bluetooth"
 msgstr "Múch Bluetooth"
 
-#: ../applet/main.c:283
+#: ../applet/main.c:208 ../applet/notify.c:159
 msgid "Bluetooth: On"
 msgstr "Bluetooth: Ar Siúl"
 
-#: ../applet/main.c:288 ../applet/notify.c:148
+#: ../applet/main.c:213
 msgid "Bluetooth: Disabled"
 msgstr "Bluetooth: Díchumasaithe"
 
-#: ../applet/main.c:410
+#: ../applet/main.c:360
 msgid "Disconnecting..."
 msgstr "Á Dhínasc..."
 
-#: ../applet/main.c:413 ../sendto/main.c:214
+#: ../applet/main.c:363
 msgid "Connecting..."
 msgstr "Á Nasc..."
 
-#: ../applet/main.c:416 ../applet/main.c:756
+#: ../applet/main.c:366 ../applet/main.c:649
 msgid "Connected"
 msgstr "Nasctha"
 
-#: ../applet/main.c:419 ../applet/main.c:756
+#: ../applet/main.c:369 ../applet/main.c:649
 msgid "Disconnected"
 msgstr "Dínasctha"
 
-#: ../applet/main.c:774 ../applet/main.c:828 ../properties/adapter.c:446
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Disconnect"
 msgstr "Dínasc"
 
-#: ../applet/main.c:774 ../applet/main.c:828
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Connect"
 msgstr "Nasc"
 
-#: ../applet/main.c:787
+#: ../applet/main.c:680
 msgid "Send files..."
 msgstr ""
 
-#: ../applet/main.c:797
-msgid "Browse files..."
+#: ../applet/main.c:693
+#, fuzzy
+msgid "Keyboard Settings"
+msgstr "Méarchlár"
+
+#: ../applet/main.c:701
+msgid "Mouse and Touchpad Settings"
 msgstr ""
 
-#: ../applet/main.c:808
-msgid "Open Keyboard Preferences..."
+#: ../applet/main.c:711
+msgid "Sound Settings"
 msgstr ""
 
-#: ../applet/main.c:816
-msgid "Open Mouse Preferences..."
-msgstr ""
-
-#: ../applet/main.c:942
+#: ../applet/main.c:764
 msgid "Debug"
 msgstr "Dífhabhtaigh"
 
 #. Parse command-line options
-#: ../applet/main.c:962
+#: ../applet/main.c:783
 msgid "- Bluetooth applet"
 msgstr "- Feidhmchláirín Bluetooth"
 
-#: ../applet/main.c:967
+#: ../applet/main.c:788
 #, c-format
 msgid ""
 "%s\n"
@@ -252,73 +100,72 @@ msgstr ""
 "Rith '%s --help' chun amharc ar liosta iomlán de gach rogha líne na n-"
 "orduithe atá le fáil.\n"
 
-#: ../applet/main.c:983
+#: ../applet/main.c:814
 msgid "Bluetooth Applet"
 msgstr "Feidhmchláirín Bluetooth"
 
-#: ../applet/notify.c:148
-msgid "Bluetooth: Enabled"
-msgstr "Bluetooth: Cumasaithe"
+#: ../applet/notify.c:122
+msgid "Bluetooth"
+msgstr "Bluetooth"
 
-#: ../applet/agent.c:251 ../applet/agent.c:332
+#: ../applet/agent.c:196 ../applet/agent.c:265
 #, c-format
 msgid "Device '%s' wants to pair with this computer"
 msgstr ""
 
-#: ../applet/agent.c:257
+#: ../applet/agent.c:202
 #, c-format
 msgid "Please enter the PIN mentioned on device %s."
 msgstr ""
 
-#: ../applet/agent.c:339
+#: ../applet/agent.c:272
 #, c-format
 msgid "Please confirm whether the PIN '%s' matches the one on device %s."
 msgstr ""
 
 #. translators: Whether to grant access to a particular service
-#: ../applet/agent.c:385
+#: ../applet/agent.c:314
 #, c-format
 msgid "Grant access to '%s'"
 msgstr ""
 
-#: ../applet/agent.c:390
+#: ../applet/agent.c:319
 #, c-format
 msgid "Device %s wants access to the service '%s'."
 msgstr ""
 
 #. translators: this is a popup telling you a particular device
 #. * has asked for pairing
-#: ../applet/agent.c:496 ../applet/agent.c:531 ../applet/agent.c:573
+#: ../applet/agent.c:369
 #, c-format
 msgid "Pairing request for '%s'"
 msgstr ""
 
-#: ../applet/agent.c:500 ../applet/agent.c:535 ../applet/agent.c:577
-#: ../applet/agent.c:618 ../applet/agent.c:656
+#: ../applet/agent.c:371 ../applet/agent.c:404 ../applet/agent.c:434
 msgid "Bluetooth device"
 msgstr ""
 
-#: ../applet/agent.c:501 ../applet/agent.c:536 ../applet/agent.c:578
+#: ../applet/agent.c:372
 msgid "Enter PIN"
 msgstr ""
 
 #. translators: this is a popup telling you a particular device
 #. * has asked for pairing
-#: ../applet/agent.c:608
+#: ../applet/agent.c:396
 #, c-format
 msgid "Pairing confirmation for '%s'"
 msgstr ""
 
-#: ../applet/agent.c:619
+#: ../applet/agent.c:405
 msgid "Verify PIN"
 msgstr ""
 
-#: ../applet/agent.c:652
+#: ../applet/agent.c:432
 #, c-format
 msgid "Authorization request from '%s'"
 msgstr ""
 
-#: ../applet/agent.c:657
+#: ../applet/agent.c:435
 msgid "Check authorization"
 msgstr ""
 
@@ -335,39 +182,40 @@ msgid "Bluetooth: Checking"
 msgstr "Bluetooth: Á Sheiceáil"
 
 #: ../applet/popup-menu.ui.h:2
-msgid "Browse files on device..."
-msgstr "Brabhsáil comhaid ar ghléas..."
+msgid "Visible"
+msgstr ""
 
-#: ../applet/popup-menu.ui.h:3 ../properties/adapter.c:405
-msgid "Devices"
-msgstr "Gléasanna"
-
-#: ../applet/popup-menu.ui.h:4
-msgid "Preferences"
-msgstr "Sainroghanna"
-
-#: ../applet/popup-menu.ui.h:5
-msgid "Quit"
-msgstr "Scoir"
-
-#: ../applet/popup-menu.ui.h:6
+#: ../applet/popup-menu.ui.h:3
 msgid "Send files to device..."
 msgstr "Seol comhaid chuig gléas..."
 
-#: ../applet/popup-menu.ui.h:7
+#: ../applet/popup-menu.ui.h:4
+msgid "Devices"
+msgstr "Gléasanna"
+
+#: ../applet/popup-menu.ui.h:5
 msgid "Set up new device..."
 msgstr "Socraigh gléas nua..."
+
+#: ../applet/popup-menu.ui.h:6
+#, fuzzy
+msgid "Bluetooth Settings"
+msgstr "Bluetooth: Á Sheiceáil"
+
+#: ../applet/popup-menu.ui.h:7
+msgid "Quit"
+msgstr "Scoir"
 
 #: ../applet/authorisation-dialogue.ui.h:1
 msgid "_Always grant access"
 msgstr ""
 
 #: ../applet/authorisation-dialogue.ui.h:2
-msgid "_Grant"
+msgid "_Reject"
 msgstr ""
 
 #: ../applet/authorisation-dialogue.ui.h:3
-msgid "_Reject"
+msgid "_Grant"
 msgstr ""
 
 #: ../applet/confirm-dialogue.ui.h:1
@@ -382,351 +230,119 @@ msgstr ""
 msgid "_Show input"
 msgstr ""
 
-#: ../properties/main.c:131
-msgid "A Bluetooth manager for the GNOME desktop"
-msgstr "Bainisteoir Bluetooth don deasc GNOME"
-
-#: ../properties/main.c:134
-msgid "translator-credits"
-msgstr "Seán de Búrca <leftmostcat@gmail.com>"
-
-#: ../properties/main.c:136
-msgid "GNOME Bluetooth home page"
-msgstr "Suíomh Gréasáin Bluetooth GNOME"
-
-#: ../properties/main.c:161
-msgid "Bluetooth Preferences"
-msgstr "Sainroghanna Bluetooth"
-
-#: ../properties/main.c:176
-msgid "_Show Bluetooth icon"
-msgstr ""
-
-#: ../properties/main.c:330
-msgid "Output a list of currently known devices"
-msgstr ""
-
-#: ../properties/main.c:367
-msgid "Bluetooth Properties"
-msgstr "Airíonna Bluetooth"
-
-#: ../properties/adapter.c:179
-#, c-format
-msgid "Remove '%s' from the list of devices?"
-msgstr ""
-
-#: ../properties/adapter.c:181
-msgid ""
-"If you remove the device, you will have to set it up again before next use."
-msgstr ""
-
-#. The discoverable checkbox
-#: ../properties/adapter.c:352
-msgid "Make computer _discoverable"
-msgstr ""
-
-#: ../properties/adapter.c:375
-msgid "Friendly name"
-msgstr "Ainm cairdiúil"
-
-#: ../properties/adapter.c:437
-msgid "Set up _new device..."
-msgstr ""
-
-#: ../properties/adapter.c:460
-msgid "_Remove"
-msgstr ""
-
-#: ../properties/adapter.c:735
-msgid "Bluetooth is disabled"
-msgstr ""
-
-#: ../properties/adapter.c:771
-msgid "No Bluetooth adapters present"
-msgstr ""
-
-#: ../properties/properties-no-adapter.ui.h:1
-msgid "Your computer does not have any Bluetooth adapters plugged in."
-msgstr ""
-
-#: ../properties/bluetooth-properties.desktop.in.in.h:1
-msgid "Bluetooth"
-msgstr "Bluetooth"
-
-#: ../properties/bluetooth-properties.desktop.in.in.h:2
-msgid "Configure Bluetooth settings"
-msgstr "Cumraigh socruithe Bluetooth"
-
-#: ../properties/bluetooth-manager.schemas.in.h:1
-msgid "Whether to show the notification icon"
-msgstr ""
-
-#: ../properties/bluetooth-manager.schemas.in.h:2
-msgid "Whether to show the notification icon."
-msgstr ""
-
-#: ../properties/gconf-bridge.c:1223
-#, c-format
-msgid "GConf error: %s"
-msgstr "Earráid GConf: %s"
-
-#: ../properties/gconf-bridge.c:1228
-msgid "All further errors shown only on terminal."
-msgstr ""
-
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
-#: ../wizard/main.c:206 ../wizard/main.c:327
-#, c-format
-msgid "Pairing with '%s' cancelled"
-msgstr ""
-
-#: ../wizard/main.c:246
-#, c-format
-msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr ""
-
-#: ../wizard/main.c:300
-msgid "Please enter the following PIN:"
-msgstr ""
-
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Setting up 'Sony Bluetooth Headset' failed
-#.
-#: ../wizard/main.c:383
-#, c-format
-msgid "Setting up '%s' failed"
-msgstr ""
-
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Connecting to 'Sony Bluetooth Headset' now...
-#.
-#: ../wizard/main.c:514
-#, c-format
-msgid "Connecting to '%s'..."
-msgstr ""
-
-#: ../wizard/main.c:550
-#, c-format
-msgid ""
-"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr ""
-
-#: ../wizard/main.c:552
-#, c-format
-msgid "Please enter the following PIN on '%s':"
-msgstr ""
-
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:573
-#, c-format
-msgid "Please wait while finishing setup on device '%s'..."
-msgstr ""
-
-#: ../wizard/main.c:586
-#, c-format
-msgid "Successfully set up new device '%s'"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:1
-msgid "'0000' (most headsets, mice and GPS devices)"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:2
-msgid "'1111'"
-msgstr "'1111'"
-
-#: ../wizard/wizard.ui.h:3
-msgid "'1234'"
-msgstr "'1234'"
-
-#: ../wizard/wizard.ui.h:4
-msgid "Bluetooth New Device Setup"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:5
-msgid "Custom PIN code:"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:6
-msgid "Device Setup"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:7
-msgid "Device Setup Failed"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:8
-msgid "Device search"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:9
-msgid "Does not match"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:10
-msgid "Finishing New Device Setup"
-msgstr ""
-
-#. Translators: this is a PIN with a set value, such as 1111, or 0000
-#: ../wizard/wizard.ui.h:12
-msgid "Fixed PIN"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:13
-msgid "Introduction"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:14
-msgid "Matches"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:15
-msgid "PIN Options"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:16
-msgid "PIN _options..."
-msgstr ""
-
-#: ../wizard/wizard.ui.h:17
-msgid "Select the additional services you want to use with your device:"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:18
-msgid "Select the device you want to setup"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:19
-msgid "Setup Completed"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:20
-msgid ""
-"The Bluetooth new device setup will walk you through the process of "
-"configuring Bluetooth enabled devices for use with this computer."
-msgstr ""
-
-#: ../wizard/wizard.ui.h:21
-msgid ""
-"The device will need to be within 10 meters of your computer, and be “"
-"discoverable” (sometimes called “visible”). Check the "
-"device's manual if in doubt."
-msgstr ""
-
-#: ../wizard/wizard.ui.h:22
-msgid "Welcome to the Bluetooth new device setup"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:23
-msgid "_Automatic PIN selection"
-msgstr ""
-
-#: ../wizard/wizard.ui.h:24
-msgid "_Restart Setup"
-msgstr ""
-
-#: ../sendto/main.c:98
-#, c-format
-msgid "%'d second"
-msgid_plural "%'d seconds"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: ../sendto/main.c:103 ../sendto/main.c:116
-#, c-format
-msgid "%'d minute"
-msgid_plural "%'d minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: ../sendto/main.c:114
-#, c-format
-msgid "%'d hour"
-msgid_plural "%'d hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: ../sendto/main.c:124
-#, c-format
-msgid "approximately %'d hour"
-msgid_plural "approximately %'d hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-
-#: ../sendto/main.c:150
-msgid "File Transfer"
-msgstr ""
-
-#: ../sendto/main.c:170
-msgid "Sending files via Bluetooth"
-msgstr ""
-
-#: ../sendto/main.c:182
-msgid "From:"
-msgstr "Ó:"
-
-#: ../sendto/main.c:198
-msgid "To:"
-msgstr "Chuig:"
-
-#: ../sendto/main.c:244
-msgid "An unknown error occurred"
-msgstr ""
-
-#: ../sendto/main.c:254
-msgid ""
-"Make sure that remote device is switched on and that it accepts Bluetooth "
-"connections"
-msgstr ""
-
-#: ../sendto/main.c:338
-#, c-format
-msgid "Sending %s"
-msgstr "%s á sheoladh"
-
-#: ../sendto/main.c:345 ../sendto/main.c:407
-#, c-format
-msgid "Sending file %d of %d"
-msgstr "Comhad %d as %d á sheoladh"
-
-#: ../sendto/main.c:403
-#, c-format
-msgid "%d KB/s"
-msgstr "%d KB/s"
-
-#: ../sendto/main.c:405
-#, c-format
-msgid "%d B/s"
-msgstr "%d B/s"
-
-#: ../sendto/main.c:499
-msgid "Select Device to Send To"
-msgstr ""
-
-#: ../sendto/main.c:503
-msgid "Send _To"
-msgstr "Seol _Chuig"
-
-#: ../sendto/main.c:544
-msgid "Choose files to send"
-msgstr ""
-
-#: ../sendto/main.c:573
-msgid "Remote device to use"
-msgstr ""
-
-#: ../sendto/main.c:575
-msgid "Remote device's name"
-msgstr ""
+#~ msgid "All types"
+#~ msgstr "Gach cineál"
+
+#~ msgid "Phone"
+#~ msgstr "Fón"
+
+#~ msgid "Modem"
+#~ msgstr "Móideim"
+
+#~ msgid "Computer"
+#~ msgstr "Ríomhaire"
+
+#~ msgid "Network"
+#~ msgstr "Líonra"
+
+#~ msgid "Headset"
+#~ msgstr "Gléas cinn"
+
+#~ msgid "Headphones"
+#~ msgstr "Cluasáin"
+
+#~ msgid "Audio device"
+#~ msgstr "Gléas fuaime"
+
+#~ msgid "Mouse"
+#~ msgstr "Luch"
+
+#~ msgid "Camera"
+#~ msgstr "Ceamara"
+
+#~ msgid "Printer"
+#~ msgstr "Printéir"
+
+#~ msgid "Joypad"
+#~ msgstr "Ceap stiúrtha"
+
+#~ msgid "Tablet"
+#~ msgstr "Táibléad"
+
+#~ msgid "Unknown"
+#~ msgstr "Anaithnid"
+
+#~ msgid "Click to select device..."
+#~ msgstr "Cliceáil chun gléas a roghnú..."
+
+#~ msgid "All categories"
+#~ msgstr "Gach catagóir"
+
+#~ msgid "Device"
+#~ msgstr "Gléas"
+
+#~ msgid "Type"
+#~ msgstr "Cineál"
+
+#~ msgid "_Browse"
+#~ msgstr "_Brabhsáil"
+
+#~ msgid "Bluetooth: Enabled"
+#~ msgstr "Bluetooth: Cumasaithe"
+
+#~ msgid "Browse files on device..."
+#~ msgstr "Brabhsáil comhaid ar ghléas..."
+
+#~ msgid "Preferences"
+#~ msgstr "Sainroghanna"
+
+#~ msgid "A Bluetooth manager for the GNOME desktop"
+#~ msgstr "Bainisteoir Bluetooth don deasc GNOME"
+
+#~ msgid "translator-credits"
+#~ msgstr "Seán de Búrca <leftmostcat@gmail.com>"
+
+#~ msgid "GNOME Bluetooth home page"
+#~ msgstr "Suíomh Gréasáin Bluetooth GNOME"
+
+#~ msgid "Bluetooth Preferences"
+#~ msgstr "Sainroghanna Bluetooth"
+
+#~ msgid "Bluetooth Properties"
+#~ msgstr "Airíonna Bluetooth"
+
+#~ msgid "Friendly name"
+#~ msgstr "Ainm cairdiúil"
+
+#~ msgid "Configure Bluetooth settings"
+#~ msgstr "Cumraigh socruithe Bluetooth"
+
+#~ msgid "GConf error: %s"
+#~ msgstr "Earráid GConf: %s"
+
+#~ msgid "'1111'"
+#~ msgstr "'1111'"
+
+#~ msgid "'1234'"
+#~ msgstr "'1234'"
+
+#~ msgid "From:"
+#~ msgstr "Ó:"
+
+#~ msgid "To:"
+#~ msgstr "Chuig:"
+
+#~ msgid "Sending %s"
+#~ msgstr "%s á sheoladh"
+
+#~ msgid "Sending file %d of %d"
+#~ msgstr "Comhad %d as %d á sheoladh"
+
+#~ msgid "%d KB/s"
+#~ msgstr "%d KB/s"
+
+#~ msgid "%d B/s"
+#~ msgstr "%d B/s"
+
+#~ msgid "Send _To"
+#~ msgstr "Seol _Chuig"

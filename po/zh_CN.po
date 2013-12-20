@@ -10,246 +10,88 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-bluetooth master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"bluetooth&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-06-27 21:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-20 05:18+0100\n"
 "PO-Revision-Date: 2012-09-23 03:52+0800\n"
 "Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bits\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Gtranslator 2.91.5\n"
 
-#: ../lib/bluetooth-chooser-button.c:75
-msgid "Click to select device..."
-msgstr "点击选择设备..."
-
-#: ../lib/bluetooth-chooser.c:135 ../lib/bluetooth-filter-widget.c:82
-#: ../lib/bluetooth-utils.c:90
-msgid "Unknown"
-msgstr "未知"
-
-#: ../lib/bluetooth-chooser.c:176
-msgid "No adapters available"
-msgstr "无可用的适配器"
-
-#: ../lib/bluetooth-chooser.c:180 ../lib/bluetooth-chooser.c:804
-msgid "Searching for devices..."
-msgstr "正在查找设备..."
-
-#: ../lib/bluetooth-chooser.c:696 ../lib/bluetooth-chooser.c:985
-msgid "Device"
-msgstr "设备"
-
-#: ../lib/bluetooth-chooser.c:732
-msgid "Type"
-msgstr "类型"
-
-#: ../lib/bluetooth-chooser.c:987 ../applet/popup-menu.ui.h:4
-msgid "Devices"
-msgstr "设备"
-
-#: ../lib/bluetooth-filter-widget.c:72
-msgid "All categories"
-msgstr "所有类别"
-
-#: ../lib/bluetooth-filter-widget.c:74
-msgid "Paired"
-msgstr "已配对"
-
-#: ../lib/bluetooth-filter-widget.c:76
-msgid "Trusted"
-msgstr "信任的"
-
-#: ../lib/bluetooth-filter-widget.c:78
-msgid "Not paired or trusted"
-msgstr "未配对或未信任"
-
-#: ../lib/bluetooth-filter-widget.c:80
-msgid "Paired or trusted"
-msgstr "已配对或已信任"
-
-#. This is the title of the filter section of the Bluetooth device chooser.
-#. * It used to say Show Only Bluetooth Devices With...
-#: ../lib/bluetooth-filter-widget.c:231
-msgid "Show:"
-msgstr "显示："
-
-#. The device category filter
-#: ../lib/bluetooth-filter-widget.c:247
-msgid "Device _category:"
-msgstr "设备类别(_C)："
-
-#: ../lib/bluetooth-filter-widget.c:258
-msgid "Select the device category to filter"
-msgstr "选择设备类别来过滤"
-
-#. The device type filter
-#: ../lib/bluetooth-filter-widget.c:272
-msgid "Device _type:"
-msgstr "设备类型(_T)："
-
-#: ../lib/bluetooth-filter-widget.c:289
-msgid "Select the device type to filter"
-msgstr "选择设备类型来过滤"
-
-#: ../lib/bluetooth-filter-widget.c:295
-msgid "Input devices (mice, keyboards, etc.)"
-msgstr "输入设备(麦克风，键盘，等)"
-
-#: ../lib/bluetooth-filter-widget.c:299
-msgid "Headphones, headsets and other audio devices"
-msgstr "听筒，耳机或其它音频设备"
-
-#: ../lib/bluetooth-utils.c:59
-msgid "All types"
-msgstr "所有类型"
-
-#: ../lib/bluetooth-utils.c:61
-msgid "Phone"
-msgstr "电话"
-
-#: ../lib/bluetooth-utils.c:63
-msgid "Modem"
-msgstr "调制解调器"
-
-#: ../lib/bluetooth-utils.c:65
-msgid "Computer"
-msgstr "计算机"
-
-#: ../lib/bluetooth-utils.c:67
-msgid "Network"
-msgstr "网络"
-
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
-#: ../lib/bluetooth-utils.c:70
-msgid "Headset"
-msgstr "耳机"
-
-#: ../lib/bluetooth-utils.c:72
-msgid "Headphones"
-msgstr "听筒"
-
-#: ../lib/bluetooth-utils.c:74
-msgid "Audio device"
-msgstr "音频设备"
-
-#: ../lib/bluetooth-utils.c:76
-msgid "Keyboard"
-msgstr "键盘"
-
-#: ../lib/bluetooth-utils.c:78
-msgid "Mouse"
-msgstr "鼠标"
-
-#: ../lib/bluetooth-utils.c:80
-msgid "Camera"
-msgstr "相机"
-
-#: ../lib/bluetooth-utils.c:82
-msgid "Printer"
-msgstr "打印机"
-
-#: ../lib/bluetooth-utils.c:84
-msgid "Joypad"
-msgstr "游戏手柄"
-
-#: ../lib/bluetooth-utils.c:86
-msgid "Tablet"
-msgstr "触摸板"
-
-#: ../lib/bluetooth-utils.c:88
-msgid "Video device"
-msgstr "视频设备"
-
-#: ../lib/plugins/geoclue.c:178
-msgid "Use this GPS device for Geolocation services"
-msgstr "使用该 GPS 设备来进行地理定位"
-
-#. translators:
-#. * This is in a test plugin, please make sure you add the "(test)" part,
-#. * or leave untranslated
-#: ../lib/plugins/test.c:53
-msgid "Access the Internet using your cell phone (test)"
-msgstr "通过您的移动电话访问互联网 (测试)"
-
-#: ../applet/main.c:230
+#: ../applet/main.c:203
 msgid "Turn on Bluetooth"
 msgstr "打开蓝牙"
 
-#: ../applet/main.c:231 ../applet/notify.c:159
+#: ../applet/main.c:204 ../applet/notify.c:159
 msgid "Bluetooth: Off"
 msgstr "蓝牙：关闭"
 
-#: ../applet/main.c:234
+#: ../applet/main.c:207
 msgid "Turn off Bluetooth"
 msgstr "关闭蓝牙"
 
-#: ../applet/main.c:235 ../applet/notify.c:159
+#: ../applet/main.c:208 ../applet/notify.c:159
 msgid "Bluetooth: On"
 msgstr "蓝牙：打开"
 
-#: ../applet/main.c:240
+#: ../applet/main.c:213
 msgid "Bluetooth: Disabled"
 msgstr "蓝牙：禁用"
 
-#: ../applet/main.c:387
+#: ../applet/main.c:360
 msgid "Disconnecting..."
 msgstr "正在断开连接..."
 
-#: ../applet/main.c:390 ../sendto/main.c:192 ../sendto/main.c:292
+#: ../applet/main.c:363
 msgid "Connecting..."
 msgstr "正在连接..."
 
-#: ../applet/main.c:393 ../applet/main.c:676
+#: ../applet/main.c:366 ../applet/main.c:649
 msgid "Connected"
 msgstr "已连接"
 
-#: ../applet/main.c:396 ../applet/main.c:676
+#: ../applet/main.c:369 ../applet/main.c:649
 msgid "Disconnected"
 msgstr "已断开"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Disconnect"
 msgstr "断开"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Connect"
 msgstr "连接"
 
-#: ../applet/main.c:707
+#: ../applet/main.c:680
 msgid "Send files..."
 msgstr "发送文件..."
 
-#: ../applet/main.c:717
-msgid "Browse files..."
-msgstr "浏览文件..."
-
-#: ../applet/main.c:728
+#: ../applet/main.c:693
 msgid "Keyboard Settings"
 msgstr "键盘设置"
 
-#: ../applet/main.c:736
+#: ../applet/main.c:701
 msgid "Mouse and Touchpad Settings"
 msgstr "鼠标和触摸板设置"
 
-#: ../applet/main.c:746
+#: ../applet/main.c:711
 msgid "Sound Settings"
 msgstr "声音设置"
 
-#: ../applet/main.c:799
+#: ../applet/main.c:764
 msgid "Debug"
 msgstr "调试"
 
 #. Parse command-line options
-#: ../applet/main.c:818
+#: ../applet/main.c:783
 msgid "- Bluetooth applet"
 msgstr "- 蓝牙小程序"
 
-#: ../applet/main.c:823
+#: ../applet/main.c:788
 #, c-format
 msgid ""
 "%s\n"
@@ -258,7 +100,7 @@ msgstr ""
 "%s\n"
 "运行 '%s --help' 查看命令行可用选项的完整列表。\n"
 
-#: ../applet/main.c:849
+#: ../applet/main.c:814
 msgid "Bluetooth Applet"
 msgstr "蓝牙小程序"
 
@@ -347,6 +189,10 @@ msgstr "可见"
 msgid "Send files to device..."
 msgstr "发送文件到设备..."
 
+#: ../applet/popup-menu.ui.h:4
+msgid "Devices"
+msgstr "设备"
+
 #: ../applet/popup-menu.ui.h:5
 msgid "Set up new device..."
 msgstr "设置新的设备..."
@@ -383,295 +229,305 @@ msgstr "匹配(_M)"
 msgid "_Show input"
 msgstr "显示输入(_S)"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
-#: ../wizard/main.c:241 ../wizard/main.c:364
-#, c-format
-msgid "Pairing with '%s' cancelled"
-msgstr "已取消和 '%s' 配对"
+#~ msgid "Click to select device..."
+#~ msgstr "点击选择设备..."
 
-#: ../wizard/main.c:282
-#, c-format
-msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr "请确认显示于 '%s' 的 PIN 与此匹配。 "
+#~ msgid "Unknown"
+#~ msgstr "未知"
 
-#: ../wizard/main.c:336
-msgid "Please enter the following PIN:"
-msgstr "请输入如下的 PIN："
+#~ msgid "No adapters available"
+#~ msgstr "无可用的适配器"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Setting up 'Sony Bluetooth Headset' failed
-#.
-#: ../wizard/main.c:424
-#, c-format
-msgid "Setting up '%s' failed"
-msgstr "设置 '%s' 失败"
+#~ msgid "Searching for devices..."
+#~ msgstr "正在查找设备..."
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Connecting to 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:478
-#, c-format
-msgid "Connecting to '%s'..."
-msgstr "正在连接到 '%s' ..."
+#~ msgid "Device"
+#~ msgstr "设备"
 
-#: ../wizard/main.c:518
-#, c-format
-msgid "Please enter the following PIN on '%s':"
-msgstr "请在 '%s' 输入如下的 PIN ："
+#~ msgid "Type"
+#~ msgstr "类型"
 
-#: ../wizard/main.c:521
-#, c-format
-msgid ""
-"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr "请在 '%s' 输入如下 PIN 并按下键盘上的 “Enter” 键："
+#~ msgid "All categories"
+#~ msgstr "所有类别"
 
-#: ../wizard/main.c:526
-msgid "Please move the joystick of your iCade in the following directions:"
-msgstr "请按照下面的方向移动您的 iCade 操纵杆："
+#~ msgid "Paired"
+#~ msgstr "已配对"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:558
-#, c-format
-msgid "Please wait while finishing setup on device '%s'..."
-msgstr "即将完成 '%s' 设备的设置，请稍候..."
+#~ msgid "Trusted"
+#~ msgstr "信任的"
 
-#: ../wizard/main.c:576
-#, c-format
-msgid "Successfully set up new device '%s'"
-msgstr "成功设置新设备 '%s'"
+#~ msgid "Not paired or trusted"
+#~ msgstr "未配对或未信任"
 
-#: ../wizard/wizard.ui.h:1
-msgid "Bluetooth New Device Setup"
-msgstr "蓝牙新设备设置"
+#~ msgid "Paired or trusted"
+#~ msgstr "已配对或已信任"
 
-#: ../wizard/wizard.ui.h:2
-msgid "PIN _options..."
-msgstr "PIN 选项(_O)..."
+#~ msgid "Show:"
+#~ msgstr "显示："
 
-#: ../wizard/wizard.ui.h:3
-msgid "Device Search"
-msgstr "搜索设备"
+#~ msgid "Device _category:"
+#~ msgstr "设备类别(_C)："
 
-#: ../wizard/wizard.ui.h:4
-msgid "Device Setup"
-msgstr "设备设置"
+#~ msgid "Select the device category to filter"
+#~ msgstr "选择设备类别来过滤"
 
-#: ../wizard/wizard.ui.h:5
-#| msgid "Finishing New Device Setup"
-msgid "Finishing Setup"
-msgstr "即将完成设置"
+#~ msgid "Device _type:"
+#~ msgstr "设备类型(_T)："
 
-#: ../wizard/wizard.ui.h:6
-msgid "Select the additional services you want to use with your device:"
-msgstr "为您的设备选择要用的附加服务："
+#~ msgid "Select the device type to filter"
+#~ msgstr "选择设备类型来过滤"
 
-#: ../wizard/wizard.ui.h:7
-msgid "Setup Summary"
-msgstr "设置摘要"
+#~ msgid "Input devices (mice, keyboards, etc.)"
+#~ msgstr "输入设备(麦克风，键盘，等)"
 
-#: ../wizard/wizard.ui.h:8
-msgid "PIN Options"
-msgstr "PIN 码选项"
+#~ msgid "Headphones, headsets and other audio devices"
+#~ msgstr "听筒，耳机或其它音频设备"
 
-#: ../wizard/wizard.ui.h:9
-msgid "_Automatic PIN selection"
-msgstr "自动选择 PIN(_A)"
+#~ msgid "All types"
+#~ msgstr "所有类型"
 
-#. Translators: this is a PIN with a set value, such as 1111, or 0000
-#: ../wizard/wizard.ui.h:11
-msgid "Fixed PIN"
-msgstr "固定的 PIN"
+#~ msgid "Phone"
+#~ msgstr "电话"
 
-#: ../wizard/wizard.ui.h:12
-msgid "'0000' (most headsets, mice and GPS devices)"
-msgstr "'0000' (大多数耳机、鼠标和 GPS 设备)"
+#~ msgid "Modem"
+#~ msgstr "调制解调器"
 
-#: ../wizard/wizard.ui.h:13
-msgid "'1111'"
-msgstr "'1111'"
+#~ msgid "Computer"
+#~ msgstr "计算机"
 
-#: ../wizard/wizard.ui.h:14
-msgid "'1234'"
-msgstr "'1234'"
+#~ msgid "Network"
+#~ msgstr "网络"
 
-#: ../wizard/wizard.ui.h:15
-msgid "Do not pair"
-msgstr "不配对"
+#~ msgid "Headset"
+#~ msgstr "耳机"
 
-#: ../wizard/wizard.ui.h:16
-msgid "Custom PIN:"
-msgstr "自定义 PIN 码："
+#~ msgid "Headphones"
+#~ msgstr "听筒"
 
-#: ../wizard/wizard.ui.h:17
-msgid "_Try Again"
-msgstr "重试(_T)"
+#~ msgid "Audio device"
+#~ msgstr "音频设备"
 
-#: ../wizard/wizard.ui.h:18
-msgid "_Quit"
-msgstr "退出(_Q)"
+#~ msgid "Keyboard"
+#~ msgstr "键盘"
 
-#: ../wizard/wizard.ui.h:19
-msgid "_Cancel"
-msgstr "取消(_C)"
+#~ msgid "Mouse"
+#~ msgstr "鼠标"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:21
-msgid "Does not match"
-msgstr "不匹配"
+#~ msgid "Camera"
+#~ msgstr "相机"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:23
-msgid "Matches"
-msgstr "匹配"
+#~ msgid "Printer"
+#~ msgstr "打印机"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:1
-msgid "Bluetooth Device Setup"
-msgstr "蓝牙设备设置"
+#~ msgid "Joypad"
+#~ msgstr "游戏手柄"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:2
-msgid "Setup Bluetooth devices"
-msgstr "蓝牙设备"
+#~ msgid "Tablet"
+#~ msgstr "触摸板"
 
-#: ../sendto/main.c:151
-#, c-format
-msgid "%'d second"
-msgid_plural "%'d seconds"
-msgstr[0] "%'d 秒"
+#~ msgid "Video device"
+#~ msgstr "视频设备"
 
-#: ../sendto/main.c:156 ../sendto/main.c:169
-#, c-format
-msgid "%'d minute"
-msgid_plural "%'d minutes"
-msgstr[0] "%'d 分钟"
+#~ msgid "Use this GPS device for Geolocation services"
+#~ msgstr "使用该 GPS 设备来进行地理定位"
 
-#: ../sendto/main.c:167
-#, c-format
-msgid "%'d hour"
-msgid_plural "%'d hours"
-msgstr[0] "%'d 小时"
+#~ msgid "Access the Internet using your cell phone (test)"
+#~ msgstr "通过您的移动电话访问互联网 (测试)"
 
-#: ../sendto/main.c:177
-#, c-format
-msgid "approximately %'d hour"
-msgid_plural "approximately %'d hours"
-msgstr[0] "大约 %'d 小时"
+#~ msgid "Browse files..."
+#~ msgstr "浏览文件..."
 
-#: ../sendto/main.c:231
-msgid "File Transfer"
-msgstr "文件传输"
+#~ msgid "Pairing with '%s' cancelled"
+#~ msgstr "已取消和 '%s' 配对"
 
-#: ../sendto/main.c:234
-msgid "_Retry"
-msgstr "重试(_R)"
+#~ msgid "Please confirm that the PIN displayed on '%s' matches this one."
+#~ msgstr "请确认显示于 '%s' 的 PIN 与此匹配。 "
 
-#. translators: This is the heading for the progress dialogue
-#: ../sendto/main.c:253
-msgid "Sending files via Bluetooth"
-msgstr "通过蓝牙传输文件"
+#~ msgid "Please enter the following PIN:"
+#~ msgstr "请输入如下的 PIN："
 
-#: ../sendto/main.c:265
-msgid "From:"
-msgstr "从："
+#~ msgid "Setting up '%s' failed"
+#~ msgstr "设置 '%s' 失败"
 
-#: ../sendto/main.c:277
-msgid "To:"
-msgstr "到："
+#~ msgid "Connecting to '%s'..."
+#~ msgstr "正在连接到 '%s' ..."
 
-#: ../sendto/main.c:321 ../sendto/main.c:339
-msgid "An unknown error occurred"
-msgstr "发生了未知错误"
+#~ msgid "Please enter the following PIN on '%s':"
+#~ msgstr "请在 '%s' 输入如下的 PIN ："
 
-#: ../sendto/main.c:332
-msgid ""
-"Make sure that the remote device is switched on and that it accepts "
-"Bluetooth connections"
-msgstr "请确认远程设备已开启并接受蓝牙连接"
+#~ msgid ""
+#~ "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+#~ msgstr "请在 '%s' 输入如下 PIN 并按下键盘上的 “Enter” 键："
 
-#: ../sendto/main.c:430
-#, c-format
-msgid "Sending %s"
-msgstr "发送 %s"
+#~ msgid "Please move the joystick of your iCade in the following directions:"
+#~ msgstr "请按照下面的方向移动您的 iCade 操纵杆："
 
-#: ../sendto/main.c:437 ../sendto/main.c:508
-#, c-format
-msgid "Sending file %d of %d"
-msgstr "文件发送中 %d / %d"
+#~ msgid "Please wait while finishing setup on device '%s'..."
+#~ msgstr "即将完成 '%s' 设备的设置，请稍候..."
 
-#: ../sendto/main.c:504
-#, c-format
-#| msgid "%d B/s"
-msgid "%d kB/s"
-msgstr "%d kB/s"
+#~ msgid "Successfully set up new device '%s'"
+#~ msgstr "成功设置新设备 '%s'"
 
-#: ../sendto/main.c:506
-#, c-format
-msgid "%d B/s"
-msgstr "%d B/s"
+#~ msgid "Bluetooth New Device Setup"
+#~ msgstr "蓝牙新设备设置"
 
-#: ../sendto/main.c:639
-msgid "Select device to send to"
-msgstr "选择要发送到的设备"
+#~ msgid "PIN _options..."
+#~ msgstr "PIN 选项(_O)..."
 
-#: ../sendto/main.c:644
-msgid "_Send"
-msgstr "发送(_S)"
+#~ msgid "Device Search"
+#~ msgstr "搜索设备"
 
-#: ../sendto/main.c:688
-msgid "Choose files to send"
-msgstr "选择要发送的文件"
+#~ msgid "Device Setup"
+#~ msgstr "设备设置"
 
-#: ../sendto/main.c:691
-msgid "Select"
-msgstr "选择"
+#~| msgid "Finishing New Device Setup"
+#~ msgid "Finishing Setup"
+#~ msgstr "即将完成设置"
 
-#: ../sendto/main.c:717
-msgid "Remote device to use"
-msgstr "要使用的远程设备"
+#~ msgid "Select the additional services you want to use with your device:"
+#~ msgstr "为您的设备选择要用的附加服务："
 
-#: ../sendto/main.c:717
-msgid "ADDRESS"
-msgstr "地址"
+#~ msgid "Setup Summary"
+#~ msgstr "设置摘要"
 
-#: ../sendto/main.c:719
-msgid "Remote device's name"
-msgstr "远程设备名称"
+#~ msgid "PIN Options"
+#~ msgstr "PIN 码选项"
 
-#: ../sendto/main.c:719
-msgid "NAME"
-msgstr "名称"
+#~ msgid "_Automatic PIN selection"
+#~ msgstr "自动选择 PIN(_A)"
 
-#: ../sendto/main.c:738
-msgid "[FILE...]"
-msgstr "[文件...]"
+#~ msgid "Fixed PIN"
+#~ msgstr "固定的 PIN"
 
-#: ../sendto/nautilus-sendto-plugin.c:168
-msgid "Programming error: could not find the device in the list"
-msgstr "编程错误：无法找到该列表中的设备"
+#~ msgid "'0000' (most headsets, mice and GPS devices)"
+#~ msgstr "'0000' (大多数耳机、鼠标和 GPS 设备)"
 
-#: ../sendto/nautilus-sendto-plugin.c:243
-#, c-format
-msgid "OBEX Push file transfer unsupported"
-msgstr "不支持 OBEX 文件推送传输"
+#~ msgid "'1111'"
+#~ msgstr "'1111'"
 
-#: ../sendto/nautilus-sendto-plugin.c:262
-msgid "Bluetooth (OBEX Push)"
-msgstr "蓝牙(OBEX 推送)"
+#~ msgid "'1234'"
+#~ msgstr "'1234'"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:1
-msgid "Bluetooth Transfer"
-msgstr "蓝牙传输"
+#~ msgid "Do not pair"
+#~ msgstr "不配对"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:2
-msgid "Send files via Bluetooth"
-msgstr "通过蓝牙传输文件"
+#~ msgid "Custom PIN:"
+#~ msgstr "自定义 PIN 码："
+
+#~ msgid "_Try Again"
+#~ msgstr "重试(_T)"
+
+#~ msgid "_Quit"
+#~ msgstr "退出(_Q)"
+
+#~ msgid "_Cancel"
+#~ msgstr "取消(_C)"
+
+#~ msgid "Does not match"
+#~ msgstr "不匹配"
+
+#~ msgid "Matches"
+#~ msgstr "匹配"
+
+#~ msgid "Bluetooth Device Setup"
+#~ msgstr "蓝牙设备设置"
+
+#~ msgid "Setup Bluetooth devices"
+#~ msgstr "蓝牙设备"
+
+#~ msgid "%'d second"
+#~ msgid_plural "%'d seconds"
+#~ msgstr[0] "%'d 秒"
+
+#~ msgid "%'d minute"
+#~ msgid_plural "%'d minutes"
+#~ msgstr[0] "%'d 分钟"
+
+#~ msgid "%'d hour"
+#~ msgid_plural "%'d hours"
+#~ msgstr[0] "%'d 小时"
+
+#~ msgid "approximately %'d hour"
+#~ msgid_plural "approximately %'d hours"
+#~ msgstr[0] "大约 %'d 小时"
+
+#~ msgid "File Transfer"
+#~ msgstr "文件传输"
+
+#~ msgid "_Retry"
+#~ msgstr "重试(_R)"
+
+#~ msgid "Sending files via Bluetooth"
+#~ msgstr "通过蓝牙传输文件"
+
+#~ msgid "From:"
+#~ msgstr "从："
+
+#~ msgid "To:"
+#~ msgstr "到："
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "发生了未知错误"
+
+#~ msgid ""
+#~ "Make sure that the remote device is switched on and that it accepts "
+#~ "Bluetooth connections"
+#~ msgstr "请确认远程设备已开启并接受蓝牙连接"
+
+#~ msgid "Sending %s"
+#~ msgstr "发送 %s"
+
+#~ msgid "Sending file %d of %d"
+#~ msgstr "文件发送中 %d / %d"
+
+#~| msgid "%d B/s"
+#~ msgid "%d kB/s"
+#~ msgstr "%d kB/s"
+
+#~ msgid "%d B/s"
+#~ msgstr "%d B/s"
+
+#~ msgid "Select device to send to"
+#~ msgstr "选择要发送到的设备"
+
+#~ msgid "_Send"
+#~ msgstr "发送(_S)"
+
+#~ msgid "Choose files to send"
+#~ msgstr "选择要发送的文件"
+
+#~ msgid "Select"
+#~ msgstr "选择"
+
+#~ msgid "Remote device to use"
+#~ msgstr "要使用的远程设备"
+
+#~ msgid "ADDRESS"
+#~ msgstr "地址"
+
+#~ msgid "Remote device's name"
+#~ msgstr "远程设备名称"
+
+#~ msgid "NAME"
+#~ msgstr "名称"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[文件...]"
+
+#~ msgid "Programming error: could not find the device in the list"
+#~ msgstr "编程错误：无法找到该列表中的设备"
+
+#~ msgid "OBEX Push file transfer unsupported"
+#~ msgstr "不支持 OBEX 文件推送传输"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "蓝牙(OBEX 推送)"
+
+#~ msgid "Bluetooth Transfer"
+#~ msgstr "蓝牙传输"
+
+#~ msgid "Send files via Bluetooth"
+#~ msgstr "通过蓝牙传输文件"
 
 #~ msgid "%d KB/s"
 #~ msgstr "%d KB/s"

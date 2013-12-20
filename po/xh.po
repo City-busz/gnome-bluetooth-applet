@@ -5,9 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-bluetooth master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"bluetooth&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-12-22 02:00+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-20 05:18+0100\n"
 "PO-Revision-Date: 2012-03-01 12:28+0200\n"
 "Last-Translator: Andiswa Mvanyashe <andiswamva@webmail.co.za>\n"
 "Language-Team: andiswamva@gmail.com\n"
@@ -19,246 +18,78 @@ msgstr ""
 "X-Generator: Virtaal 0.7.1\n"
 "X-Project-Style: gnome\n"
 
-#: ../lib/bluetooth-chooser-button.c:75
-msgid "Click to select device..."
-msgstr "Cofa ukukhetha isixhobo..."
-
-#: ../lib/bluetooth-chooser.c:136 ../lib/bluetooth-filter-widget.c:82
-#: ../lib/bluetooth-utils.c:89
-msgid "Unknown"
-msgstr "Engaziwayo"
-
-#: ../lib/bluetooth-chooser.c:177
-msgid "No adapters available"
-msgstr "Akukho adaptha efumanekayo"
-
-#: ../lib/bluetooth-chooser.c:181 ../lib/bluetooth-chooser.c:845
-msgid "Searching for devices..."
-msgstr "Ikhangela izixhobo..."
-
-#: ../lib/bluetooth-chooser.c:721 ../lib/bluetooth-chooser.c:1030
-msgid "Device"
-msgstr "Isixhobo"
-
-#: ../lib/bluetooth-chooser.c:757
-msgid "Type"
-msgstr "Chwetheza"
-
-#: ../lib/bluetooth-chooser.c:1032 ../applet/popup-menu.ui.h:3
-#: ../moblin/moblin-panel.c:1404 ../moblin/moblin-panel.c:1514
-msgid "Devices"
-msgstr "Izixhobo"
-
-#: ../lib/bluetooth-filter-widget.c:72
-msgid "All categories"
-msgstr "Zonke iintlobo"
-
-#: ../lib/bluetooth-filter-widget.c:74
-msgid "Paired"
-msgstr "Idityanisiwe"
-
-#: ../lib/bluetooth-filter-widget.c:76
-msgid "Trusted"
-msgstr "Ithenjiwe"
-
-#: ../lib/bluetooth-filter-widget.c:78
-msgid "Not paired or trusted"
-msgstr "Ayidityaniswanga okanye ayithenjwanga"
-
-#: ../lib/bluetooth-filter-widget.c:80
-msgid "Paired or trusted"
-msgstr "Idityanisiwe oknaye ithenjiwe"
-
-#. This is the title of the filter section of the Bluetooth device chooser.
-#. * It used to say Show Only Bluetooth Devices With...
-#: ../lib/bluetooth-filter-widget.c:231
-msgid "Show:"
-msgstr "Bonisa:"
-
-#. The device category filter
-#: ../lib/bluetooth-filter-widget.c:247
-msgid "Device _category:"
-msgstr "U_hlobo lesixhobo:"
-
-#: ../lib/bluetooth-filter-widget.c:258
-msgid "Select the device category to filter"
-msgstr "Khetha uhlobo lwenqubo luza kuhluza"
-
-#. The device type filter
-#: ../lib/bluetooth-filter-widget.c:272
-msgid "Device _type:"
-msgstr "U_hlobo lwesixhobo:"
-
-#: ../lib/bluetooth-filter-widget.c:289
-msgid "Select the device type to filter"
-msgstr "Khetha uhlobo lwesixhobo esiza kuhluza"
-
-#: ../lib/bluetooth-filter-widget.c:295
-msgid "Input devices (mice, keyboards, etc.)"
-msgstr "Izixhobo ezinika igalelo (impuku, ibhodi yamaqhosha, njalo-njalo.)"
-
-#: ../lib/bluetooth-filter-widget.c:299
-msgid "Headphones, headsets and other audio devices"
-msgstr "Ifini-yentloko, ihediseti kunye nezinye izixhobo zelizwi"
-
-#: ../lib/bluetooth-utils.c:58
-msgid "All types"
-msgstr "Zonke iintlobo"
-
-#: ../lib/bluetooth-utils.c:60
-msgid "Phone"
-msgstr "Ifowni"
-
-#: ../lib/bluetooth-utils.c:62
-msgid "Modem"
-msgstr "I-modem"
-
-#: ../lib/bluetooth-utils.c:64
-msgid "Computer"
-msgstr "Ikhompuyutha"
-
-#: ../lib/bluetooth-utils.c:66
-msgid "Network"
-msgstr "Umsebenzi wothungelwano"
-
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
-#: ../lib/bluetooth-utils.c:69
-msgid "Headset"
-msgstr "Ihediseti"
-
-#: ../lib/bluetooth-utils.c:71
-msgid "Headphones"
-msgstr "Ifoni-yentloko"
-
-#: ../lib/bluetooth-utils.c:73
-msgid "Audio device"
-msgstr "Izixhobo ezinesandi"
-
-#: ../lib/bluetooth-utils.c:75
-msgid "Keyboard"
-msgstr "Ibhodi yamaqhosha"
-
-#: ../lib/bluetooth-utils.c:77
-msgid "Mouse"
-msgstr "Impuku"
-
-#: ../lib/bluetooth-utils.c:79
-msgid "Camera"
-msgstr "Ikhamera"
-
-#: ../lib/bluetooth-utils.c:81
-msgid "Printer"
-msgstr "Isishicileli"
-
-#: ../lib/bluetooth-utils.c:83
-msgid "Joypad"
-msgstr "I-joypad"
-
-#: ../lib/bluetooth-utils.c:85
-msgid "Tablet"
-msgstr "I-tablet"
-
-#: ../lib/bluetooth-utils.c:87
-msgid "Video device"
-msgstr "Isixhobo sevidiyo"
-
-#: ../lib/plugins/geoclue.c:178
-msgid "Use this GPS device for Geolocation services"
-msgstr "Sebenzisa esi sixhobo seGPS kumsebenzi we-Geolocation"
-
-#. translators:
-#. * This is in a test plugin, please make sure you add the "(test)" part,
-#. * or leave untranslated
-#: ../lib/plugins/test.c:53
-msgid "Access the Internet using your cell phone (test)"
-msgstr "Ngena kwi-inthanethi usebenzisa iselula yakho (vavanya)"
-
-#: ../applet/main.c:118
-msgid "Select Device to Browse"
-msgstr "Khetha isixhobo sokukhangela"
-
-#: ../applet/main.c:122
-msgid "_Browse"
-msgstr "_Khangela"
-
-#: ../applet/main.c:131
-msgid "Select device to browse"
-msgstr "Khetha isixhobo sokukhangela"
-
-#: ../applet/main.c:281
-msgid "Turn On Bluetooth"
+#: ../applet/main.c:203
+#, fuzzy
+msgid "Turn on Bluetooth"
 msgstr "Layita i-Bluetooth"
 
-#: ../applet/main.c:282 ../applet/notify.c:159
+#: ../applet/main.c:204 ../applet/notify.c:159
 msgid "Bluetooth: Off"
 msgstr "I-Bluetooth: yicime"
 
-#: ../applet/main.c:285
-msgid "Turn Off Bluetooth"
+#: ../applet/main.c:207
+#, fuzzy
+msgid "Turn off Bluetooth"
 msgstr "Cima i-Bluetooth"
 
-#: ../applet/main.c:286 ../applet/notify.c:159
+#: ../applet/main.c:208 ../applet/notify.c:159
 msgid "Bluetooth: On"
 msgstr "I-Bluetooth: yilayite"
 
-#: ../applet/main.c:291
+#: ../applet/main.c:213
 msgid "Bluetooth: Disabled"
 msgstr "I-Bluetooth: imisiwe"
 
-#: ../applet/main.c:438
+#: ../applet/main.c:360
 msgid "Disconnecting..."
 msgstr "Ukuqhawuka konxulumano..."
 
-#: ../applet/main.c:441 ../sendto/main.c:206 ../sendto/main.c:308
+#: ../applet/main.c:363
 msgid "Connecting..."
 msgstr "Iyanxulumana..."
 
-#: ../applet/main.c:444 ../applet/main.c:727
+#: ../applet/main.c:366 ../applet/main.c:649
 msgid "Connected"
 msgstr "Unxulumene"
 
-#: ../applet/main.c:447 ../applet/main.c:727
+#: ../applet/main.c:369 ../applet/main.c:649
 msgid "Disconnected"
 msgstr "Uqhawukile"
 
-#: ../applet/main.c:745 ../applet/main.c:809
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Disconnect"
 msgstr "Nqamla uxhulumaniso"
 
-#: ../applet/main.c:745 ../applet/main.c:809 ../moblin/moblin-panel.c:1002
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Connect"
 msgstr "Nxulumanisa"
 
-#: ../applet/main.c:758
+#: ../applet/main.c:680
 msgid "Send files..."
 msgstr "Ithumela iifayile..."
 
-#: ../applet/main.c:768
-msgid "Browse files..."
-msgstr "Khangela iifayile..."
-
-#: ../applet/main.c:779
+#: ../applet/main.c:693
 msgid "Keyboard Settings"
 msgstr "Izicwangciso zebhodi yamaqhosha"
 
-#: ../applet/main.c:787
+#: ../applet/main.c:701
 msgid "Mouse and Touchpad Settings"
 msgstr "Imimmiselo yempuku kunye nepadi ephathwayo"
 
-#: ../applet/main.c:797
+#: ../applet/main.c:711
 msgid "Sound Settings"
 msgstr "Imimiselo yesandi"
 
-#: ../applet/main.c:850
+#: ../applet/main.c:764
 msgid "Debug"
 msgstr "Cokisa"
 
 #. Parse command-line options
-#: ../applet/main.c:869
+#: ../applet/main.c:783
 msgid "- Bluetooth applet"
 msgstr "- I-Bluetooth applet"
 
-#: ../applet/main.c:874
+#: ../applet/main.c:788
 #, c-format
 msgid ""
 "%s\n"
@@ -268,11 +99,11 @@ msgstr ""
 "Sebenzisa '%s----help' lokufumana uluhlu olukhoyo lomyalelo weenketho "
 "zelayini.\n"
 
-#: ../applet/main.c:900
+#: ../applet/main.c:814
 msgid "Bluetooth Applet"
 msgstr "I-Bluetooth applet"
 
-#: ../applet/notify.c:122 ../moblin/main.c:129 ../moblin/main.c:141
+#: ../applet/notify.c:122
 msgid "Bluetooth"
 msgstr "I-Bluetooth"
 
@@ -350,40 +181,41 @@ msgid "Bluetooth: Checking"
 msgstr "I-Bluetooth: isajonga"
 
 #: ../applet/popup-menu.ui.h:2
-msgid "Browse files on device..."
-msgstr "Khangela iifayile kwisixhobo..."
+msgid "Visible"
+msgstr "Iyabonakala"
 
-#: ../applet/popup-menu.ui.h:4
-msgid "Preferences"
-msgstr "Uluhlu lwezinto ezikhethwayo"
-
-#: ../applet/popup-menu.ui.h:5
-msgid "Quit"
-msgstr "Phuma"
-
-#: ../applet/popup-menu.ui.h:6
+#: ../applet/popup-menu.ui.h:3
 msgid "Send files to device..."
 msgstr "Thumela iifayile kwisixhobo..."
 
-#: ../applet/popup-menu.ui.h:7
+#: ../applet/popup-menu.ui.h:4
+msgid "Devices"
+msgstr "Izixhobo"
+
+#: ../applet/popup-menu.ui.h:5
 msgid "Set up new device..."
 msgstr "Lungisa isixhobo esitsha..."
 
-#: ../applet/popup-menu.ui.h:8
-msgid "Visible"
-msgstr "Iyabonakala"
+#: ../applet/popup-menu.ui.h:6
+#, fuzzy
+msgid "Bluetooth Settings"
+msgstr "I-Bluetooth: isajonga"
+
+#: ../applet/popup-menu.ui.h:7
+msgid "Quit"
+msgstr "Phuma"
 
 #: ../applet/authorisation-dialogue.ui.h:1
 msgid "_Always grant access"
 msgstr "_Soloko ufaka isingeniso"
 
 #: ../applet/authorisation-dialogue.ui.h:2
-msgid "_Grant"
-msgstr "_Nika"
-
-#: ../applet/authorisation-dialogue.ui.h:3
 msgid "_Reject"
 msgstr "_Yala"
+
+#: ../applet/authorisation-dialogue.ui.h:3
+msgid "_Grant"
+msgstr "_Nika"
 
 #: ../applet/confirm-dialogue.ui.h:1
 msgid "_Does not match"
@@ -397,452 +229,430 @@ msgstr "_Ziyadibana"
 msgid "_Show input"
 msgstr "_Bonisa igalelo"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
-#: ../wizard/main.c:204 ../wizard/main.c:326
-#, c-format
-msgid "Pairing with '%s' cancelled"
-msgstr "Indibano ne-'%s' iyekisiwe"
-
-#: ../wizard/main.c:245 ../moblin/moblin-panel.c:1147
-#, c-format
-msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr "Nceda uvume i-PIN eboniswe kwi-'%s' iyadibana nale."
-
-#: ../wizard/main.c:299 ../moblin/moblin-panel.c:1198
-msgid "Please enter the following PIN:"
-msgstr "Nceda ufake lePIN elandelayo:"
-
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Setting up 'Sony Bluetooth Headset' failed
-#.
-#: ../wizard/main.c:385
-#, c-format
-msgid "Setting up '%s' failed"
-msgstr "Ukulungisela i-'%s' akuhumelelanga"
-
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Connecting to 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:442
-#, c-format
-msgid "Connecting to '%s'..."
-msgstr "Idibana kwi-'%s'..."
-
-#: ../wizard/main.c:480 ../moblin/moblin-panel.c:750
-#, c-format
-msgid ""
-"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr ""
-"Nceda ufake i-PIN elandelayo kwi-'%s' kwaye ucinezele u“Faka” kwibhodi "
-"enamaqhosha:"
-
-#: ../wizard/main.c:482 ../moblin/moblin-panel.c:752
-#, c-format
-msgid "Please enter the following PIN on '%s':"
-msgstr "Nceda ufake lePIN elandelayo PIN '%s':"
-
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:505
-#, c-format
-msgid "Please wait while finishing setup on device '%s'..."
-msgstr "Nceda ulinde ngoku isagqiba ummiselo kwisixhobo i-'%s'..."
-
-#: ../wizard/main.c:523 ../moblin/moblin-panel.c:777
-#, c-format
-msgid "Successfully set up new device '%s'"
-msgstr "Uphumelele ekumiseni isixhobo esitsha '%s'"
-
-#: ../wizard/wizard.ui.h:1 ../moblin/pin.ui.h:1
-msgid "'0000' (most headsets, mice and GPS devices)"
-msgstr "'0000' (iihediseti, impuku nesixhobo se-GPS)"
-
-#: ../wizard/wizard.ui.h:2 ../moblin/pin.ui.h:2
-msgid "'1111'"
-msgstr "'1111'"
-
-#: ../wizard/wizard.ui.h:3 ../moblin/pin.ui.h:3
-msgid "'1234'"
-msgstr "'1234'"
-
-#: ../wizard/wizard.ui.h:4
-msgid "Bluetooth New Device Setup"
-msgstr "Umiselo wesixhobo esitsha se-Bluetooth"
-
-#: ../wizard/wizard.ui.h:5 ../moblin/pin.ui.h:4
-msgid "Custom PIN:"
-msgstr "Ukulungiselela i-PIN:"
-
-#: ../wizard/wizard.ui.h:6
-msgid "Device Setup"
-msgstr "Ummiselo wesixhobo"
-
-#: ../wizard/wizard.ui.h:7
-msgid "Device Setup Failed"
-msgstr "Ummiselo wesixhobo awuphumelelanga"
-
-#: ../wizard/wizard.ui.h:8
-msgid "Device search"
-msgstr "Ukhangelo lwesixhobo"
-
-#: ../wizard/wizard.ui.h:9
-msgid "Do not pair"
-msgstr "Sukuzidibanisa"
-
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:11 ../moblin/moblin-panel.c:1351
-msgid "Does not match"
-msgstr "Izidibani"
-
-#: ../wizard/wizard.ui.h:12
-msgid "Finishing New Device Setup"
-msgstr "Iyagqiba ummiselo wesixhobo esitsha"
-
-#. Translators: this is a PIN with a set value, such as 1111, or 0000
-#: ../wizard/wizard.ui.h:14 ../moblin/pin.ui.h:6
-msgid "Fixed PIN"
-msgstr "I-PIN emile"
-
-#: ../wizard/wizard.ui.h:15
-msgid "Introduction"
-msgstr "Intshayelelo"
-
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:17 ../moblin/moblin-panel.c:1347
-msgid "Matches"
-msgstr "Iyadibana"
-
-#: ../wizard/wizard.ui.h:18 ../moblin/pin.ui.h:7
-msgid "PIN Options"
-msgstr "Ukukhetha kwi-PIN"
-
-#: ../wizard/wizard.ui.h:19
-msgid "PIN _options..."
-msgstr "U_kwikhetha kwi-PIN..."
-
-#: ../wizard/wizard.ui.h:20 ../moblin/moblin-panel.c:1261
-msgid "Select the additional services you want to use with your device:"
-msgstr ""
-"Khetha umimisebenzi eyongezelelweyo ufuna ukuyisebenzisela yona ngesixhobo "
-"sakho:"
-
-#: ../wizard/wizard.ui.h:21
-msgid "Select the device you want to set up"
-msgstr "Khetha isixhobo ofuna ukusimisela"
-
-#: ../wizard/wizard.ui.h:22
-msgid "Setup Completed"
-msgstr "Ummiselo ugqityiwe"
-
-#: ../wizard/wizard.ui.h:23
-msgid ""
-"The Bluetooth new device setup will walk you through the process of "
-"configuring Bluetooth enabled devices for use with this computer."
-msgstr ""
-"Umiselo wesixhobo esitsha sizakukuhambisa kulenkqubo yokudibanisa "
-"i-Bluetooth yesixhobo esimisiwe ekusebenzeni kule khompuyutha."
-
-#: ../wizard/wizard.ui.h:24
-msgid ""
-"The device will need to be within 10 meters of your computer, and be "
-"“visible” (sometimes called “discoverable”). Check the device's manual if in "
-"doubt."
-msgstr ""
-"Isixhobo kuza kufuneka sibekwimithazi eziyi-10 zekhompuyutha, kwaye "
-"“ibonakale” (ngamanye amaxesha ibizwa “iyafumaneka”). Jonga imanywali "
-"yesixhobo ukuba uyathandabuza."
-
-#: ../wizard/wizard.ui.h:25
-msgid "Welcome to the Bluetooth new device setup"
-msgstr "Wamkelekile kummiselo wesixhobo esitsha se-Bluetooth"
-
-#: ../wizard/wizard.ui.h:26 ../moblin/pin.ui.h:8
-msgid "_Automatic PIN selection"
-msgstr "U_khetho lwe-PIN oluzenzekelayo"
-
-#: ../wizard/wizard.ui.h:27
-msgid "_Cancel"
-msgstr "_Hlaba"
-
-#: ../wizard/wizard.ui.h:28
-msgid "_Close"
-msgstr "Va_la"
-
-#: ../wizard/wizard.ui.h:29
-msgid "_Restart Setup"
-msgstr "_Qalela ukumisela"
-
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:1
-msgid "Bluetooth Device Setup"
-msgstr "Ummiselo wesixhobo se-Bluetooth"
-
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:2
-msgid "Setup Bluetooth devices"
-msgstr "Ummiselo wesixhobo se-Bluetooth"
-
-#: ../sendto/main.c:151
-#, c-format
-msgid "%'d second"
-msgid_plural "%'d seconds"
-msgstr[0] "umzuzwana oyi-%'d"
-msgstr[1] "imizuzwana eyi-%'d"
-
-#: ../sendto/main.c:156 ../sendto/main.c:169
-#, c-format
-msgid "%'d minute"
-msgid_plural "%'d minutes"
-msgstr[0] "umzuzu oyi-%'d"
-msgstr[1] "imizuzu eyi-%'d"
-
-#: ../sendto/main.c:167
-#, c-format
-msgid "%'d hour"
-msgid_plural "%'d hours"
-msgstr[0] "iyure eyi-%'d"
-msgstr[1] "iiyure eziyi-%'d"
-
-#: ../sendto/main.c:177
-#, c-format
-msgid "approximately %'d hour"
-msgid_plural "approximately %'d hours"
-msgstr[0] "kuqikelelo lweyure eyi-%'d"
-msgstr[1] "kuqikelelo lweeyure eziyi-%'d"
-
-#: ../sendto/main.c:245
-msgid "File Transfer"
-msgstr "Uthutho lwefayili"
-
-#: ../sendto/main.c:249
-msgid "_Retry"
-msgstr "_Zama kwakhona"
-
-#. translators: This is the heading for the progress dialogue
-#: ../sendto/main.c:269
-msgid "Sending files via Bluetooth"
-msgstr "Ukuthumela iifayile usebenzisa i-Bluetooth"
-
-#: ../sendto/main.c:281
-msgid "From:"
-msgstr "Isuka:"
-
-#: ../sendto/main.c:293
-msgid "To:"
-msgstr "Iya ku:"
-
-#: ../sendto/main.c:337 ../sendto/main.c:355
-msgid "An unknown error occurred"
-msgstr "Kwenzekee impazamo engaziwayo"
-
-#: ../sendto/main.c:348
-msgid ""
-"Make sure that the remote device is switched on and that it accepts "
-"Bluetooth connections"
-msgstr ""
-"Qiniseka ukuba esona sixhobo sisiso silayitiwe kwaye iyamkela indibano ye-"
-"Bluetooth"
-
-#: ../sendto/main.c:446
-#, c-format
-msgid "Sending %s"
-msgstr "Iyathumela ku-%s"
-
-#: ../sendto/main.c:453 ../sendto/main.c:524
-#, c-format
-msgid "Sending file %d of %d"
-msgstr "Thumela ifayile ku-%d ye-%d"
-
-#: ../sendto/main.c:520
-#, c-format
-msgid "%d KB/s"
-msgstr "%d KB/s"
-
-#: ../sendto/main.c:522
-#, c-format
-msgid "%d B/s"
-msgstr "%d B/s"
-
-#: ../sendto/main.c:658
-msgid "Select device to send to"
-msgstr "Khetha isixhobo ukusithumela ku"
-
-#: ../sendto/main.c:663
-msgid "_Send"
-msgstr "_Thumela"
-
-#: ../sendto/main.c:707
-msgid "Choose files to send"
-msgstr "Khetha ifayle oza kuyithumela"
-
-#: ../sendto/main.c:710
-msgid "Select"
-msgstr "Khetha"
-
-#: ../sendto/main.c:736
-msgid "Remote device to use"
-msgstr "Isixhobo okufuneka sisetyenziswe"
-
-#: ../sendto/main.c:738
-msgid "Remote device's name"
-msgstr "Igama lesixhobo sakude esilawulayo"
-
-#: ../sendto/nautilus-sendto-plugin.c:168
-msgid "Programming error: could not find the device in the list"
-msgstr "Ingxaki enkqubeni: ayikwazanga ukufumana isixhobo esikuluhlu"
-
-#: ../sendto/nautilus-sendto-plugin.c:243
-#, c-format
-msgid "OBEX Push file transfer unsupported"
-msgstr "I-OBEX dudula udluliselo lwefayile olungaxhaswayo"
-
-#: ../sendto/nautilus-sendto-plugin.c:262
-msgid "Bluetooth (OBEX Push)"
-msgstr "I-Bluetooth (OBEX dudula)"
-
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:1
-msgid "Bluetooth Transfer"
-msgstr "Uthumela nge-Bluetooth"
-
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:2
-msgid "Send files via Bluetooth"
-msgstr "Thumela iifayile usebenzisa i-Bluetooth"
-
-#: ../moblin/main.c:93
-msgid "Run in standalone mode"
-msgstr "Qhuba kwimeko yokuzimela wedwa"
-
-#: ../moblin/main.c:101 ../moblin/bluetooth-panel.desktop.in.in.h:2
-msgid "Moblin Bluetooth Panel"
-msgstr "I-Moblin Bluetooth Panel"
-
-#: ../moblin/main.c:102
-msgid "- Moblin Bluetooth Panel"
-msgstr "- I-Moblin Bluetooth Panel"
-
-#: ../moblin/moblin-panel.c:177
-#, c-format
-msgid "%d hour"
-msgid_plural "%d hours"
-msgstr[0] "iyure eyi-%d"
-msgstr[1] "iiyure eziyi-%d"
-
-#: ../moblin/moblin-panel.c:179
-#, c-format
-msgid "%d minute"
-msgid_plural "%d minutes"
-msgstr[0] "umzuzu oyi-%d"
-msgstr[1] "imizuzu eyi-%d"
-
-#: ../moblin/moblin-panel.c:182
-#, c-format
-msgid "%d second"
-msgid_plural "%d seconds"
-msgstr[0] "umzuzwana oyi-%d"
-msgstr[1] "imizuzwana eyi-%d"
-
-#. 5 hours 2 minutes 12 seconds
-#: ../moblin/moblin-panel.c:188
-#, fuzzy, c-format
-msgctxt "time"
-msgid "%s %s %s"
-msgstr "i-%s kwi-%s ye-%s"
-
-#. 2 minutes 12 seconds
-#: ../moblin/moblin-panel.c:192
-#, c-format
-msgctxt "time"
-msgid "%s %s"
-msgstr "%s %s"
-
-#. 0 seconds
-#: ../moblin/moblin-panel.c:202
-msgid "0 seconds"
-msgstr "imizuzwana eli-0"
-
-#: ../moblin/moblin-panel.c:224
-#, c-format
-msgid ""
-"Your computer is visible on\n"
-"Bluetooth for %s."
-msgstr ""
-"Ikhompuyutha yakho iyabonakala kwi\n"
-"Bluetooth ye %s."
-
-#: ../moblin/moblin-panel.c:625
-#, c-format
-msgid "Pairing with %s failed."
-msgstr "Indibano ne-%s ayiphumelelanga."
-
-#. Translators: this is a verb (just like "Connect"), not a noun.
-#: ../moblin/moblin-panel.c:986
-msgid "Pair"
-msgstr "Dibanisa"
-
-#: ../moblin/moblin-panel.c:1023
-msgid "Browse"
-msgstr "Khangela"
-
-#: ../moblin/moblin-panel.c:1220
-msgid "Device setup failed"
-msgstr "Ummiselo wesixhobo awuphumelelanga"
-
-#. Back button
-#: ../moblin/moblin-panel.c:1234 ../moblin/moblin-panel.c:1310
-#: ../moblin/moblin-panel.c:1359 ../moblin/moblin-panel.c:1437
-#: ../moblin/moblin-panel.c:1669
-msgid "Back to devices"
-msgstr "Emva kwisixhobo"
-
-#: ../moblin/moblin-panel.c:1273
-msgid "Done"
-msgstr "Kugqityiwe"
-
-#: ../moblin/moblin-panel.c:1294 ../moblin/moblin-panel.c:1331
-msgid "Device setup"
-msgstr "Ummiselo wesixhobo"
-
-#: ../moblin/moblin-panel.c:1454 ../moblin/moblin-panel.c:1585
-msgid "Settings"
-msgstr "Imimiselo"
-
-#: ../moblin/moblin-panel.c:1470
-msgid "Only show:"
-msgstr "Bonisa qha:"
-
-#. Button for PIN options file
-#: ../moblin/moblin-panel.c:1476
-msgid "PIN options"
-msgstr "Ukukhetha kwi-PIN"
-
-#. Add new button
-#: ../moblin/moblin-panel.c:1520
-msgid "Add a new device"
-msgstr "Fakela isixhobo esitsha"
-
-#. Power switch
-#. Translators: This string appears next to a toggle switch which controls
-#. * enabling/disabling Bluetooth radio's on the device. Akin to the power
-#. * switches in the Network UI of Moblin
-#: ../moblin/moblin-panel.c:1603
-msgctxt "Power"
-msgid "Bluetooth"
-msgstr "I-Bluetooth"
-
-#: ../moblin/moblin-panel.c:1621
-msgid "Make visible on Bluetooth"
-msgstr "Yenze ibonakale kwi-bluetooth"
-
-#. Button for Send file
-#: ../moblin/moblin-panel.c:1627
-msgid "Send file from your computer"
-msgstr "Thumela ifayile eskuka kwikhompuyutha yakho"
-
-#: ../moblin/bluetooth-panel.desktop.in.in.h:1
-msgid "Bluetooth Manager Panel"
-msgstr "Umphathi we-Bluetooth panel"
+#~ msgid "Click to select device..."
+#~ msgstr "Cofa ukukhetha isixhobo..."
+
+#~ msgid "Unknown"
+#~ msgstr "Engaziwayo"
+
+#~ msgid "No adapters available"
+#~ msgstr "Akukho adaptha efumanekayo"
+
+#~ msgid "Searching for devices..."
+#~ msgstr "Ikhangela izixhobo..."
+
+#~ msgid "Device"
+#~ msgstr "Isixhobo"
+
+#~ msgid "Type"
+#~ msgstr "Chwetheza"
+
+#~ msgid "All categories"
+#~ msgstr "Zonke iintlobo"
+
+#~ msgid "Paired"
+#~ msgstr "Idityanisiwe"
+
+#~ msgid "Trusted"
+#~ msgstr "Ithenjiwe"
+
+#~ msgid "Not paired or trusted"
+#~ msgstr "Ayidityaniswanga okanye ayithenjwanga"
+
+#~ msgid "Paired or trusted"
+#~ msgstr "Idityanisiwe oknaye ithenjiwe"
+
+#~ msgid "Show:"
+#~ msgstr "Bonisa:"
+
+#~ msgid "Device _category:"
+#~ msgstr "U_hlobo lesixhobo:"
+
+#~ msgid "Select the device category to filter"
+#~ msgstr "Khetha uhlobo lwenqubo luza kuhluza"
+
+#~ msgid "Device _type:"
+#~ msgstr "U_hlobo lwesixhobo:"
+
+#~ msgid "Select the device type to filter"
+#~ msgstr "Khetha uhlobo lwesixhobo esiza kuhluza"
+
+#~ msgid "Input devices (mice, keyboards, etc.)"
+#~ msgstr "Izixhobo ezinika igalelo (impuku, ibhodi yamaqhosha, njalo-njalo.)"
+
+#~ msgid "Headphones, headsets and other audio devices"
+#~ msgstr "Ifini-yentloko, ihediseti kunye nezinye izixhobo zelizwi"
+
+#~ msgid "All types"
+#~ msgstr "Zonke iintlobo"
+
+#~ msgid "Phone"
+#~ msgstr "Ifowni"
+
+#~ msgid "Modem"
+#~ msgstr "I-modem"
+
+#~ msgid "Computer"
+#~ msgstr "Ikhompuyutha"
+
+#~ msgid "Network"
+#~ msgstr "Umsebenzi wothungelwano"
+
+#~ msgid "Headset"
+#~ msgstr "Ihediseti"
+
+#~ msgid "Headphones"
+#~ msgstr "Ifoni-yentloko"
+
+#~ msgid "Audio device"
+#~ msgstr "Izixhobo ezinesandi"
+
+#~ msgid "Keyboard"
+#~ msgstr "Ibhodi yamaqhosha"
+
+#~ msgid "Mouse"
+#~ msgstr "Impuku"
+
+#~ msgid "Camera"
+#~ msgstr "Ikhamera"
+
+#~ msgid "Printer"
+#~ msgstr "Isishicileli"
+
+#~ msgid "Joypad"
+#~ msgstr "I-joypad"
+
+#~ msgid "Tablet"
+#~ msgstr "I-tablet"
+
+#~ msgid "Video device"
+#~ msgstr "Isixhobo sevidiyo"
+
+#~ msgid "Use this GPS device for Geolocation services"
+#~ msgstr "Sebenzisa esi sixhobo seGPS kumsebenzi we-Geolocation"
+
+#~ msgid "Access the Internet using your cell phone (test)"
+#~ msgstr "Ngena kwi-inthanethi usebenzisa iselula yakho (vavanya)"
+
+#~ msgid "Select Device to Browse"
+#~ msgstr "Khetha isixhobo sokukhangela"
+
+#~ msgid "_Browse"
+#~ msgstr "_Khangela"
+
+#~ msgid "Select device to browse"
+#~ msgstr "Khetha isixhobo sokukhangela"
+
+#~ msgid "Browse files..."
+#~ msgstr "Khangela iifayile..."
+
+#~ msgid "Browse files on device..."
+#~ msgstr "Khangela iifayile kwisixhobo..."
+
+#~ msgid "Preferences"
+#~ msgstr "Uluhlu lwezinto ezikhethwayo"
+
+#~ msgid "Pairing with '%s' cancelled"
+#~ msgstr "Indibano ne-'%s' iyekisiwe"
+
+#~ msgid "Please confirm that the PIN displayed on '%s' matches this one."
+#~ msgstr "Nceda uvume i-PIN eboniswe kwi-'%s' iyadibana nale."
+
+#~ msgid "Please enter the following PIN:"
+#~ msgstr "Nceda ufake lePIN elandelayo:"
+
+#~ msgid "Setting up '%s' failed"
+#~ msgstr "Ukulungisela i-'%s' akuhumelelanga"
+
+#~ msgid "Connecting to '%s'..."
+#~ msgstr "Idibana kwi-'%s'..."
+
+#~ msgid ""
+#~ "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+#~ msgstr ""
+#~ "Nceda ufake i-PIN elandelayo kwi-'%s' kwaye ucinezele u“Faka” kwibhodi "
+#~ "enamaqhosha:"
+
+#~ msgid "Please enter the following PIN on '%s':"
+#~ msgstr "Nceda ufake lePIN elandelayo PIN '%s':"
+
+#~ msgid "Please wait while finishing setup on device '%s'..."
+#~ msgstr "Nceda ulinde ngoku isagqiba ummiselo kwisixhobo i-'%s'..."
+
+#~ msgid "Successfully set up new device '%s'"
+#~ msgstr "Uphumelele ekumiseni isixhobo esitsha '%s'"
+
+#~ msgid "'0000' (most headsets, mice and GPS devices)"
+#~ msgstr "'0000' (iihediseti, impuku nesixhobo se-GPS)"
+
+#~ msgid "'1111'"
+#~ msgstr "'1111'"
+
+#~ msgid "'1234'"
+#~ msgstr "'1234'"
+
+#~ msgid "Bluetooth New Device Setup"
+#~ msgstr "Umiselo wesixhobo esitsha se-Bluetooth"
+
+#~ msgid "Custom PIN:"
+#~ msgstr "Ukulungiselela i-PIN:"
+
+#~ msgid "Device Setup"
+#~ msgstr "Ummiselo wesixhobo"
+
+#~ msgid "Device Setup Failed"
+#~ msgstr "Ummiselo wesixhobo awuphumelelanga"
+
+#~ msgid "Device search"
+#~ msgstr "Ukhangelo lwesixhobo"
+
+#~ msgid "Do not pair"
+#~ msgstr "Sukuzidibanisa"
+
+#~ msgid "Does not match"
+#~ msgstr "Izidibani"
+
+#~ msgid "Finishing New Device Setup"
+#~ msgstr "Iyagqiba ummiselo wesixhobo esitsha"
+
+#~ msgid "Fixed PIN"
+#~ msgstr "I-PIN emile"
+
+#~ msgid "Introduction"
+#~ msgstr "Intshayelelo"
+
+#~ msgid "Matches"
+#~ msgstr "Iyadibana"
+
+#~ msgid "PIN Options"
+#~ msgstr "Ukukhetha kwi-PIN"
+
+#~ msgid "PIN _options..."
+#~ msgstr "U_kwikhetha kwi-PIN..."
+
+#~ msgid "Select the additional services you want to use with your device:"
+#~ msgstr ""
+#~ "Khetha umimisebenzi eyongezelelweyo ufuna ukuyisebenzisela yona "
+#~ "ngesixhobo sakho:"
+
+#~ msgid "Select the device you want to set up"
+#~ msgstr "Khetha isixhobo ofuna ukusimisela"
+
+#~ msgid "Setup Completed"
+#~ msgstr "Ummiselo ugqityiwe"
+
+#~ msgid ""
+#~ "The Bluetooth new device setup will walk you through the process of "
+#~ "configuring Bluetooth enabled devices for use with this computer."
+#~ msgstr ""
+#~ "Umiselo wesixhobo esitsha sizakukuhambisa kulenkqubo yokudibanisa i-"
+#~ "Bluetooth yesixhobo esimisiwe ekusebenzeni kule khompuyutha."
+
+#~ msgid ""
+#~ "The device will need to be within 10 meters of your computer, and be "
+#~ "“visible” (sometimes called “discoverable”). Check the device's manual if "
+#~ "in doubt."
+#~ msgstr ""
+#~ "Isixhobo kuza kufuneka sibekwimithazi eziyi-10 zekhompuyutha, kwaye "
+#~ "“ibonakale” (ngamanye amaxesha ibizwa “iyafumaneka”). Jonga imanywali "
+#~ "yesixhobo ukuba uyathandabuza."
+
+#~ msgid "Welcome to the Bluetooth new device setup"
+#~ msgstr "Wamkelekile kummiselo wesixhobo esitsha se-Bluetooth"
+
+#~ msgid "_Automatic PIN selection"
+#~ msgstr "U_khetho lwe-PIN oluzenzekelayo"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Hlaba"
+
+#~ msgid "_Close"
+#~ msgstr "Va_la"
+
+#~ msgid "_Restart Setup"
+#~ msgstr "_Qalela ukumisela"
+
+#~ msgid "Bluetooth Device Setup"
+#~ msgstr "Ummiselo wesixhobo se-Bluetooth"
+
+#~ msgid "Setup Bluetooth devices"
+#~ msgstr "Ummiselo wesixhobo se-Bluetooth"
+
+#~ msgid "%'d second"
+#~ msgid_plural "%'d seconds"
+#~ msgstr[0] "umzuzwana oyi-%'d"
+#~ msgstr[1] "imizuzwana eyi-%'d"
+
+#~ msgid "%'d minute"
+#~ msgid_plural "%'d minutes"
+#~ msgstr[0] "umzuzu oyi-%'d"
+#~ msgstr[1] "imizuzu eyi-%'d"
+
+#~ msgid "%'d hour"
+#~ msgid_plural "%'d hours"
+#~ msgstr[0] "iyure eyi-%'d"
+#~ msgstr[1] "iiyure eziyi-%'d"
+
+#~ msgid "approximately %'d hour"
+#~ msgid_plural "approximately %'d hours"
+#~ msgstr[0] "kuqikelelo lweyure eyi-%'d"
+#~ msgstr[1] "kuqikelelo lweeyure eziyi-%'d"
+
+#~ msgid "File Transfer"
+#~ msgstr "Uthutho lwefayili"
+
+#~ msgid "_Retry"
+#~ msgstr "_Zama kwakhona"
+
+#~ msgid "Sending files via Bluetooth"
+#~ msgstr "Ukuthumela iifayile usebenzisa i-Bluetooth"
+
+#~ msgid "From:"
+#~ msgstr "Isuka:"
+
+#~ msgid "To:"
+#~ msgstr "Iya ku:"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Kwenzekee impazamo engaziwayo"
+
+#~ msgid ""
+#~ "Make sure that the remote device is switched on and that it accepts "
+#~ "Bluetooth connections"
+#~ msgstr ""
+#~ "Qiniseka ukuba esona sixhobo sisiso silayitiwe kwaye iyamkela indibano ye-"
+#~ "Bluetooth"
+
+#~ msgid "Sending %s"
+#~ msgstr "Iyathumela ku-%s"
+
+#~ msgid "Sending file %d of %d"
+#~ msgstr "Thumela ifayile ku-%d ye-%d"
+
+#~ msgid "%d KB/s"
+#~ msgstr "%d KB/s"
+
+#~ msgid "%d B/s"
+#~ msgstr "%d B/s"
+
+#~ msgid "Select device to send to"
+#~ msgstr "Khetha isixhobo ukusithumela ku"
+
+#~ msgid "_Send"
+#~ msgstr "_Thumela"
+
+#~ msgid "Choose files to send"
+#~ msgstr "Khetha ifayle oza kuyithumela"
+
+#~ msgid "Select"
+#~ msgstr "Khetha"
+
+#~ msgid "Remote device to use"
+#~ msgstr "Isixhobo okufuneka sisetyenziswe"
+
+#~ msgid "Remote device's name"
+#~ msgstr "Igama lesixhobo sakude esilawulayo"
+
+#~ msgid "Programming error: could not find the device in the list"
+#~ msgstr "Ingxaki enkqubeni: ayikwazanga ukufumana isixhobo esikuluhlu"
+
+#~ msgid "OBEX Push file transfer unsupported"
+#~ msgstr "I-OBEX dudula udluliselo lwefayile olungaxhaswayo"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "I-Bluetooth (OBEX dudula)"
+
+#~ msgid "Bluetooth Transfer"
+#~ msgstr "Uthumela nge-Bluetooth"
+
+#~ msgid "Send files via Bluetooth"
+#~ msgstr "Thumela iifayile usebenzisa i-Bluetooth"
+
+#~ msgid "Run in standalone mode"
+#~ msgstr "Qhuba kwimeko yokuzimela wedwa"
+
+#~ msgid "Moblin Bluetooth Panel"
+#~ msgstr "I-Moblin Bluetooth Panel"
+
+#~ msgid "- Moblin Bluetooth Panel"
+#~ msgstr "- I-Moblin Bluetooth Panel"
+
+#~ msgid "%d hour"
+#~ msgid_plural "%d hours"
+#~ msgstr[0] "iyure eyi-%d"
+#~ msgstr[1] "iiyure eziyi-%d"
+
+#~ msgid "%d minute"
+#~ msgid_plural "%d minutes"
+#~ msgstr[0] "umzuzu oyi-%d"
+#~ msgstr[1] "imizuzu eyi-%d"
+
+#~ msgid "%d second"
+#~ msgid_plural "%d seconds"
+#~ msgstr[0] "umzuzwana oyi-%d"
+#~ msgstr[1] "imizuzwana eyi-%d"
+
+#, fuzzy
+#~ msgctxt "time"
+#~ msgid "%s %s %s"
+#~ msgstr "i-%s kwi-%s ye-%s"
+
+#~ msgctxt "time"
+#~ msgid "%s %s"
+#~ msgstr "%s %s"
+
+#~ msgid "0 seconds"
+#~ msgstr "imizuzwana eli-0"
+
+#~ msgid ""
+#~ "Your computer is visible on\n"
+#~ "Bluetooth for %s."
+#~ msgstr ""
+#~ "Ikhompuyutha yakho iyabonakala kwi\n"
+#~ "Bluetooth ye %s."
+
+#~ msgid "Pairing with %s failed."
+#~ msgstr "Indibano ne-%s ayiphumelelanga."
+
+#~ msgid "Pair"
+#~ msgstr "Dibanisa"
+
+#~ msgid "Browse"
+#~ msgstr "Khangela"
+
+#~ msgid "Device setup failed"
+#~ msgstr "Ummiselo wesixhobo awuphumelelanga"
+
+#~ msgid "Back to devices"
+#~ msgstr "Emva kwisixhobo"
+
+#~ msgid "Done"
+#~ msgstr "Kugqityiwe"
+
+#~ msgid "Device setup"
+#~ msgstr "Ummiselo wesixhobo"
+
+#~ msgid "Settings"
+#~ msgstr "Imimiselo"
+
+#~ msgid "Only show:"
+#~ msgstr "Bonisa qha:"
+
+#~ msgid "PIN options"
+#~ msgstr "Ukukhetha kwi-PIN"
+
+#~ msgid "Add a new device"
+#~ msgstr "Fakela isixhobo esitsha"
+
+#~ msgctxt "Power"
+#~ msgid "Bluetooth"
+#~ msgstr "I-Bluetooth"
+
+#~ msgid "Make visible on Bluetooth"
+#~ msgstr "Yenze ibonakale kwi-bluetooth"
+
+#~ msgid "Send file from your computer"
+#~ msgstr "Thumela ifayile eskuka kwikhompuyutha yakho"
+
+#~ msgid "Bluetooth Manager Panel"
+#~ msgstr "Umphathi we-Bluetooth panel"

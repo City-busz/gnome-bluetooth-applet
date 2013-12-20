@@ -7,245 +7,88 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gu\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=gnome-bluetooth&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2012-06-27 21:41+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-20 05:18+0100\n"
 "PO-Revision-Date: 2012-07-26 16:52+0530\n"
 "Last-Translator: \n"
 "Language-Team: gu_IN <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: Lokalize 1.0\n"
 
-#: ../lib/bluetooth-chooser-button.c:75
-msgid "Click to select device..."
-msgstr "ઉપકરણને પસંદ કરવા માટે ક્લિક કરો..."
-
-#: ../lib/bluetooth-chooser.c:135 ../lib/bluetooth-filter-widget.c:82
-#: ../lib/bluetooth-utils.c:90
-msgid "Unknown"
-msgstr "અજ્ઞાત"
-
-#: ../lib/bluetooth-chooser.c:176
-msgid "No adapters available"
-msgstr "એડપ્ટરો ઉપલ્બધ નથી"
-
-#: ../lib/bluetooth-chooser.c:180 ../lib/bluetooth-chooser.c:804
-msgid "Searching for devices..."
-msgstr "ઉપકરણો માટે શોધી રહ્યા છે..."
-
-#: ../lib/bluetooth-chooser.c:696 ../lib/bluetooth-chooser.c:985
-msgid "Device"
-msgstr "ઉપકરણ"
-
-#: ../lib/bluetooth-chooser.c:732
-msgid "Type"
-msgstr "પ્રકાર"
-
-#: ../lib/bluetooth-chooser.c:987 ../applet/popup-menu.ui.h:4
-msgid "Devices"
-msgstr "ઉપકરણો"
-
-#: ../lib/bluetooth-filter-widget.c:72
-msgid "All categories"
-msgstr "બધા વર્ગો"
-
-#: ../lib/bluetooth-filter-widget.c:74
-msgid "Paired"
-msgstr "જોડી"
-
-#: ../lib/bluetooth-filter-widget.c:76
-msgid "Trusted"
-msgstr "વિશ્ર્વાસપાત્ર"
-
-#: ../lib/bluetooth-filter-widget.c:78
-msgid "Not paired or trusted"
-msgstr "જોડેલ કે વિશ્ર્વાસુ નથી"
-
-#: ../lib/bluetooth-filter-widget.c:80
-msgid "Paired or trusted"
-msgstr "જોડેલ અથવા વિશ્ર્વાસુ"
-
-#. This is the title of the filter section of the Bluetooth device chooser.
-#. * It used to say Show Only Bluetooth Devices With...
-#: ../lib/bluetooth-filter-widget.c:231
-msgid "Show:"
-msgstr "બતાવો:"
-
-#. The device category filter
-#: ../lib/bluetooth-filter-widget.c:247
-msgid "Device _category:"
-msgstr "ઉપકરણ વર્ગ (_c):"
-
-#: ../lib/bluetooth-filter-widget.c:258
-msgid "Select the device category to filter"
-msgstr "ગાળણ કરવા માટે ઉપકરણ વર્ગને પસંદ કરો"
-
-#. The device type filter
-#: ../lib/bluetooth-filter-widget.c:272
-msgid "Device _type:"
-msgstr "ઉપકરણ પ્રકાર (_t):"
-
-#: ../lib/bluetooth-filter-widget.c:289
-msgid "Select the device type to filter"
-msgstr "ગાળણ કરવા માટે ઉપકરણને પસંદ કરો"
-
-#: ../lib/bluetooth-filter-widget.c:295
-msgid "Input devices (mice, keyboards, etc.)"
-msgstr "ઇનપુટ ઉપકરણો (માઉસો, કિબોર્ડો, વગેરે...)"
-
-#: ../lib/bluetooth-filter-widget.c:299
-msgid "Headphones, headsets and other audio devices"
-msgstr "હેડફોનો, હેન્ડસેટો અને બીજા ઓડિયો ઉપકરણો"
-
-#: ../lib/bluetooth-utils.c:59
-msgid "All types"
-msgstr "બધા પ્રકારો"
-
-#: ../lib/bluetooth-utils.c:61
-msgid "Phone"
-msgstr "ફોન"
-
-#: ../lib/bluetooth-utils.c:63
-msgid "Modem"
-msgstr "મોડેમ"
-
-#: ../lib/bluetooth-utils.c:65
-msgid "Computer"
-msgstr "કમ્પ્યૂટર"
-
-#: ../lib/bluetooth-utils.c:67
-msgid "Network"
-msgstr "નેટવર્ક"
-
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
-#: ../lib/bluetooth-utils.c:70
-msgid "Headset"
-msgstr "હેન્ડસેટ"
-
-#: ../lib/bluetooth-utils.c:72
-msgid "Headphones"
-msgstr "હેડફોનો"
-
-#: ../lib/bluetooth-utils.c:74
-msgid "Audio device"
-msgstr "ઓડિયો ઉપકરણ"
-
-#: ../lib/bluetooth-utils.c:76
-msgid "Keyboard"
-msgstr "કિબોર્ડ"
-
-#: ../lib/bluetooth-utils.c:78
-msgid "Mouse"
-msgstr "માઉસ"
-
-#: ../lib/bluetooth-utils.c:80
-msgid "Camera"
-msgstr "કેમેરા"
-
-#: ../lib/bluetooth-utils.c:82
-msgid "Printer"
-msgstr "પ્રિન્ટર"
-
-#: ../lib/bluetooth-utils.c:84
-msgid "Joypad"
-msgstr "જોયપેડ"
-
-#: ../lib/bluetooth-utils.c:86
-msgid "Tablet"
-msgstr "ટેબલેટ"
-
-#: ../lib/bluetooth-utils.c:88
-msgid "Video device"
-msgstr "વિડિયો ઉપકરણ"
-
-#: ../lib/plugins/geoclue.c:178
-msgid "Use this GPS device for Geolocation services"
-msgstr "Geolocation સેવાઓ માટે આ GPS ઉપકરણને વાપરો"
-
-#. translators:
-#. * This is in a test plugin, please make sure you add the "(test)" part,
-#. * or leave untranslated
-#: ../lib/plugins/test.c:53
-msgid "Access the Internet using your cell phone (test)"
-msgstr "તમારા મોબાઇલ ફોનની મદદથી ઇન્ટરનેટમાં પ્રવેશ કરો (ચકાસણી)"
-
-#: ../applet/main.c:230
+#: ../applet/main.c:203
 msgid "Turn on Bluetooth"
 msgstr "બ્લુટુથ ને ચાલુ કરો"
 
-#: ../applet/main.c:231 ../applet/notify.c:159
+#: ../applet/main.c:204 ../applet/notify.c:159
 msgid "Bluetooth: Off"
 msgstr "બ્લુટુથ: બંધ"
 
-#: ../applet/main.c:234
+#: ../applet/main.c:207
 msgid "Turn off Bluetooth"
 msgstr "બ્લુટુથને બંધ કરો"
 
-#: ../applet/main.c:235 ../applet/notify.c:159
+#: ../applet/main.c:208 ../applet/notify.c:159
 msgid "Bluetooth: On"
 msgstr "બ્લુટુથ: ચાલુ"
 
-#: ../applet/main.c:240
+#: ../applet/main.c:213
 msgid "Bluetooth: Disabled"
 msgstr "બ્લુટુથ: નિષ્ક્રિય થયેલ છે"
 
-#: ../applet/main.c:387
+#: ../applet/main.c:360
 msgid "Disconnecting..."
 msgstr "જોડાણને તોડી રહ્યા છે..."
 
-#: ../applet/main.c:390 ../sendto/main.c:192 ../sendto/main.c:292
+#: ../applet/main.c:363
 msgid "Connecting..."
 msgstr "જોડાઇ રહ્યા છે..."
 
-#: ../applet/main.c:393 ../applet/main.c:676
+#: ../applet/main.c:366 ../applet/main.c:649
 msgid "Connected"
 msgstr "જોડાયેલ છે"
 
-#: ../applet/main.c:396 ../applet/main.c:676
+#: ../applet/main.c:369 ../applet/main.c:649
 msgid "Disconnected"
 msgstr "જોડાયેલ નથી"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Disconnect"
 msgstr "જોડાણ તોડો"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Connect"
 msgstr "જોડાવો"
 
-#: ../applet/main.c:707
+#: ../applet/main.c:680
 msgid "Send files..."
 msgstr "ફાઇલોને મોકલો..."
 
-#: ../applet/main.c:717
-msgid "Browse files..."
-msgstr "ફાઇલોને બ્રાઉઝ કરો..."
-
-#: ../applet/main.c:728
+#: ../applet/main.c:693
 msgid "Keyboard Settings"
 msgstr "કીબોર્ડ સુયોજનો"
 
-#: ../applet/main.c:736
+#: ../applet/main.c:701
 msgid "Mouse and Touchpad Settings"
 msgstr "માઉસ અને ટપપૅડ સુયોજનો"
 
-#: ../applet/main.c:746
+#: ../applet/main.c:711
 msgid "Sound Settings"
 msgstr "સાઉન્ડ સુયોજનો"
 
-#: ../applet/main.c:799
+#: ../applet/main.c:764
 msgid "Debug"
 msgstr "ડિબગ"
 
 #. Parse command-line options
-#: ../applet/main.c:818
+#: ../applet/main.c:783
 msgid "- Bluetooth applet"
 msgstr "- બ્લુટુથ એપલેટ"
 
-#: ../applet/main.c:823
+#: ../applet/main.c:788
 #, c-format
 msgid ""
 "%s\n"
@@ -254,7 +97,7 @@ msgstr ""
 "%s\n"
 "ઉપલ્બધ આદેશ વાક્ય વિકલ્પોની સંપૂર્ણ યાદી ને જોવા માટે '%s --help' ને ચલાવો.\n"
 
-#: ../applet/main.c:849
+#: ../applet/main.c:814
 msgid "Bluetooth Applet"
 msgstr "બ્લુટુથ એપલેટ"
 
@@ -343,6 +186,10 @@ msgstr "દૃશ્યમાન"
 msgid "Send files to device..."
 msgstr "ઉપકરણમાં ફાઇલોને મોકલો..."
 
+#: ../applet/popup-menu.ui.h:4
+msgid "Devices"
+msgstr "ઉપકરણો"
+
 #: ../applet/popup-menu.ui.h:5
 msgid "Set up new device..."
 msgstr "નવાં ઉપકરણને સુયોજિત કરો..."
@@ -379,298 +226,310 @@ msgstr "બંધબેસે છે (_M)"
 msgid "_Show input"
 msgstr "ઇનપુટને બતાવો (_S)"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
-#: ../wizard/main.c:241 ../wizard/main.c:364
-#, c-format
-msgid "Pairing with '%s' cancelled"
-msgstr "'%s' સાથે જોડી કરવાનું રદ કરેલ છે"
+#~ msgid "Click to select device..."
+#~ msgstr "ઉપકરણને પસંદ કરવા માટે ક્લિક કરો..."
 
-#: ../wizard/main.c:282
-#, c-format
-msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr "મહેરબાની કરીને ખાતરી કરો કે જે '%s' પર દર્શાવેલ : એ આ એક ને બંધબેસે છે."
+#~ msgid "Unknown"
+#~ msgstr "અજ્ઞાત"
 
-#: ../wizard/main.c:336
-msgid "Please enter the following PIN:"
-msgstr "મહેરબાની કરીને નીચેની PIN દાખલ કરો:"
+#~ msgid "No adapters available"
+#~ msgstr "એડપ્ટરો ઉપલ્બધ નથી"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Setting up 'Sony Bluetooth Headset' failed
-#.
-#: ../wizard/main.c:424
-#, c-format
-msgid "Setting up '%s' failed"
-msgstr "'%s' સાથે સુયોજન કરવાનું નિષ્ફળ"
+#~ msgid "Searching for devices..."
+#~ msgstr "ઉપકરણો માટે શોધી રહ્યા છે..."
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Connecting to 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:478
-#, c-format
-msgid "Connecting to '%s'..."
-msgstr "'%s' માં જોડાઇ રહ્યા છે..."
+#~ msgid "Device"
+#~ msgstr "ઉપકરણ"
 
-#: ../wizard/main.c:518
-#, c-format
-msgid "Please enter the following PIN on '%s':"
-msgstr "મહેરબાની કરીને '%s' પર નીચેની PIN દાખલ કરો:"
+#~ msgid "Type"
+#~ msgstr "પ્રકાર"
 
-#: ../wizard/main.c:521
-#, c-format
-msgid "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr "મહેરબાની કરીને '%s' પર નીચેની PIN દાખલ કરો અને કિબોર્ડ પર “દાખલ કરો” પર દબાવો:"
+#~ msgid "All categories"
+#~ msgstr "બધા વર્ગો"
 
-#: ../wizard/main.c:526
-msgid "Please move the joystick of your iCade in the following directions:"
-msgstr "મહેરબાની કરીને નીચેની દિશાઓમાં તમારી iCade ની જોયસ્ટિકને ખસેડો:"
+#~ msgid "Paired"
+#~ msgstr "જોડી"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:558
-#, c-format
-msgid "Please wait while finishing setup on device '%s'..."
-msgstr "મહેરબાની કરીને થોભો જ્યારે ઉપકરણ '%s' પર સુયોજનને સમાપ્ત કરી રહ્યા હોય..."
+#~ msgid "Trusted"
+#~ msgstr "વિશ્ર્વાસપાત્ર"
 
-#: ../wizard/main.c:576
-#, c-format
-msgid "Successfully set up new device '%s'"
-msgstr "સફળતાપૂર્વક સુયોજિત નવું ઉપકરણ '%s'"
+#~ msgid "Not paired or trusted"
+#~ msgstr "જોડેલ કે વિશ્ર્વાસુ નથી"
 
-#: ../wizard/wizard.ui.h:1
-msgid "Bluetooth New Device Setup"
-msgstr "બ્લુટુથ નવું ઉપકરણ સુયોજન"
+#~ msgid "Paired or trusted"
+#~ msgstr "જોડેલ અથવા વિશ્ર્વાસુ"
 
-#: ../wizard/wizard.ui.h:2
-msgid "PIN _options..."
-msgstr "PIN વિકલ્પો (_o)..."
+#~ msgid "Show:"
+#~ msgstr "બતાવો:"
 
-#: ../wizard/wizard.ui.h:3
-msgid "Device Search"
-msgstr "ઉપકરણ શોધ"
+#~ msgid "Device _category:"
+#~ msgstr "ઉપકરણ વર્ગ (_c):"
 
-#: ../wizard/wizard.ui.h:4
-msgid "Device Setup"
-msgstr "ઉપકરણ સુયોજન"
+#~ msgid "Select the device category to filter"
+#~ msgstr "ગાળણ કરવા માટે ઉપકરણ વર્ગને પસંદ કરો"
 
-#: ../wizard/wizard.ui.h:5
-#| msgid "Finishing New Device Setup"
-msgid "Finishing Setup"
-msgstr "સુયોજનને સમાપ્ત કરી રહ્યા છે"
+#~ msgid "Device _type:"
+#~ msgstr "ઉપકરણ પ્રકાર (_t):"
 
-#: ../wizard/wizard.ui.h:6
-msgid "Select the additional services you want to use with your device:"
-msgstr "તમારા ઉપકરણ સાથે તમે વાપરવા માંગતા હોય તેવી વધારાની સેવાઓને પસંદ કરો:"
+#~ msgid "Select the device type to filter"
+#~ msgstr "ગાળણ કરવા માટે ઉપકરણને પસંદ કરો"
 
-#: ../wizard/wizard.ui.h:7
-msgid "Setup Summary"
-msgstr "સુયોજન સારાંશ"
+#~ msgid "Input devices (mice, keyboards, etc.)"
+#~ msgstr "ઇનપુટ ઉપકરણો (માઉસો, કિબોર્ડો, વગેરે...)"
 
-#: ../wizard/wizard.ui.h:8
-msgid "PIN Options"
-msgstr "PIN વિકલ્પો"
+#~ msgid "Headphones, headsets and other audio devices"
+#~ msgstr "હેડફોનો, હેન્ડસેટો અને બીજા ઓડિયો ઉપકરણો"
 
-#: ../wizard/wizard.ui.h:9
-msgid "_Automatic PIN selection"
-msgstr "આપમેળે PIN પસંદગી (_A)"
+#~ msgid "All types"
+#~ msgstr "બધા પ્રકારો"
 
-#. Translators: this is a PIN with a set value, such as 1111, or 0000
-#: ../wizard/wizard.ui.h:11
-msgid "Fixed PIN"
-msgstr "સુધારેલ PIN"
+#~ msgid "Phone"
+#~ msgstr "ફોન"
 
-#: ../wizard/wizard.ui.h:12
-msgid "'0000' (most headsets, mice and GPS devices)"
-msgstr "'0000' (મોટેભાગે હેન્ડસેટો, માઉસો અને GPS ઉપકરણો)"
+#~ msgid "Modem"
+#~ msgstr "મોડેમ"
 
-#: ../wizard/wizard.ui.h:13
-msgid "'1111'"
-msgstr "'1111'"
+#~ msgid "Computer"
+#~ msgstr "કમ્પ્યૂટર"
 
-#: ../wizard/wizard.ui.h:14
-msgid "'1234'"
-msgstr "'1234'"
+#~ msgid "Network"
+#~ msgstr "નેટવર્ક"
 
-#: ../wizard/wizard.ui.h:15
-msgid "Do not pair"
-msgstr "જોડી બનાવો નહિં"
+#~ msgid "Headset"
+#~ msgstr "હેન્ડસેટ"
 
-#: ../wizard/wizard.ui.h:16
-msgid "Custom PIN:"
-msgstr "વૈવિધ્ય PIN:"
+#~ msgid "Headphones"
+#~ msgstr "હેડફોનો"
 
-#: ../wizard/wizard.ui.h:17
-msgid "_Try Again"
-msgstr "ફરીથી પ્રયત્ન કરો (_T)"
+#~ msgid "Audio device"
+#~ msgstr "ઓડિયો ઉપકરણ"
 
-#: ../wizard/wizard.ui.h:18
-msgid "_Quit"
-msgstr "બહાર નીકળો (_Q)"
+#~ msgid "Keyboard"
+#~ msgstr "કિબોર્ડ"
 
-#: ../wizard/wizard.ui.h:19
-msgid "_Cancel"
-msgstr "રદ કરો (_C)"
+#~ msgid "Mouse"
+#~ msgstr "માઉસ"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:21
-msgid "Does not match"
-msgstr "બંધબેસતુ નથી"
+#~ msgid "Camera"
+#~ msgstr "કેમેરા"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:23
-msgid "Matches"
-msgstr "બંધબેસે છે"
+#~ msgid "Printer"
+#~ msgstr "પ્રિન્ટર"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:1
-msgid "Bluetooth Device Setup"
-msgstr "બ્લુટુથ ઉપકરણ સુયોજન"
+#~ msgid "Joypad"
+#~ msgstr "જોયપેડ"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:2
-msgid "Setup Bluetooth devices"
-msgstr "બ્લુટુથ ઉપકરણોનું સુયોજન"
+#~ msgid "Tablet"
+#~ msgstr "ટેબલેટ"
 
-#: ../sendto/main.c:151
-#, c-format
-msgid "%'d second"
-msgid_plural "%'d seconds"
-msgstr[0] "%'d સેકંડ"
-msgstr[1] "%'d સેકંડો"
+#~ msgid "Video device"
+#~ msgstr "વિડિયો ઉપકરણ"
 
-#: ../sendto/main.c:156 ../sendto/main.c:169
-#, c-format
-msgid "%'d minute"
-msgid_plural "%'d minutes"
-msgstr[0] "%'d મિનિટ"
-msgstr[1] "%'d મિનિટો"
+#~ msgid "Use this GPS device for Geolocation services"
+#~ msgstr "Geolocation સેવાઓ માટે આ GPS ઉપકરણને વાપરો"
 
-#: ../sendto/main.c:167
-#, c-format
-msgid "%'d hour"
-msgid_plural "%'d hours"
-msgstr[0] "%'d કલાક"
-msgstr[1] "%'d કલાકો"
+#~ msgid "Access the Internet using your cell phone (test)"
+#~ msgstr "તમારા મોબાઇલ ફોનની મદદથી ઇન્ટરનેટમાં પ્રવેશ કરો (ચકાસણી)"
 
-#: ../sendto/main.c:177
-#, c-format
-msgid "approximately %'d hour"
-msgid_plural "approximately %'d hours"
-msgstr[0] "આશરે %'d કલાક"
-msgstr[1] "આશરે %'d કલાકો"
+#~ msgid "Browse files..."
+#~ msgstr "ફાઇલોને બ્રાઉઝ કરો..."
 
-#: ../sendto/main.c:231
-msgid "File Transfer"
-msgstr "ફાઇલ સ્થળાંતર"
+#~ msgid "Pairing with '%s' cancelled"
+#~ msgstr "'%s' સાથે જોડી કરવાનું રદ કરેલ છે"
 
-#: ../sendto/main.c:234
-msgid "_Retry"
-msgstr "પુન:પ્રયત્ન કરો (_R)"
+#~ msgid "Please confirm that the PIN displayed on '%s' matches this one."
+#~ msgstr "મહેરબાની કરીને ખાતરી કરો કે જે '%s' પર દર્શાવેલ : એ આ એક ને બંધબેસે છે."
 
-#. translators: This is the heading for the progress dialogue
-#: ../sendto/main.c:253
-msgid "Sending files via Bluetooth"
-msgstr "બ્લુટુથ મારફતે ફાઇલોને મોકલી રહ્યા છે"
+#~ msgid "Please enter the following PIN:"
+#~ msgstr "મહેરબાની કરીને નીચેની PIN દાખલ કરો:"
 
-#: ../sendto/main.c:265
-msgid "From:"
-msgstr "માથી:"
+#~ msgid "Setting up '%s' failed"
+#~ msgstr "'%s' સાથે સુયોજન કરવાનું નિષ્ફળ"
 
-#: ../sendto/main.c:277
-msgid "To:"
-msgstr "થી:"
+#~ msgid "Connecting to '%s'..."
+#~ msgstr "'%s' માં જોડાઇ રહ્યા છે..."
 
-#: ../sendto/main.c:321 ../sendto/main.c:339
-msgid "An unknown error occurred"
-msgstr "અજ્ઞાત ભૂલ ઉદ્ભવી"
+#~ msgid "Please enter the following PIN on '%s':"
+#~ msgstr "મહેરબાની કરીને '%s' પર નીચેની PIN દાખલ કરો:"
 
-#: ../sendto/main.c:332
-msgid ""
-"Make sure that the remote device is switched on and that it accepts "
-"Bluetooth connections"
-msgstr "ખાતરી કરો કે દૂરસ્થ ઉપકરણની સ્વીચ ચાલુ હોય અને તે બ્લુટુથ જોડાણોને સ્વીકારે છે"
+#~ msgid ""
+#~ "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+#~ msgstr ""
+#~ "મહેરબાની કરીને '%s' પર નીચેની PIN દાખલ કરો અને કિબોર્ડ પર “દાખલ કરો” પર દબાવો:"
 
-#: ../sendto/main.c:430
-#, c-format
-msgid "Sending %s"
-msgstr "%s ને મોકલી રહ્યા છે"
+#~ msgid "Please move the joystick of your iCade in the following directions:"
+#~ msgstr "મહેરબાની કરીને નીચેની દિશાઓમાં તમારી iCade ની જોયસ્ટિકને ખસેડો:"
 
-#: ../sendto/main.c:437 ../sendto/main.c:508
-#, c-format
-msgid "Sending file %d of %d"
-msgstr "%d ની ફાઇલ %d ને મોકલી રહ્યા છે"
+#~ msgid "Please wait while finishing setup on device '%s'..."
+#~ msgstr "મહેરબાની કરીને થોભો જ્યારે ઉપકરણ '%s' પર સુયોજનને સમાપ્ત કરી રહ્યા હોય..."
 
-#: ../sendto/main.c:504
-#, c-format
-#| msgid "%d B/s"
-msgid "%d kB/s"
-msgstr "%d kB/s"
+#~ msgid "Successfully set up new device '%s'"
+#~ msgstr "સફળતાપૂર્વક સુયોજિત નવું ઉપકરણ '%s'"
 
-#: ../sendto/main.c:506
-#, c-format
-msgid "%d B/s"
-msgstr "%d B/s"
+#~ msgid "Bluetooth New Device Setup"
+#~ msgstr "બ્લુટુથ નવું ઉપકરણ સુયોજન"
 
-#: ../sendto/main.c:639
-msgid "Select device to send to"
-msgstr "મોકલવા માટે ઉપકરણને પસંદ કરો"
+#~ msgid "PIN _options..."
+#~ msgstr "PIN વિકલ્પો (_o)..."
 
-#: ../sendto/main.c:644
-msgid "_Send"
-msgstr "મોકલો (_S)"
+#~ msgid "Device Search"
+#~ msgstr "ઉપકરણ શોધ"
 
-#: ../sendto/main.c:688
-msgid "Choose files to send"
-msgstr "મોકલવા માટે ફાઇલોને પસંદ કરો"
+#~ msgid "Device Setup"
+#~ msgstr "ઉપકરણ સુયોજન"
 
-#: ../sendto/main.c:691
-msgid "Select"
-msgstr "પસંદ કરો"
+#~| msgid "Finishing New Device Setup"
+#~ msgid "Finishing Setup"
+#~ msgstr "સુયોજનને સમાપ્ત કરી રહ્યા છે"
 
-#: ../sendto/main.c:717
-msgid "Remote device to use"
-msgstr "વાપરવા માટે દૂરસ્થ ઉપકરણ"
+#~ msgid "Select the additional services you want to use with your device:"
+#~ msgstr "તમારા ઉપકરણ સાથે તમે વાપરવા માંગતા હોય તેવી વધારાની સેવાઓને પસંદ કરો:"
 
-#: ../sendto/main.c:717
-msgid "ADDRESS"
-msgstr "ADDRESS"
+#~ msgid "Setup Summary"
+#~ msgstr "સુયોજન સારાંશ"
 
-#: ../sendto/main.c:719
-msgid "Remote device's name"
-msgstr "દૂરસ્થ ઉપકરણનું નામ"
+#~ msgid "PIN Options"
+#~ msgstr "PIN વિકલ્પો"
 
-#: ../sendto/main.c:719
-msgid "NAME"
-msgstr "NAME"
+#~ msgid "_Automatic PIN selection"
+#~ msgstr "આપમેળે PIN પસંદગી (_A)"
 
-#: ../sendto/main.c:738
-msgid "[FILE...]"
-msgstr "[FILE...]"
+#~ msgid "Fixed PIN"
+#~ msgstr "સુધારેલ PIN"
 
-#: ../sendto/nautilus-sendto-plugin.c:168
-msgid "Programming error: could not find the device in the list"
-msgstr "પ્રોગ્રામીંગ ભૂલ:યાદીમાં ઉપકરણને શોધી શક્યા નહિં"
+#~ msgid "'0000' (most headsets, mice and GPS devices)"
+#~ msgstr "'0000' (મોટેભાગે હેન્ડસેટો, માઉસો અને GPS ઉપકરણો)"
 
-#: ../sendto/nautilus-sendto-plugin.c:243
-#, c-format
-msgid "OBEX Push file transfer unsupported"
-msgstr "OBEX Push ફાઇલ પરિવહન બિનઆધારભૂત"
+#~ msgid "'1111'"
+#~ msgstr "'1111'"
 
-#: ../sendto/nautilus-sendto-plugin.c:262
-msgid "Bluetooth (OBEX Push)"
-msgstr "બ્લુટુથ (OBEX Push)"
+#~ msgid "'1234'"
+#~ msgstr "'1234'"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:1
-msgid "Bluetooth Transfer"
-msgstr "બ્લુટુથ પરિવહન"
+#~ msgid "Do not pair"
+#~ msgstr "જોડી બનાવો નહિં"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:2
-msgid "Send files via Bluetooth"
-msgstr "બ્લુટુથ મારફતે ફાઇલોને મોકલો"
+#~ msgid "Custom PIN:"
+#~ msgstr "વૈવિધ્ય PIN:"
+
+#~ msgid "_Try Again"
+#~ msgstr "ફરીથી પ્રયત્ન કરો (_T)"
+
+#~ msgid "_Quit"
+#~ msgstr "બહાર નીકળો (_Q)"
+
+#~ msgid "_Cancel"
+#~ msgstr "રદ કરો (_C)"
+
+#~ msgid "Does not match"
+#~ msgstr "બંધબેસતુ નથી"
+
+#~ msgid "Matches"
+#~ msgstr "બંધબેસે છે"
+
+#~ msgid "Bluetooth Device Setup"
+#~ msgstr "બ્લુટુથ ઉપકરણ સુયોજન"
+
+#~ msgid "Setup Bluetooth devices"
+#~ msgstr "બ્લુટુથ ઉપકરણોનું સુયોજન"
+
+#~ msgid "%'d second"
+#~ msgid_plural "%'d seconds"
+#~ msgstr[0] "%'d સેકંડ"
+#~ msgstr[1] "%'d સેકંડો"
+
+#~ msgid "%'d minute"
+#~ msgid_plural "%'d minutes"
+#~ msgstr[0] "%'d મિનિટ"
+#~ msgstr[1] "%'d મિનિટો"
+
+#~ msgid "%'d hour"
+#~ msgid_plural "%'d hours"
+#~ msgstr[0] "%'d કલાક"
+#~ msgstr[1] "%'d કલાકો"
+
+#~ msgid "approximately %'d hour"
+#~ msgid_plural "approximately %'d hours"
+#~ msgstr[0] "આશરે %'d કલાક"
+#~ msgstr[1] "આશરે %'d કલાકો"
+
+#~ msgid "File Transfer"
+#~ msgstr "ફાઇલ સ્થળાંતર"
+
+#~ msgid "_Retry"
+#~ msgstr "પુન:પ્રયત્ન કરો (_R)"
+
+#~ msgid "Sending files via Bluetooth"
+#~ msgstr "બ્લુટુથ મારફતે ફાઇલોને મોકલી રહ્યા છે"
+
+#~ msgid "From:"
+#~ msgstr "માથી:"
+
+#~ msgid "To:"
+#~ msgstr "થી:"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "અજ્ઞાત ભૂલ ઉદ્ભવી"
+
+#~ msgid ""
+#~ "Make sure that the remote device is switched on and that it accepts "
+#~ "Bluetooth connections"
+#~ msgstr "ખાતરી કરો કે દૂરસ્થ ઉપકરણની સ્વીચ ચાલુ હોય અને તે બ્લુટુથ જોડાણોને સ્વીકારે છે"
+
+#~ msgid "Sending %s"
+#~ msgstr "%s ને મોકલી રહ્યા છે"
+
+#~ msgid "Sending file %d of %d"
+#~ msgstr "%d ની ફાઇલ %d ને મોકલી રહ્યા છે"
+
+#~| msgid "%d B/s"
+#~ msgid "%d kB/s"
+#~ msgstr "%d kB/s"
+
+#~ msgid "%d B/s"
+#~ msgstr "%d B/s"
+
+#~ msgid "Select device to send to"
+#~ msgstr "મોકલવા માટે ઉપકરણને પસંદ કરો"
+
+#~ msgid "_Send"
+#~ msgstr "મોકલો (_S)"
+
+#~ msgid "Choose files to send"
+#~ msgstr "મોકલવા માટે ફાઇલોને પસંદ કરો"
+
+#~ msgid "Select"
+#~ msgstr "પસંદ કરો"
+
+#~ msgid "Remote device to use"
+#~ msgstr "વાપરવા માટે દૂરસ્થ ઉપકરણ"
+
+#~ msgid "ADDRESS"
+#~ msgstr "ADDRESS"
+
+#~ msgid "Remote device's name"
+#~ msgstr "દૂરસ્થ ઉપકરણનું નામ"
+
+#~ msgid "NAME"
+#~ msgstr "NAME"
+
+#~ msgid "[FILE...]"
+#~ msgstr "[FILE...]"
+
+#~ msgid "Programming error: could not find the device in the list"
+#~ msgstr "પ્રોગ્રામીંગ ભૂલ:યાદીમાં ઉપકરણને શોધી શક્યા નહિં"
+
+#~ msgid "OBEX Push file transfer unsupported"
+#~ msgstr "OBEX Push ફાઇલ પરિવહન બિનઆધારભૂત"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "બ્લુટુથ (OBEX Push)"
+
+#~ msgid "Bluetooth Transfer"
+#~ msgstr "બ્લુટુથ પરિવહન"
+
+#~ msgid "Send files via Bluetooth"
+#~ msgstr "બ્લુટુથ મારફતે ફાઇલોને મોકલો"
 
 #~ msgid "%d KB/s"
 #~ msgstr "%d KB/s"

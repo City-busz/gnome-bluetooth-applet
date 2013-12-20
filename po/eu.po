@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-03-03 19:36+0100\n"
+"POT-Creation-Date: 2013-12-20 05:18+0100\n"
 "PO-Revision-Date: 2012-03-03 19:39+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
 "Language-Team: Basque <kde-i18n-doc@kde.org>\n"
@@ -22,234 +22,76 @@ msgstr ""
 "X-Launchpad-Export-Date: 2008-10-05 13:36+0000\n"
 "X-Project-Style: gnome\n"
 
-#: ../lib/bluetooth-chooser-button.c:75
-msgid "Click to select device..."
-msgstr "Egin klik gailua hautatzeko..."
-
-#: ../lib/bluetooth-chooser.c:135 ../lib/bluetooth-filter-widget.c:82
-#: ../lib/bluetooth-utils.c:89
-msgid "Unknown"
-msgstr "Ezezaguna"
-
-#: ../lib/bluetooth-chooser.c:176
-msgid "No adapters available"
-msgstr "Ez dago moldagailurik erabilgarri"
-
-#: ../lib/bluetooth-chooser.c:180 ../lib/bluetooth-chooser.c:802
-msgid "Searching for devices..."
-msgstr "Gailuak bilatzen..."
-
-#: ../lib/bluetooth-chooser.c:694 ../lib/bluetooth-chooser.c:983
-msgid "Device"
-msgstr "Gailua"
-
-#: ../lib/bluetooth-chooser.c:730
-msgid "Type"
-msgstr "Mota"
-
-#: ../lib/bluetooth-chooser.c:985 ../applet/popup-menu.ui.h:3
-msgid "Devices"
-msgstr "Gailuak"
-
-#: ../lib/bluetooth-filter-widget.c:72
-msgid "All categories"
-msgstr "Kategoria guztiak"
-
-#: ../lib/bluetooth-filter-widget.c:74
-msgid "Paired"
-msgstr "Parekatua"
-
-#: ../lib/bluetooth-filter-widget.c:76
-msgid "Trusted"
-msgstr "Fidatua"
-
-#: ../lib/bluetooth-filter-widget.c:78
-msgid "Not paired or trusted"
-msgstr "Parekatu edo fidatu gabea"
-
-#: ../lib/bluetooth-filter-widget.c:80
-msgid "Paired or trusted"
-msgstr "Parekatuta edo fidatuta"
-
-#. This is the title of the filter section of the Bluetooth device chooser.
-#. * It used to say Show Only Bluetooth Devices With...
-#: ../lib/bluetooth-filter-widget.c:231
-msgid "Show:"
-msgstr "Erakutsi:"
-
-#. The device category filter
-#: ../lib/bluetooth-filter-widget.c:247
-msgid "Device _category:"
-msgstr "Gailuaren _kategoria:"
-
-#: ../lib/bluetooth-filter-widget.c:258
-msgid "Select the device category to filter"
-msgstr "Hautatu gailuaren kategoria iragazteko"
-
-#. The device type filter
-#: ../lib/bluetooth-filter-widget.c:272
-msgid "Device _type:"
-msgstr "Gailu _mota:"
-
-#: ../lib/bluetooth-filter-widget.c:289
-msgid "Select the device type to filter"
-msgstr "Hautatu gailu mota iragazteko"
-
-#: ../lib/bluetooth-filter-widget.c:295
-msgid "Input devices (mice, keyboards, etc.)"
-msgstr "Sarrerako gailuak (sagua, teklatua, e.a...)"
-
-#: ../lib/bluetooth-filter-widget.c:299
-msgid "Headphones, headsets and other audio devices"
-msgstr ""
-"Aurikularrak, aurikularrak mikrofonoarekin eta bestelako audioko gailuak"
-
-#: ../lib/bluetooth-utils.c:58
-msgid "All types"
-msgstr "Mota guztiak"
-
-#: ../lib/bluetooth-utils.c:60
-msgid "Phone"
-msgstr "Telefonoa"
-
-#: ../lib/bluetooth-utils.c:62
-msgid "Modem"
-msgstr "Modema"
-
-#: ../lib/bluetooth-utils.c:64
-msgid "Computer"
-msgstr "Ordenagailua"
-
-#: ../lib/bluetooth-utils.c:66
-msgid "Network"
-msgstr "Sarea"
-
-#. translators: a hands-free headset, a combination of a single speaker with a microphone
-#: ../lib/bluetooth-utils.c:69
-msgid "Headset"
-msgstr "Aurikular+mikrofonoa"
-
-#: ../lib/bluetooth-utils.c:71
-msgid "Headphones"
-msgstr "Aurikularrak"
-
-#: ../lib/bluetooth-utils.c:73
-msgid "Audio device"
-msgstr "Audio gailua"
-
-#: ../lib/bluetooth-utils.c:75
-msgid "Keyboard"
-msgstr "Teklatua"
-
-#: ../lib/bluetooth-utils.c:77
-msgid "Mouse"
-msgstr "Sagua"
-
-#: ../lib/bluetooth-utils.c:79
-msgid "Camera"
-msgstr "Kamera"
-
-#: ../lib/bluetooth-utils.c:81
-msgid "Printer"
-msgstr "Inprimagailua"
-
-#: ../lib/bluetooth-utils.c:83
-msgid "Joypad"
-msgstr "Joko-palanka"
-
-#: ../lib/bluetooth-utils.c:85
-msgid "Tablet"
-msgstr "Taula"
-
-#: ../lib/bluetooth-utils.c:87
-msgid "Video device"
-msgstr "Bideo gailua"
-
-#: ../lib/plugins/geoclue.c:178
-msgid "Use this GPS device for Geolocation services"
-msgstr "Erabili GPS gailu hau geolokalizazio zerbitzuetarako"
-
-#. translators:
-#. * This is in a test plugin, please make sure you add the "(test)" part,
-#. * or leave untranslated
-#: ../lib/plugins/test.c:53
-msgid "Access the Internet using your cell phone (test)"
-msgstr "Sarbidetu Internetera telefono mugikorra erabiliz (proba)"
-
-#: ../applet/main.c:230
+#: ../applet/main.c:203
 msgid "Turn on Bluetooth"
 msgstr "Piztu Bluetooth-a"
 
-#: ../applet/main.c:231 ../applet/notify.c:159
+#: ../applet/main.c:204 ../applet/notify.c:159
 msgid "Bluetooth: Off"
 msgstr "Bluetooth-a: itzali"
 
-#: ../applet/main.c:234
+#: ../applet/main.c:207
 msgid "Turn off Bluetooth"
 msgstr "Itzali Bluetooth-a"
 
-#: ../applet/main.c:235 ../applet/notify.c:159
+#: ../applet/main.c:208 ../applet/notify.c:159
 msgid "Bluetooth: On"
 msgstr "Bluetooth-a: piztu"
 
-#: ../applet/main.c:240
+#: ../applet/main.c:213
 msgid "Bluetooth: Disabled"
 msgstr "Bluetooth-a: desgaituta"
 
-#: ../applet/main.c:387
+#: ../applet/main.c:360
 msgid "Disconnecting..."
 msgstr "Deskonektatzen..."
 
-#: ../applet/main.c:390 ../sendto/main.c:206 ../sendto/main.c:308
+#: ../applet/main.c:363
 msgid "Connecting..."
 msgstr "Konektatzen..."
 
-#: ../applet/main.c:393 ../applet/main.c:676
+#: ../applet/main.c:366 ../applet/main.c:649
 msgid "Connected"
 msgstr "Konektatuta"
 
-#: ../applet/main.c:396 ../applet/main.c:676
+#: ../applet/main.c:369 ../applet/main.c:649
 msgid "Disconnected"
 msgstr "Deskonektatuta"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Disconnect"
 msgstr "Deskonektatu"
 
-#: ../applet/main.c:694 ../applet/main.c:758
+#: ../applet/main.c:667 ../applet/main.c:723
 msgid "Connect"
 msgstr "Konektatu"
 
-#: ../applet/main.c:707
+#: ../applet/main.c:680
 msgid "Send files..."
 msgstr "Bidali fitxategiak..."
 
-#: ../applet/main.c:717
-msgid "Browse files..."
-msgstr "Arakatu fitxategiak..."
-
-#: ../applet/main.c:728
+#: ../applet/main.c:693
 msgid "Keyboard Settings"
 msgstr "Teklatuaren ezarpenak"
 
-#: ../applet/main.c:736
+#: ../applet/main.c:701
 msgid "Mouse and Touchpad Settings"
 msgstr "Sagu eta touchpad-aren ezarpenak"
 
-#: ../applet/main.c:746
+#: ../applet/main.c:711
 msgid "Sound Settings"
 msgstr "Soinuaren ezarpenak"
 
-#: ../applet/main.c:799
+#: ../applet/main.c:764
 msgid "Debug"
 msgstr "Araztu"
 
 #. Parse command-line options
-#: ../applet/main.c:818
+#: ../applet/main.c:783
 msgid "- Bluetooth applet"
 msgstr "- Bluetooth miniaplikazioa"
 
-#: ../applet/main.c:823
+#: ../applet/main.c:788
 #, c-format
 msgid ""
 "%s\n"
@@ -258,7 +100,7 @@ msgstr ""
 "%s\n"
 "Exekutatu '%s --help' komando-lerroko aukera guztiak zerrendatzeko.\n"
 
-#: ../applet/main.c:849
+#: ../applet/main.c:814
 msgid "Bluetooth Applet"
 msgstr "Bluetooth miniaplikazioa"
 
@@ -336,40 +178,44 @@ msgid "Bluetooth Manager applet"
 msgstr "Bluetooth-kudeatzailea miniaplikazioa"
 
 #: ../applet/popup-menu.ui.h:1
-msgid "Bluetooth Settings"
-msgstr "Bluetooth ezarpenak"
-
-#: ../applet/popup-menu.ui.h:2
 msgid "Bluetooth: Checking"
 msgstr "Bluetooth-a: egiaztatzen"
 
-#: ../applet/popup-menu.ui.h:4
-msgid "Quit"
-msgstr "Irten"
+#: ../applet/popup-menu.ui.h:2
+msgid "Visible"
+msgstr "Ikusgai"
 
-#: ../applet/popup-menu.ui.h:5
+#: ../applet/popup-menu.ui.h:3
 msgid "Send files to device..."
 msgstr "Bidali fitxategiak gailura..."
 
-#: ../applet/popup-menu.ui.h:6
+#: ../applet/popup-menu.ui.h:4
+msgid "Devices"
+msgstr "Gailuak"
+
+#: ../applet/popup-menu.ui.h:5
 msgid "Set up new device..."
 msgstr "Konfiguratu gailu berria..."
 
+#: ../applet/popup-menu.ui.h:6
+msgid "Bluetooth Settings"
+msgstr "Bluetooth ezarpenak"
+
 #: ../applet/popup-menu.ui.h:7
-msgid "Visible"
-msgstr "Ikusgai"
+msgid "Quit"
+msgstr "Irten"
 
 #: ../applet/authorisation-dialogue.ui.h:1
 msgid "_Always grant access"
 msgstr "_Beti baimendu sarbidea"
 
 #: ../applet/authorisation-dialogue.ui.h:2
-msgid "_Grant"
-msgstr "_Baimendu"
-
-#: ../applet/authorisation-dialogue.ui.h:3
 msgid "_Reject"
 msgstr "_Ukatu"
+
+#: ../applet/authorisation-dialogue.ui.h:3
+msgid "_Grant"
+msgstr "_Baimendu"
 
 #: ../applet/confirm-dialogue.ui.h:1
 msgid "_Does not match"
@@ -383,287 +229,301 @@ msgstr "_Bat datoz"
 msgid "_Show input"
 msgstr "_Erakutsi sarrera"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Pairing with 'Sony Bluetooth Headset' cancelled
-#.
-#: ../wizard/main.c:241 ../wizard/main.c:364
-#, c-format
-msgid "Pairing with '%s' cancelled"
-msgstr "'%s' parekatzea bertan behera utzi da"
+#~ msgid "Click to select device..."
+#~ msgstr "Egin klik gailua hautatzeko..."
 
-#: ../wizard/main.c:282
-#, c-format
-msgid "Please confirm that the PIN displayed on '%s' matches this one."
-msgstr "Berretsi '%s'(e)n bistaratutako PINa honekin bat datorrela."
+#~ msgid "Unknown"
+#~ msgstr "Ezezaguna"
 
-#: ../wizard/main.c:336
-msgid "Please enter the following PIN:"
-msgstr "Sartu honako PINa:"
+#~ msgid "No adapters available"
+#~ msgstr "Ez dago moldagailurik erabilgarri"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Setting up 'Sony Bluetooth Headset' failed
-#.
-#: ../wizard/main.c:424
-#, c-format
-msgid "Setting up '%s' failed"
-msgstr "Huts egin du '%s' konfiguratzean"
+#~ msgid "Searching for devices..."
+#~ msgstr "Gailuak bilatzen..."
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Connecting to 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:478
-#, c-format
-msgid "Connecting to '%s'..."
-msgstr "'%s'(e)ra konektatzen..."
+#~ msgid "Device"
+#~ msgstr "Gailua"
 
-#: ../wizard/main.c:518
-#, c-format
-msgid "Please enter the following PIN on '%s':"
-msgstr "Sartu honako PINa '%s'(e)n:"
+#~ msgid "Type"
+#~ msgstr "Mota"
 
-#: ../wizard/main.c:521
-#, c-format
-msgid ""
-"Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
-msgstr "Sartu honako PINa '%s'(e)n eta sakatu teklatuko 'Sartu' tekla:"
+#~ msgid "All categories"
+#~ msgstr "Kategoria guztiak"
 
-#: ../wizard/main.c:526
-msgid "Please move the joystick of your iCade in the following directions:"
-msgstr "Eraman iCade-ren kontrol-palanka honako norabideetara:"
+#~ msgid "Paired"
+#~ msgstr "Parekatua"
 
-#. translators:
-#. * The '%s' is the device name, for example:
-#. * Please wait while finishing setup on 'Sony Bluetooth Headset'...
-#.
-#: ../wizard/main.c:556
-#, c-format
-msgid "Please wait while finishing setup on device '%s'..."
-msgstr "Itxaron '%s? gailua konfiguratu bitartean..."
+#~ msgid "Trusted"
+#~ msgstr "Fidatua"
 
-#: ../wizard/main.c:574
-#, c-format
-msgid "Successfully set up new device '%s'"
-msgstr "'%s' gailu berria ongi konfiguratu da"
+#~ msgid "Not paired or trusted"
+#~ msgstr "Parekatu edo fidatu gabea"
 
-#: ../wizard/wizard.ui.h:1
-msgid "'0000' (most headsets, mice and GPS devices)"
-msgstr "'0000' (aurikular-mikrofono, sagu eta GPS gailu gehienak)"
+#~ msgid "Paired or trusted"
+#~ msgstr "Parekatuta edo fidatuta"
 
-#: ../wizard/wizard.ui.h:2
-msgid "'1111'"
-msgstr "'1111'"
+#~ msgid "Show:"
+#~ msgstr "Erakutsi:"
 
-#: ../wizard/wizard.ui.h:3
-msgid "'1234'"
-msgstr "'1234'"
+#~ msgid "Device _category:"
+#~ msgstr "Gailuaren _kategoria:"
 
-#: ../wizard/wizard.ui.h:4
-msgid "Bluetooth New Device Setup"
-msgstr "Bluetooth-en gailua berriaren konfigurazioa"
+#~ msgid "Select the device category to filter"
+#~ msgstr "Hautatu gailuaren kategoria iragazteko"
 
-#: ../wizard/wizard.ui.h:5
-msgid "Custom PIN:"
-msgstr "PIN pertsonalizatua:"
+#~ msgid "Device _type:"
+#~ msgstr "Gailu _mota:"
 
-#: ../wizard/wizard.ui.h:6
-msgid "Device Search"
-msgstr "Gailuaren bilaketa"
+#~ msgid "Select the device type to filter"
+#~ msgstr "Hautatu gailu mota iragazteko"
 
-#: ../wizard/wizard.ui.h:7
-msgid "Device Setup"
-msgstr "Gailuaren konfigurazioa"
+#~ msgid "Input devices (mice, keyboards, etc.)"
+#~ msgstr "Sarrerako gailuak (sagua, teklatua, e.a...)"
 
-#: ../wizard/wizard.ui.h:8
-msgid "Do not pair"
-msgstr "Ez dator bat"
+#~ msgid "Headphones, headsets and other audio devices"
+#~ msgstr ""
+#~ "Aurikularrak, aurikularrak mikrofonoarekin eta bestelako audioko gailuak"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:10
-msgid "Does not match"
-msgstr "Ez dator bat"
+#~ msgid "All types"
+#~ msgstr "Mota guztiak"
 
-#: ../wizard/wizard.ui.h:11
-msgid "Finishing New Device Setup"
-msgstr "Gailu berriaren konfigurazioa burututa"
+#~ msgid "Phone"
+#~ msgstr "Telefonoa"
 
-#. Translators: this is a PIN with a set value, such as 1111, or 0000
-#: ../wizard/wizard.ui.h:13
-msgid "Fixed PIN"
-msgstr "PIN finkoa"
+#~ msgid "Modem"
+#~ msgstr "Modema"
 
-#. This is a button to answer: Does the PIN matches the one on the device?
-#: ../wizard/wizard.ui.h:15
-msgid "Matches"
-msgstr "Bat dator"
+#~ msgid "Computer"
+#~ msgstr "Ordenagailua"
 
-#: ../wizard/wizard.ui.h:16
-msgid "PIN Options"
-msgstr "PINaren aukerak"
+#~ msgid "Network"
+#~ msgstr "Sarea"
 
-#: ../wizard/wizard.ui.h:17
-msgid "PIN _options..."
-msgstr "PINaren _aukerak..."
+#~ msgid "Headset"
+#~ msgstr "Aurikular+mikrofonoa"
 
-#: ../wizard/wizard.ui.h:18
-msgid "Select the additional services you want to use with your device:"
-msgstr "Hautatu zerbitzu gehigarriak zure gailuarekin erabiltzeko:"
+#~ msgid "Headphones"
+#~ msgstr "Aurikularrak"
 
-#: ../wizard/wizard.ui.h:19
-msgid "Setup Summary"
-msgstr "Konfigurazioaren laburpena"
+#~ msgid "Audio device"
+#~ msgstr "Audio gailua"
 
-#: ../wizard/wizard.ui.h:20
-msgid "_Automatic PIN selection"
-msgstr "_PINaren hautapen automatikoa"
+#~ msgid "Keyboard"
+#~ msgstr "Teklatua"
 
-#: ../wizard/wizard.ui.h:21
-msgid "_Cancel"
-msgstr "_Utzi"
+#~ msgid "Mouse"
+#~ msgstr "Sagua"
 
-#: ../wizard/wizard.ui.h:22
-msgid "_Quit"
-msgstr "_Irten"
+#~ msgid "Camera"
+#~ msgstr "Kamera"
 
-#: ../wizard/wizard.ui.h:23
-msgid "_Try Again"
-msgstr "_Saiatu berriro"
+#~ msgid "Printer"
+#~ msgstr "Inprimagailua"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:1
-msgid "Bluetooth Device Setup"
-msgstr "Bluetooth gailuaren konfigurazioa"
+#~ msgid "Joypad"
+#~ msgstr "Joko-palanka"
 
-#: ../wizard/bluetooth-wizard.desktop.in.in.h:2
-msgid "Setup Bluetooth devices"
-msgstr "Konfiguratu Bluetooth gailuak"
+#~ msgid "Tablet"
+#~ msgstr "Taula"
 
-#: ../sendto/main.c:151
-#, c-format
-msgid "%'d second"
-msgid_plural "%'d seconds"
-msgstr[0] "Segundo %'d"
-msgstr[1] "%'d segundo"
+#~ msgid "Video device"
+#~ msgstr "Bideo gailua"
 
-#: ../sendto/main.c:156 ../sendto/main.c:169
-#, c-format
-msgid "%'d minute"
-msgid_plural "%'d minutes"
-msgstr[0] "Minutu %'d"
-msgstr[1] "%'d minutu"
+#~ msgid "Use this GPS device for Geolocation services"
+#~ msgstr "Erabili GPS gailu hau geolokalizazio zerbitzuetarako"
 
-#: ../sendto/main.c:167
-#, c-format
-msgid "%'d hour"
-msgid_plural "%'d hours"
-msgstr[0] "Ordu %'d"
-msgstr[1] "%'d ordu"
+#~ msgid "Access the Internet using your cell phone (test)"
+#~ msgstr "Sarbidetu Internetera telefono mugikorra erabiliz (proba)"
 
-#: ../sendto/main.c:177
-#, c-format
-msgid "approximately %'d hour"
-msgid_plural "approximately %'d hours"
-msgstr[0] "gutxi gorabehera ordu %'d"
-msgstr[1] "gutxi gorabehera %'d ordu"
+#~ msgid "Browse files..."
+#~ msgstr "Arakatu fitxategiak..."
 
-#: ../sendto/main.c:245
-msgid "File Transfer"
-msgstr "Fitxategi-transferentzia"
+#~ msgid "Pairing with '%s' cancelled"
+#~ msgstr "'%s' parekatzea bertan behera utzi da"
 
-#: ../sendto/main.c:249
-msgid "_Retry"
-msgstr "_Saiatu berriro"
+#~ msgid "Please confirm that the PIN displayed on '%s' matches this one."
+#~ msgstr "Berretsi '%s'(e)n bistaratutako PINa honekin bat datorrela."
 
-#. translators: This is the heading for the progress dialogue
-#: ../sendto/main.c:269
-msgid "Sending files via Bluetooth"
-msgstr "Fitxategiak Bluetooth bidez bidaltzea"
+#~ msgid "Please enter the following PIN:"
+#~ msgstr "Sartu honako PINa:"
 
-#: ../sendto/main.c:281
-msgid "From:"
-msgstr "Hemendik:"
+#~ msgid "Setting up '%s' failed"
+#~ msgstr "Huts egin du '%s' konfiguratzean"
 
-#: ../sendto/main.c:293
-msgid "To:"
-msgstr "Hona:"
+#~ msgid "Connecting to '%s'..."
+#~ msgstr "'%s'(e)ra konektatzen..."
 
-#: ../sendto/main.c:337 ../sendto/main.c:355
-msgid "An unknown error occurred"
-msgstr "Errore ezezaguna gertatu da"
+#~ msgid "Please enter the following PIN on '%s':"
+#~ msgstr "Sartu honako PINa '%s'(e)n:"
 
-#: ../sendto/main.c:348
-msgid ""
-"Make sure that the remote device is switched on and that it accepts "
-"Bluetooth connections"
-msgstr ""
-"Ziurtatu zaitez urruneko gailua piztuta dagoela eta Bluetooth konexioak "
-"onartzen dituela"
+#~ msgid ""
+#~ "Please enter the following PIN on '%s' and press “Enter” on the keyboard:"
+#~ msgstr "Sartu honako PINa '%s'(e)n eta sakatu teklatuko 'Sartu' tekla:"
 
-#: ../sendto/main.c:446
-#, c-format
-msgid "Sending %s"
-msgstr "%s bidaltzen"
+#~ msgid "Please move the joystick of your iCade in the following directions:"
+#~ msgstr "Eraman iCade-ren kontrol-palanka honako norabideetara:"
 
-#: ../sendto/main.c:453 ../sendto/main.c:524
-#, c-format
-msgid "Sending file %d of %d"
-msgstr "Fitxategia bidaltzen: %d / %d"
+#~ msgid "Please wait while finishing setup on device '%s'..."
+#~ msgstr "Itxaron '%s? gailua konfiguratu bitartean..."
 
-#: ../sendto/main.c:520
-#, c-format
-msgid "%d KB/s"
-msgstr "%d KB/s"
+#~ msgid "Successfully set up new device '%s'"
+#~ msgstr "'%s' gailu berria ongi konfiguratu da"
 
-#: ../sendto/main.c:522
-#, c-format
-msgid "%d B/s"
-msgstr "%d B/s"
+#~ msgid "'0000' (most headsets, mice and GPS devices)"
+#~ msgstr "'0000' (aurikular-mikrofono, sagu eta GPS gailu gehienak)"
 
-#: ../sendto/main.c:658
-msgid "Select device to send to"
-msgstr "Hautatu gailua horra bidaltzeko"
+#~ msgid "'1111'"
+#~ msgstr "'1111'"
 
-#: ../sendto/main.c:663
-msgid "_Send"
-msgstr "_Bidali"
+#~ msgid "'1234'"
+#~ msgstr "'1234'"
 
-#: ../sendto/main.c:707
-msgid "Choose files to send"
-msgstr "Aukeratu fitxategiak bidaltzeko"
+#~ msgid "Bluetooth New Device Setup"
+#~ msgstr "Bluetooth-en gailua berriaren konfigurazioa"
 
-#: ../sendto/main.c:710
-msgid "Select"
-msgstr "Hautatu"
+#~ msgid "Custom PIN:"
+#~ msgstr "PIN pertsonalizatua:"
 
-#: ../sendto/main.c:736
-msgid "Remote device to use"
-msgstr "Urruneko gailua erabiltzeko"
+#~ msgid "Device Search"
+#~ msgstr "Gailuaren bilaketa"
 
-#: ../sendto/main.c:738
-msgid "Remote device's name"
-msgstr "Urruneko gailuaren izena"
+#~ msgid "Device Setup"
+#~ msgstr "Gailuaren konfigurazioa"
 
-#: ../sendto/nautilus-sendto-plugin.c:168
-msgid "Programming error: could not find the device in the list"
-msgstr "Programazioko errorea: ezin izan da gailua zerrendan aurkitu"
+#~ msgid "Do not pair"
+#~ msgstr "Ez dator bat"
 
-#: ../sendto/nautilus-sendto-plugin.c:243
-#, c-format
-msgid "OBEX Push file transfer unsupported"
-msgstr "OBEX Push fitxategi-transferentzia ez dago onartuta"
+#~ msgid "Does not match"
+#~ msgstr "Ez dator bat"
 
-#: ../sendto/nautilus-sendto-plugin.c:262
-msgid "Bluetooth (OBEX Push)"
-msgstr "Bluetooth (OBEX Push)"
+#~ msgid "Finishing New Device Setup"
+#~ msgstr "Gailu berriaren konfigurazioa burututa"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:1
-msgid "Bluetooth Transfer"
-msgstr "Bluetooth-en transferentzia"
+#~ msgid "Fixed PIN"
+#~ msgstr "PIN finkoa"
 
-#: ../sendto/bluetooth-sendto.desktop.in.in.h:2
-msgid "Send files via Bluetooth"
-msgstr "Fitxategiak Bluetooth bidez bidaltzea"
+#~ msgid "Matches"
+#~ msgstr "Bat dator"
+
+#~ msgid "PIN Options"
+#~ msgstr "PINaren aukerak"
+
+#~ msgid "PIN _options..."
+#~ msgstr "PINaren _aukerak..."
+
+#~ msgid "Select the additional services you want to use with your device:"
+#~ msgstr "Hautatu zerbitzu gehigarriak zure gailuarekin erabiltzeko:"
+
+#~ msgid "Setup Summary"
+#~ msgstr "Konfigurazioaren laburpena"
+
+#~ msgid "_Automatic PIN selection"
+#~ msgstr "_PINaren hautapen automatikoa"
+
+#~ msgid "_Cancel"
+#~ msgstr "_Utzi"
+
+#~ msgid "_Quit"
+#~ msgstr "_Irten"
+
+#~ msgid "_Try Again"
+#~ msgstr "_Saiatu berriro"
+
+#~ msgid "Bluetooth Device Setup"
+#~ msgstr "Bluetooth gailuaren konfigurazioa"
+
+#~ msgid "Setup Bluetooth devices"
+#~ msgstr "Konfiguratu Bluetooth gailuak"
+
+#~ msgid "%'d second"
+#~ msgid_plural "%'d seconds"
+#~ msgstr[0] "Segundo %'d"
+#~ msgstr[1] "%'d segundo"
+
+#~ msgid "%'d minute"
+#~ msgid_plural "%'d minutes"
+#~ msgstr[0] "Minutu %'d"
+#~ msgstr[1] "%'d minutu"
+
+#~ msgid "%'d hour"
+#~ msgid_plural "%'d hours"
+#~ msgstr[0] "Ordu %'d"
+#~ msgstr[1] "%'d ordu"
+
+#~ msgid "approximately %'d hour"
+#~ msgid_plural "approximately %'d hours"
+#~ msgstr[0] "gutxi gorabehera ordu %'d"
+#~ msgstr[1] "gutxi gorabehera %'d ordu"
+
+#~ msgid "File Transfer"
+#~ msgstr "Fitxategi-transferentzia"
+
+#~ msgid "_Retry"
+#~ msgstr "_Saiatu berriro"
+
+#~ msgid "Sending files via Bluetooth"
+#~ msgstr "Fitxategiak Bluetooth bidez bidaltzea"
+
+#~ msgid "From:"
+#~ msgstr "Hemendik:"
+
+#~ msgid "To:"
+#~ msgstr "Hona:"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Errore ezezaguna gertatu da"
+
+#~ msgid ""
+#~ "Make sure that the remote device is switched on and that it accepts "
+#~ "Bluetooth connections"
+#~ msgstr ""
+#~ "Ziurtatu zaitez urruneko gailua piztuta dagoela eta Bluetooth konexioak "
+#~ "onartzen dituela"
+
+#~ msgid "Sending %s"
+#~ msgstr "%s bidaltzen"
+
+#~ msgid "Sending file %d of %d"
+#~ msgstr "Fitxategia bidaltzen: %d / %d"
+
+#~ msgid "%d KB/s"
+#~ msgstr "%d KB/s"
+
+#~ msgid "%d B/s"
+#~ msgstr "%d B/s"
+
+#~ msgid "Select device to send to"
+#~ msgstr "Hautatu gailua horra bidaltzeko"
+
+#~ msgid "_Send"
+#~ msgstr "_Bidali"
+
+#~ msgid "Choose files to send"
+#~ msgstr "Aukeratu fitxategiak bidaltzeko"
+
+#~ msgid "Select"
+#~ msgstr "Hautatu"
+
+#~ msgid "Remote device to use"
+#~ msgstr "Urruneko gailua erabiltzeko"
+
+#~ msgid "Remote device's name"
+#~ msgstr "Urruneko gailuaren izena"
+
+#~ msgid "Programming error: could not find the device in the list"
+#~ msgstr "Programazioko errorea: ezin izan da gailua zerrendan aurkitu"
+
+#~ msgid "OBEX Push file transfer unsupported"
+#~ msgstr "OBEX Push fitxategi-transferentzia ez dago onartuta"
+
+#~ msgid "Bluetooth (OBEX Push)"
+#~ msgstr "Bluetooth (OBEX Push)"
+
+#~ msgid "Bluetooth Transfer"
+#~ msgstr "Bluetooth-en transferentzia"
+
+#~ msgid "Send files via Bluetooth"
+#~ msgstr "Fitxategiak Bluetooth bidez bidaltzea"
 
 #~ msgid "Remove '%s' from the list of devices?"
 #~ msgstr "Kendu '%s' gailuen zerrendatik?"
