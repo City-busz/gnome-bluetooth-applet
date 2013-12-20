@@ -114,8 +114,8 @@ GtkStatusIcon *init_notification(void)
 {
 	notify_init("bluetooth-manager");
 
-	icon_enabled = g_themed_icon_new_with_default_fallbacks (ACTIVE_ICON_NAME"-symbolic");
-	icon_disabled = g_themed_icon_new_with_default_fallbacks (DISABLE_ICON_NAME"-symbolic");
+	icon_enabled = g_themed_icon_new_with_default_fallbacks (ACTIVE_ICON_NAME);
+	icon_disabled = g_themed_icon_new_with_default_fallbacks (DISABLE_ICON_NAME);
 
 	statusicon = gtk_status_icon_new_from_gicon(bt_enabled ? icon_enabled : icon_disabled);
 	gtk_status_icon_set_title (GTK_STATUS_ICON (statusicon),
