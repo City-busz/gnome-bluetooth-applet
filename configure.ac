@@ -82,18 +82,10 @@ GNOME_COMPILE_WARNINGS([maximum])
 GNOME_CXX_WARNINGS
 GNOME_MAINTAINER_MODE_DEFINES
 
-AC_ARG_ENABLE([documentation],
-	AS_HELP_STRING([--enable-documentation], [enable man pages and HTML]),
-	[], [enable_documentation=yes])
-AM_CONDITIONAL(ENABLE_DOCUMENTATION, test x$enable_documentation = xyes)
-
-YELP_HELP_INIT
-
 AC_OUTPUT(Makefile
 	  applet/Makefile
 	  applet/bluetooth-applet.desktop.in
 	  po/Makefile.in
-	  help/Makefile
 )
 
 echo "

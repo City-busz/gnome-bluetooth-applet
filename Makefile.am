@@ -1,10 +1,6 @@
-DEF_SUBDIRS = applet po help
+DEF_SUBDIRS = applet po
 
 SUBDIRS = applet po
-
-if ENABLE_DOCUMENTATION
-SUBDIRS += help
-endif
 
 EXTRA_DIST = intltool-extract.in intltool-update.in intltool-merge.in
 
