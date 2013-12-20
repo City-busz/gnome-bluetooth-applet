@@ -6,5 +6,4 @@ Exec=bluetooth-applet
 Terminal=false
 Type=Application
 Categories=
-OnlyShowIn=GNOME;XFCE;LXDE;
-AutostartCondition=GNOME3 if-session gnome-fallback
+NotShowIn=KDE;
